@@ -1,40 +1,67 @@
 {
   "name": "eason-daily-lyrics",
-  "displayName": "eason-daily-lyrics",
-  "description": "Daily Eason Chan lyrics",
+  "displayName": "EasonCode - 每日陈奕迅",
+  "description": "让Eason的歌词陪你度过每一个Debug的漫长岁月。",
   "version": "0.0.1",
+  "publisher": "EasonFan",
   "engines": {
-    "vscode": "^1.107.0"
+    "vscode": "^1.80.0"
   },
   "categories": [
-    "Other"
+    "Other",
+    "Fun"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
   "main": "./out/extension.js",
-  "contributes": {
-    "commands": [
-      {
-        "command": "eason-daily-lyrics.helloWorld",
-        "title": "Hello World"
-      }
-    ]
-  },
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
-    "pretest": "npm run compile && npm run lint",
-    "lint": "eslint src",
     "test": "vscode-test"
   },
+  "contributes": {
+    "commands": [
+      {
+        "command": "eason.nextLyric",
+        "title": "Eason: 下一句 (Next Lyric)"
+      },
+      {
+        "command": "eason.showMenu",
+        "title": "Eason: 打开菜单 (Show Menu)"
+      },
+      {
+        "command": "eason.changeMood",
+        "title": "Eason: 切换心情 (Switch Mood)"
+      }
+    ],
+    "configuration": {
+      "title": "EasonCode Config",
+      "properties": {
+        "eason.updateInterval": {
+          "type": "number",
+          "default": 300,
+          "description": "歌词轮播间隔（秒）"
+        },
+        "eason.defaultMood": {
+          "type": "string",
+          "default": "random",
+          "enum": [
+            "random",
+            "sad",
+            "healing",
+            "crazy"
+          ],
+          "description": "默认启动时的心情模式"
+        }
+      }
+    }
+  },
   "devDependencies": {
-    "@types/vscode": "^1.107.0",
     "@types/mocha": "^10.0.10",
-    "@types/node": "22.x",
-    "typescript-eslint": "^8.48.1",
-    "eslint": "^9.39.1",
-    "typescript": "^5.9.3",
-    "@vscode/test-cli": "^0.0.12",
-    "@vscode/test-electron": "^2.5.2"
+    "@types/node": "^16.x",
+    "@types/vscode": "^1.80.0",
+    "typescript": "^5.0.0"
   }
 }
