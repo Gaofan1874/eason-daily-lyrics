@@ -1,71 +1,89 @@
-# eason-daily-lyrics README
+# **EasonCode \- 陪你度过漫长岁月 (Daily Eason Lyrics)**
 
-This is the README for your extension "eason-daily-lyrics". After writing up a brief description, we recommend including the following sections.
+"在成人的世界里，我们都需要一点陈奕迅。"
 
-## Features
+**EasonCode** 是一款专为陈奕迅粉丝（兼程序员）打造的 VS Code 插件。它不想打扰你写代码，只是想在你 Debug 到深夜、或者项目上线成功的那一刻，在状态栏轻轻对你说一句最懂你的歌词。
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+## **✨ 核心特性 (Features)**
 
-For example if there is an image subfolder under your extension project workspace:
+### **1\. 每日/每时歌词 (Daily Lyrics)**
 
-\!\[feature X\]\(images/feature-x.png\)
+插件会在 VS Code 底部状态栏轮播精选的 Eason 歌词。
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+* 就像他在耳边轻轻哼唱。  
+* 支持点击歌词查看出处（歌曲、专辑）。
 
-## Requirements
+### **2\. 情绪模式切换 (Mood Switch)**
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+我们知道程序员的情绪是波动的，所以提供了多种模式匹配你的工作状态：
 
-## Extension Settings
+| 模式                   | 图标 | 描述                     | 典型歌词                    |
+| :--------------------- | :--- | :----------------------- | :-------------------------- |
+| **随机漫步 (Random)**  | 🎲    | 一切随缘，遇上哪首是哪首 | (全库随机)                  |
+| **深夜抑郁 (Sad)**     | 🌧️    | 适合深夜加班、修 Bug     | "闭起双眼你最挂念谁..."     |
+| **治愈哲理 (Healing)** | ☕    | 适合思考架构、重构代码   | "劳力是无止境，活着多好..." |
+| **浮夸热血 (Crazy)**   | 🔥    | 适合冲刺上线、打鸡血     | "那年十八，母校舞会..."     |
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+### **3\. 低打扰设计 (Zen Mode)**
 
-For example:
+* 歌词只在状态栏显示，不会弹窗干扰编码。  
+* 只有在你需要的时候（点击状态栏），才会展开更多选项。
 
-This extension contributes the following settings:
+## **🚀 使用方法 (Usage)**
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+1. **安装插件**：在 VS Code 扩展市场搜索 EasonCode 并安装。  
+2. **自动播放**：安装后，状态栏右下角会自动出现歌词。  
+3. **交互菜单**：**点击状态栏歌词**，可以弹出菜单：  
+   * 切歌 (Next Lyric)：手动切换下一句。  
+   * 切换心情 (Change Mood)：选择你当前的心情模式。  
+   * 查看歌曲信息 (Open Link)：跳转到网易云音乐等平台收听。  
+4. **命令调用**：使用快捷键 Ctrl+Shift+P (Mac: Cmd+Shift+P) 输入 Eason 查找所有命令。
 
-## Known Issues
+## **⚙️ 设置 (Settings)**
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+你可以在 VS Code 的设置 (Ctrl+,) 中自定义插件行为：
 
-## Release Notes
+* **eason.updateInterval**:  
+  * 描述：歌词自动轮播的间隔时间（单位：秒）。  
+  * 默认值：300 (5分钟)。  
+* **eason.defaultMood**:  
+  * 描述：每次启动 VS Code 时的默认心情模式。  
+  * 可选值：random, sad, healing, crazy。  
+  * 默认值：random。
 
-Users appreciate release notes as you update your extension.
+## **🛠️ 开发与调试 (Development)**
 
-### 1.0.0
+如果你想自己修改源码：
 
-Initial release of ...
+1. 克隆仓库:  
+   git clone \[https://github.com/yourname/eason-daily-lyrics.git\](https://github.com/yourname/eason-daily-lyrics.git)
 
-### 1.0.1
+2. 安装依赖:  
+   npm install
 
-Fixed issue #.
+3. 编译 TypeScript:  
+   npm run compile
 
-### 1.1.0
+4. 调试:  
+   按 F5 启动 VS Code 调试窗口。
 
-Added features X, Y, and Z.
+## **🤝 贡献 (Contributing)**
 
----
+如果你有特别喜欢的 Eason 歌词想加入，欢迎提交 PR 或在 Issue 中留言！  
+这是属于我们粉丝的共同记忆。  
+**歌词数据格式 (lyrics.json):**
 
-## Following extension guidelines
+{  
+  "id": 101,  
+  "content": "若你喜欢怪人，其实我很美",  
+  "song": "打回原形",  
+  "album": "Third Encounter",  
+  "tags": \["sad", "healing"\],  
+  "link": "\[https://music.163.com/\](https://music.163.com/)..."  
+}
 
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
+## **📝 版权声明**
 
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
+本插件仅作粉丝交流与学习使用，歌词版权归词作者及发行公司所有。请支持正版音乐。
 
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+**Enjoy Coding with Eason\!** 🎤

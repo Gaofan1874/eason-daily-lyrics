@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "content": "若你喜欢怪人，其实我很美",
+    "song": "打回原形",
+    "album": "Third Encounter",
+    "tags": ["sad", "healing"],
+    "link": "https://music.163.com/#/song?id=64561"
+  },
+  {
+    "id": 2,
+    "content": "闭起双眼你最挂念谁，眼睛张开身边竟是谁",
+    "song": "人来人往",
+    "album": "The Line-Up",
+    "tags": ["sad"],
+    "link": "https://music.163.com/#/song?id=64805"
+  },
+  {
+    "id": 3,
+    "content": "顽童大了别再追问，可以任我走怎么到头来又随着大队走",
+    "song": "任我行",
+    "album": "The Key",
+    "tags": ["healing", "philosophy"],
+    "link": "https://music.163.com/#/song?id=26092780"
+  },
+  {
+    "id": 4,
+    "content": "得不到的永远在骚动，被偏爱的都有恃无恐",
+    "song": "红玫瑰",
+    "album": "认了吧",
+    "tags": ["sad", "classic"],
+    "link": "https://music.163.com/#/song?id=65766"
+  },
+  {
+    "id": 5,
+    "content": "劳力是无止境，活着多好不需要靠物证",
+    "song": "陀飞轮",
+    "album": "Time Flies",
+    "tags": ["healing", "philosophy"],
+    "link": "https://music.163.com/#/song?id=396434"
+  },
+  {
+    "id": 6,
+    "content": "幸运儿并不多，若然未当过就知我为何",
+    "song": "浮夸",
+    "album": "U87",
+    "tags": ["crazy", "sad"],
+    "link": "https://music.163.com/#/song?id=64497"
+  },
+  {
+    "id": 7,
+    "content": "谁人又相信一世一生这肤浅对白",
+    "song": "K歌之王",
+    "album": "打得火热",
+    "tags": ["sad"],
+    "link": "https://music.163.com/#/song?id=65538"
+  },
+  {
+    "id": 8,
+    "content": "谁说站在光里的才算英雄",
+    "song": "孤勇者",
+    "album": "孤勇者",
+    "tags": ["crazy", "healing"],
+    "link": "https://music.163.com/#/song?id=1901371647"
+  },
+  {
+    "id": 9,
+    "content": "开始时捱一些苦，栽种绝处的花",
+    "song": "苦瓜",
+    "album": "Stranger Under My Skin",
+    "tags": ["healing"],
+    "link": "https://music.163.com/#/song?id=4946394"
+  },
+  {
+    "id": 10,
+    "content": "其实我宁愿你不那么好，得不到也好",
+    "song": "一切还好",
+    "album": "Great 5000 Secs",
+    "tags": ["sad"],
+    "link": "https://music.163.com/#/song?id=64293"
+  }
+]
