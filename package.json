@@ -1,9 +1,10 @@
 {
   "name": "eason-daily-lyrics",
-  "displayName": "EasonCode - 每日陈奕迅",
+  "displayName": "EasonCode",
   "description": "让Eason的歌词陪你度过每一个Debug的漫长岁月。",
   "version": "0.0.1",
   "publisher": "EasonFan",
+  "icon": "assets/eason_code_icon.png",
   "engines": {
     "vscode": "^1.80.0"
   },
