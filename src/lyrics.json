@@ -5,8 +5,8 @@
     "song": "打回原形",
     "album": "Third Encounter",
     "tags": [
-      "sad",
-      "healing"
+      "healing",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=打回原形"
   },
@@ -16,8 +16,8 @@
     "song": "人來人往",
     "album": "The Line-Up",
     "tags": [
-      "sad",
-      "classic"
+      "classic",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=人来人往"
   },
@@ -27,8 +27,8 @@
     "song": "K歌之王",
     "album": "打得火热",
     "tags": [
-      "sad",
-      "classic"
+      "classic",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=K歌之王"
   },
@@ -49,9 +49,9 @@
     "song": "紅玫瑰",
     "album": "认了吧",
     "tags": [
-      "sad",
       "classic",
-      "love"
+      "love",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=红玫瑰"
   },
@@ -83,8 +83,8 @@
     "song": "K歌之王",
     "album": "打得火热",
     "tags": [
-      "sad",
-      "classic"
+      "classic",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=K歌之王"
   },
@@ -127,9 +127,9 @@
     "song": "十年",
     "album": "黑·白·灰",
     "tags": [
-      "sad",
       "classic",
-      "healing"
+      "healing",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=十年"
   },
@@ -139,8 +139,8 @@
     "song": "十年",
     "album": "黑·白·灰",
     "tags": [
-      "sad",
-      "classic"
+      "classic",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=十年"
   },
@@ -150,9 +150,9 @@
     "song": "十年",
     "album": "黑·白·灰",
     "tags": [
-      "sad",
       "classic",
-      "philosophy"
+      "philosophy",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=十年"
   },
@@ -195,9 +195,9 @@
     "song": "陪你度過漫長歲月",
     "album": "陪你度过漫长岁月",
     "tags": [
+      "classic",
       "healing",
-      "love",
-      "classic"
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=陪你度过漫长岁月"
   },
@@ -207,9 +207,9 @@
     "song": "好久不見",
     "album": "认了吧",
     "tags": [
-      "sad",
+      "classic",
       "healing",
-      "classic"
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=好久不见"
   },
@@ -219,8 +219,8 @@
     "song": "好久不見",
     "album": "认了吧",
     "tags": [
-      "sad",
-      "classic"
+      "classic",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=好久不见"
   },
@@ -230,9 +230,9 @@
     "song": "好久不見",
     "album": "认了吧",
     "tags": [
-      "sad",
+      "classic",
       "healing",
-      "classic"
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=好久不见"
   },
@@ -242,9 +242,9 @@
     "song": "明年今日",
     "album": "The Line-Up",
     "tags": [
-      "sad",
       "classic",
-      "love"
+      "love",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=明年今日"
   },
@@ -254,8 +254,8 @@
     "song": "明年今日",
     "album": "The Line-Up",
     "tags": [
-      "sad",
-      "classic"
+      "classic",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=明年今日"
   },
@@ -276,9 +276,9 @@
     "song": "穩穩的幸福",
     "album": "稳稳的幸福",
     "tags": [
+      "brightness",
       "healing",
-      "love",
-      "brightness"
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=稳稳的幸福"
   },
@@ -311,8 +311,8 @@
     "song": "富士山下",
     "album": "What's Going On...?",
     "tags": [
-      "philosophy",
       "healing",
+      "philosophy",
       "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=富士山下"
@@ -333,9 +333,9 @@
     "song": "富士山下",
     "album": "What's Going On...?",
     "tags": [
-      "philosophy",
+      "classic",
       "healing",
-      "classic"
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=富士山下"
   },
@@ -345,8 +345,8 @@
     "song": "富士山下",
     "album": "What's Going On...?",
     "tags": [
-      "sad",
-      "classic"
+      "classic",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=富士山下"
   },
@@ -356,9 +356,9 @@
     "song": "富士山下",
     "album": "What's Going On...?",
     "tags": [
-      "philosophy",
       "classic",
-      "love"
+      "love",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=富士山下"
   },
@@ -368,9 +368,9 @@
     "song": "愛情轉移",
     "album": "认了吧",
     "tags": [
-      "sad",
+      "classic",
       "philosophy",
-      "classic"
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=爱情转移"
   },
@@ -413,9 +413,9 @@
     "song": "人來人往",
     "album": "The Line-Up",
     "tags": [
-      "sad",
       "classic",
-      "healing"
+      "healing",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=人来人往"
   },
@@ -425,9 +425,9 @@
     "song": "K歌之王",
     "album": "打得火热",
     "tags": [
-      "sad",
       "classic",
-      "love"
+      "love",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=K歌之王"
   },
@@ -437,8 +437,8 @@
     "song": "K歌之王",
     "album": "打得火热",
     "tags": [
-      "sad",
-      "classic"
+      "classic",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=K歌之王"
   },
@@ -448,8 +448,8 @@
     "song": "讓我留在你身邊",
     "album": "让我留在你身边",
     "tags": [
-      "sad",
-      "healing"
+      "healing",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=让我留在你身边"
   },
@@ -459,8 +459,8 @@
     "song": "讓我留在你身邊",
     "album": "让我留在你身边",
     "tags": [
-      "philosophy",
-      "healing"
+      "healing",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=让我留在你身边"
   },
@@ -470,8 +470,8 @@
     "song": "讓我留在你身邊",
     "album": "让我留在你身边",
     "tags": [
-      "philosophy",
-      "healing"
+      "healing",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=让我留在你身边"
   },
@@ -481,8 +481,8 @@
     "song": "路一直都在",
     "album": "不想放手",
     "tags": [
-      "power",
-      "healing"
+      "healing",
+      "power"
     ],
     "link": "https://music.163.com/#/search/m/?s=路一直都在"
   },
@@ -492,8 +492,9 @@
     "song": "路一直都在",
     "album": "不想放手",
     "tags": [
-      "power",
-      "brightness"
+      "brightness",
+      "healing",
+      "power"
     ],
     "link": "https://music.163.com/#/search/m/?s=路一直都在"
   },
@@ -503,8 +504,8 @@
     "song": "路一直都在",
     "album": "不想放手",
     "tags": [
-      "power",
-      "philosophy"
+      "philosophy",
+      "power"
     ],
     "link": "https://music.163.com/#/search/m/?s=路一直都在"
   },
@@ -526,8 +527,8 @@
     "song": "不求人",
     "album": "C'mon In~",
     "tags": [
-      "philosophy",
-      "healing"
+      "healing",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=不求人"
   },
@@ -548,8 +549,8 @@
     "song": "Shall We Talk",
     "album": "Shall We Dance? Shall We Talk!",
     "tags": [
-      "philosophy",
-      "love"
+      "love",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=Shall We Talk"
   },
@@ -559,8 +560,8 @@
     "song": "Shall We Talk",
     "album": "Shall We Dance? Shall We Talk!",
     "tags": [
-      "sad",
-      "philosophy"
+      "philosophy",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=Shall We Talk"
   },
@@ -570,8 +571,8 @@
     "song": "淘汰",
     "album": "认了吧",
     "tags": [
-      "sad",
-      "love"
+      "love",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=淘汰"
   },
@@ -581,8 +582,8 @@
     "song": "淘汰",
     "album": "认了吧",
     "tags": [
-      "sad",
-      "love"
+      "love",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=淘汰"
   },
@@ -592,9 +593,9 @@
     "song": "紅玫瑰",
     "album": "认了吧",
     "tags": [
-      "sad",
       "love",
-      "philosophy"
+      "philosophy",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=红玫瑰"
   },
@@ -626,8 +627,8 @@
     "song": "我什麼都沒有",
     "album": "我的快乐时代",
     "tags": [
-      "philosophy",
-      "healing"
+      "healing",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=我什么都没有"
   },
@@ -637,8 +638,8 @@
     "song": "想哭",
     "album": "Special Thanks To...",
     "tags": [
-      "sad",
-      "classic"
+      "classic",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=想哭"
   },
@@ -648,8 +649,8 @@
     "song": "想哭",
     "album": "Special Thanks To...",
     "tags": [
-      "sad",
-      "philosophy"
+      "philosophy",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=想哭"
   },
@@ -669,9 +670,9 @@
     "song": "最佳損友",
     "album": "Life Continues...",
     "tags": [
-      "sad",
       "classic",
-      "healing"
+      "healing",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=最佳损友"
   },
@@ -681,8 +682,8 @@
     "song": "最佳損友",
     "album": "Life Continues...",
     "tags": [
-      "sad",
-      "classic"
+      "classic",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=最佳损友"
   },
@@ -692,8 +693,8 @@
     "song": "你會不會",
     "album": "认了吧",
     "tags": [
-      "sad",
-      "love"
+      "love",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=你会不会"
   },
@@ -703,8 +704,8 @@
     "song": "你會不會",
     "album": "认了吧",
     "tags": [
-      "sad",
-      "philosophy"
+      "philosophy",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=你会不会"
   },
@@ -714,8 +715,8 @@
     "song": "阿怪",
     "album": "Nothing Really Matters",
     "tags": [
-      "philosophy",
-      "classic"
+      "classic",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=阿怪"
   },
@@ -725,8 +726,8 @@
     "song": "阿怪",
     "album": "Nothing Really Matters",
     "tags": [
-      "philosophy",
-      "classic"
+      "classic",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=阿怪"
   },
@@ -736,9 +737,9 @@
     "song": "阿怪",
     "album": "Nothing Really Matters",
     "tags": [
+      "classic",
       "philosophy",
-      "sad",
-      "classic"
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=阿怪"
   },
@@ -748,9 +749,9 @@
     "song": "單車",
     "album": "Shall We Dance? Shall We Talk!",
     "tags": [
-      "sad",
       "classic",
-      "healing"
+      "healing",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=单车"
   },
@@ -760,9 +761,9 @@
     "song": "單車",
     "album": "Shall We Dance? Shall We Talk!",
     "tags": [
+      "classic",
       "healing",
-      "love",
-      "classic"
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=单车"
   },
@@ -772,8 +773,8 @@
     "song": "兄妹",
     "album": "黑·白·灰",
     "tags": [
-      "sad",
-      "love"
+      "love",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=兄妹"
   },
@@ -783,8 +784,8 @@
     "song": "兄妹",
     "album": "黑·白·灰",
     "tags": [
-      "sad",
-      "love"
+      "love",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=兄妹"
   },
@@ -794,9 +795,9 @@
     "song": "兄妹",
     "album": "黑·白·灰",
     "tags": [
-      "sad",
+      "classic",
       "love",
-      "classic"
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=兄妹"
   },
@@ -806,8 +807,8 @@
     "song": "心的距離",
     "album": "5711",
     "tags": [
-      "sad",
-      "love"
+      "love",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=心的距离"
   },
@@ -817,8 +818,8 @@
     "song": "心的距離",
     "album": "5711",
     "tags": [
-      "sad",
-      "love"
+      "love",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=心的距离"
   },
@@ -828,8 +829,8 @@
     "song": "心的距離",
     "album": "5711",
     "tags": [
-      "sad",
-      "love"
+      "love",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=心的距离"
   },
@@ -839,8 +840,8 @@
     "song": "不要説話",
     "album": "不想放手",
     "tags": [
-      "love",
-      "classic"
+      "classic",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=不要说话"
   },
@@ -860,8 +861,8 @@
     "song": "不要説話",
     "album": "不想放手",
     "tags": [
-      "love",
-      "classic"
+      "classic",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=不要说话"
   },
@@ -871,8 +872,8 @@
     "song": "不要説話",
     "album": "不想放手",
     "tags": [
-      "love",
-      "classic"
+      "classic",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=不要说话"
   },
@@ -894,8 +895,8 @@
     "album": "U87",
     "tags": [
       "crazy",
-      "sad",
-      "philosophy"
+      "philosophy",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=浮夸"
   },
@@ -927,8 +928,8 @@
     "song": "不如不見",
     "album": "What's Going On...?",
     "tags": [
-      "sad",
-      "classic"
+      "classic",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=不如不见"
   },
@@ -948,8 +949,8 @@
     "song": "不如不見",
     "album": "What's Going On...?",
     "tags": [
-      "sad",
-      "philosophy"
+      "philosophy",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=不如不见"
   },
@@ -959,9 +960,9 @@
     "song": "不如不見",
     "album": "What's Going On...?",
     "tags": [
-      "sad",
       "classic",
-      "healing"
+      "healing",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=不如不见"
   },
@@ -971,8 +972,8 @@
     "song": "歲月如歌",
     "album": "Live For Today",
     "tags": [
-      "love",
-      "classic"
+      "classic",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=岁月如歌"
   },
@@ -982,8 +983,8 @@
     "song": "歲月如歌",
     "album": "Live For Today",
     "tags": [
-      "power",
-      "love"
+      "love",
+      "power"
     ],
     "link": "https://music.163.com/#/search/m/?s=岁月如歌"
   },
@@ -1005,8 +1006,8 @@
     "album": "Live For Today",
     "tags": [
       "love",
-      "sad",
-      "philosophy"
+      "philosophy",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=岁月如歌"
   },
@@ -1060,6 +1061,7 @@
     "song": "你的揹包",
     "album": "Special Thanks To...",
     "tags": [
+      "classic",
       "love",
       "memory"
     ],
@@ -1071,8 +1073,8 @@
     "song": "你的揹包",
     "album": "Special Thanks To...",
     "tags": [
-      "love",
-      "classic"
+      "classic",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=你的揹包"
   },
@@ -1082,8 +1084,8 @@
     "song": "你的揹包",
     "album": "Special Thanks To...",
     "tags": [
-      "love",
-      "classic"
+      "classic",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=你的揹包"
   },
@@ -1093,8 +1095,8 @@
     "song": "婚禮的祝福",
     "album": "婚礼的祝福",
     "tags": [
-      "sad",
-      "classic"
+      "classic",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=婚礼的祝福"
   },
@@ -1104,8 +1106,8 @@
     "song": "婚禮的祝福",
     "album": "婚礼的祝福",
     "tags": [
-      "sad",
-      "love"
+      "love",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=婚礼的祝福"
   },
@@ -1115,8 +1117,9 @@
     "song": "婚禮的祝福",
     "album": "婚礼的祝福",
     "tags": [
-      "sad",
-      "acting"
+      "acting",
+      "classic",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=婚礼的祝福"
   },
@@ -1126,8 +1129,8 @@
     "song": "婚禮的祝福",
     "album": "婚礼的祝福",
     "tags": [
-      "sad",
-      "classic"
+      "classic",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=婚礼的祝福"
   },
@@ -1137,9 +1140,9 @@
     "song": "婚禮的祝福",
     "album": "婚礼的祝福",
     "tags": [
-      "sad",
       "classic",
-      "healing"
+      "healing",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=婚礼的祝福"
   },
@@ -1160,9 +1163,9 @@
     "song": "我們",
     "album": "我们",
     "tags": [
-      "sad",
+      "classic",
       "love",
-      "classic"
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=我们"
   },
@@ -1183,8 +1186,8 @@
     "song": "陪你度過漫長歲月",
     "album": "陪你度过漫长岁月",
     "tags": [
-      "love",
-      "healing"
+      "healing",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=陪你度过漫长岁月"
   },
@@ -1194,8 +1197,8 @@
     "song": "我的快樂時代",
     "album": "我的快乐时代",
     "tags": [
-      "power",
-      "classic"
+      "classic",
+      "power"
     ],
     "link": "https://music.163.com/#/search/m/?s=我的快乐时代"
   },
@@ -1205,8 +1208,8 @@
     "song": "我的快樂時代",
     "album": "我的快乐时代",
     "tags": [
-      "philosophy",
-      "classic"
+      "classic",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=我的快乐时代"
   },
@@ -1227,9 +1230,9 @@
     "song": "我的快樂時代",
     "album": "我的快乐时代",
     "tags": [
+      "brightness",
       "classic",
-      "healing",
-      "brightness"
+      "healing"
     ],
     "link": "https://music.163.com/#/search/m/?s=我的快乐时代"
   },
@@ -1240,6 +1243,7 @@
     "album": "Every Best of Eason",
     "tags": [
       "brightness",
+      "healing",
       "power"
     ],
     "link": "https://music.163.com/#/search/m/?s=每一个明天"
@@ -1250,8 +1254,9 @@
     "song": "每一個明天",
     "album": "Every Best of Eason",
     "tags": [
-      "love",
-      "brightness"
+      "brightness",
+      "healing",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=每一个明天"
   },
@@ -1272,8 +1277,8 @@
     "song": "今日",
     "album": "天佑爱人",
     "tags": [
-      "power",
-      "healing"
+      "healing",
+      "power"
     ],
     "link": "https://music.163.com/#/search/m/?s=今日"
   },
@@ -1283,8 +1288,9 @@
     "song": "今日",
     "album": "天佑爱人",
     "tags": [
-      "power",
-      "brightness"
+      "brightness",
+      "healing",
+      "power"
     ],
     "link": "https://music.163.com/#/search/m/?s=今日"
   },
@@ -1316,8 +1322,8 @@
     "song": "黑擇明",
     "album": "What's Going On...?",
     "tags": [
-      "power",
-      "healing"
+      "healing",
+      "power"
     ],
     "link": "https://music.163.com/#/search/m/?s=黑择明"
   },
@@ -1328,6 +1334,8 @@
     "album": "What's Going On...?",
     "tags": [
       "dark",
+      "life",
+      "sad",
       "social"
     ],
     "link": "https://music.163.com/#/search/m/?s=黑择明"
@@ -1338,8 +1346,8 @@
     "song": "黑擇明",
     "album": "What's Going On...?",
     "tags": [
-      "philosophy",
-      "healing"
+      "healing",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=黑择明"
   },
@@ -1349,8 +1357,9 @@
     "song": "相信自己無限極",
     "album": "相信自己无限极",
     "tags": [
-      "power",
-      "brightness"
+      "brightness",
+      "healing",
+      "power"
     ],
     "link": "https://music.163.com/#/search/m/?s=相信自己无限极"
   },
@@ -1360,8 +1369,9 @@
     "song": "相信自己無限極",
     "album": "相信自己无限极",
     "tags": [
-      "power",
-      "brightness"
+      "brightness",
+      "healing",
+      "power"
     ],
     "link": "https://music.163.com/#/search/m/?s=相信自己无限极"
   },
@@ -1371,8 +1381,9 @@
     "song": "相信自己無限極",
     "album": "相信自己无限极",
     "tags": [
-      "power",
-      "brightness"
+      "brightness",
+      "healing",
+      "power"
     ],
     "link": "https://music.163.com/#/search/m/?s=相信自己无限极"
   },
@@ -1404,8 +1415,8 @@
     "song": "相信你的人",
     "album": "相信你的人",
     "tags": [
-      "power",
-      "healing"
+      "healing",
+      "power"
     ],
     "link": "https://music.163.com/#/search/m/?s=相信你的人"
   },
@@ -1415,8 +1426,8 @@
     "song": "相信你的人",
     "album": "相信你的人",
     "tags": [
-      "love",
-      "healing"
+      "healing",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=相信你的人"
   },
@@ -1437,8 +1448,9 @@
     "song": "大人",
     "album": "The Key",
     "tags": [
-      "power",
-      "brightness"
+      "brightness",
+      "healing",
+      "power"
     ],
     "link": "https://music.163.com/#/search/m/?s=大人"
   },
@@ -1448,6 +1460,7 @@
     "song": "瘋狂的朋友",
     "album": "Rice & Shine",
     "tags": [
+      "classic",
       "crazy",
       "memory"
     ],
@@ -1469,8 +1482,8 @@
     "song": "我的快樂時代",
     "album": "我的快乐时代",
     "tags": [
-      "philosophy",
-      "classic"
+      "classic",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=我的快乐时代"
   },
@@ -1480,8 +1493,9 @@
     "song": "你的揹包",
     "album": "Special Thanks To...",
     "tags": [
-      "sad",
-      "memory"
+      "classic",
+      "memory",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=你的揹包"
   },
@@ -1491,8 +1505,8 @@
     "song": "紅玫瑰",
     "album": "认了吧",
     "tags": [
-      "sad",
-      "philosophy"
+      "philosophy",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=红玫瑰"
   },
@@ -1502,8 +1516,9 @@
     "song": "於心有愧",
     "album": "H3M",
     "tags": [
-      "sad",
-      "memory"
+      "classic",
+      "memory",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=于心有愧"
   },
@@ -1535,8 +1550,8 @@
     "song": "十面埋伏",
     "album": "Live For Today",
     "tags": [
-      "sad",
-      "regret"
+      "regret",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=十面埋伏"
   },
@@ -1546,8 +1561,8 @@
     "song": "謝謝儂",
     "album": "Special Thanks To...",
     "tags": [
-      "power",
-      "philosophy"
+      "philosophy",
+      "power"
     ],
     "link": "https://music.163.com/#/search/m/?s=谢谢侬"
   },
@@ -1557,8 +1572,8 @@
     "song": "葡萄熟透時",
     "album": "U87",
     "tags": [
-      "philosophy",
-      "love"
+      "love",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=葡萄熟透时"
   },
@@ -1568,8 +1583,8 @@
     "song": "全世界失眠",
     "album": "反正是我",
     "tags": [
-      "sad",
-      "love"
+      "love",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=全世界失眠"
   },
@@ -1579,8 +1594,8 @@
     "song": "當這地球沒有花",
     "album": "Nothing Really Matters",
     "tags": [
-      "love",
-      "classic"
+      "classic",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=当这地球没有花"
   },
@@ -1590,8 +1605,8 @@
     "song": "孤獨患者",
     "album": "？",
     "tags": [
-      "sad",
-      "philosophy"
+      "philosophy",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=孤独患者"
   },
@@ -1612,8 +1627,8 @@
     "song": "對面",
     "album": "Rice & Shine",
     "tags": [
-      "sad",
-      "love"
+      "love",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=对面"
   },
@@ -1623,8 +1638,8 @@
     "song": "陀飛輪",
     "album": "Time Flies",
     "tags": [
-      "philosophy",
-      "life"
+      "life",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=陀飞轮"
   },
@@ -1634,8 +1649,8 @@
     "song": "打回原形",
     "album": "Third Encounter",
     "tags": [
-      "love",
-      "healing"
+      "healing",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=打回原形"
   },
@@ -1656,8 +1671,9 @@
     "song": "浮誇",
     "album": "U87",
     "tags": [
-      "sad",
-      "memory"
+      "classic",
+      "memory",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=浮夸"
   },
@@ -1667,8 +1683,8 @@
     "song": "任我行",
     "album": "The Key",
     "tags": [
-      "philosophy",
-      "life"
+      "life",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=任我行"
   },
@@ -1678,8 +1694,8 @@
     "song": "內疚",
     "album": "？",
     "tags": [
-      "sad",
-      "regret"
+      "regret",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=内疚"
   },
@@ -1700,9 +1716,9 @@
     "song": "尼古丁",
     "album": "Solidays",
     "tags": [
-      "sad",
+      "crazy",
       "love",
-      "crazy"
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=尼古丁"
   },
@@ -1712,8 +1728,8 @@
     "song": "尼古丁",
     "album": "Solidays",
     "tags": [
-      "love",
-      "crazy"
+      "crazy",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=尼古丁"
   },
@@ -1723,8 +1739,8 @@
     "song": "尼古丁",
     "album": "Solidays",
     "tags": [
-      "sad",
-      "love"
+      "love",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=尼古丁"
   },
@@ -1734,8 +1750,8 @@
     "song": "多少",
     "album": "上五楼的快活",
     "tags": [
-      "philosophy",
-      "life"
+      "life",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=多少"
   },
@@ -1756,8 +1772,8 @@
     "song": "可以了",
     "album": "Rice & Shine",
     "tags": [
-      "sad",
-      "healing"
+      "healing",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=可以了"
   },
@@ -1767,8 +1783,8 @@
     "song": "可以了",
     "album": "Rice & Shine",
     "tags": [
-      "sad",
-      "regret"
+      "regret",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=可以了"
   },
@@ -1778,8 +1794,8 @@
     "song": "無條件",
     "album": "准备中",
     "tags": [
-      "love",
-      "healing"
+      "healing",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=无条件"
   },
@@ -1789,8 +1805,8 @@
     "song": "無條件",
     "album": "准备中",
     "tags": [
-      "love",
-      "classic"
+      "classic",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=无条件"
   },
@@ -1800,8 +1816,8 @@
     "song": "無條件",
     "album": "准备中",
     "tags": [
-      "love",
-      "healing"
+      "healing",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=无条件"
   },
@@ -1811,8 +1827,8 @@
     "song": "失戀太少",
     "album": "Shall We Dance? Shall We Talk!",
     "tags": [
-      "philosophy",
-      "healing"
+      "healing",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=失恋太少"
   },
@@ -1822,8 +1838,8 @@
     "song": "失戀太少",
     "album": "Shall We Dance? Shall We Talk!",
     "tags": [
-      "philosophy",
-      "classic"
+      "classic",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=失恋太少"
   },
@@ -1855,6 +1871,7 @@
     "song": "你給我聽好",
     "album": "Rice & Shine",
     "tags": [
+      "life",
       "sad",
       "social"
     ],
@@ -1866,8 +1883,8 @@
     "song": "你給我聽好",
     "album": "Rice & Shine",
     "tags": [
-      "philosophy",
-      "healing"
+      "healing",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=你给我听好"
   },
@@ -1877,8 +1894,8 @@
     "song": "你給我聽好",
     "album": "Rice & Shine",
     "tags": [
-      "philosophy",
-      "life"
+      "life",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=你给我听好"
   },
@@ -1888,6 +1905,7 @@
     "song": "因為愛情",
     "album": "Stranger Under My Skin",
     "tags": [
+      "classic",
       "love",
       "memory"
     ],
@@ -1899,8 +1917,9 @@
     "song": "因為愛情",
     "album": "Stranger Under My Skin",
     "tags": [
-      "love",
-      "brightness"
+      "brightness",
+      "healing",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=因为爱情"
   },
@@ -1910,8 +1929,9 @@
     "song": "綿綿",
     "album": "打得火热",
     "tags": [
-      "sad",
-      "memory"
+      "classic",
+      "memory",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=绵绵"
   },
@@ -1921,8 +1941,8 @@
     "song": "綿綿",
     "album": "打得火热",
     "tags": [
-      "sad",
-      "love"
+      "love",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=绵绵"
   },
@@ -1932,8 +1952,8 @@
     "song": "1874",
     "album": "The Line-Up",
     "tags": [
-      "sad",
-      "philosophy"
+      "philosophy",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=1874"
   },
@@ -1943,8 +1963,8 @@
     "song": "1874",
     "album": "The Line-Up",
     "tags": [
-      "sad",
-      "crazy"
+      "crazy",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=1874"
   },
@@ -1954,8 +1974,8 @@
     "song": "2001太空漫遊",
     "album": "Shall We Dance? Shall We Talk!",
     "tags": [
-      "philosophy",
-      "life"
+      "life",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=2001太空漫游"
   },
@@ -1966,7 +1986,8 @@
     "album": "Shall We Dance? Shall We Talk!",
     "tags": [
       "brightness",
-      "crazy"
+      "crazy",
+      "healing"
     ],
     "link": "https://music.163.com/#/search/m/?s=2001太空漫游"
   },
@@ -1977,7 +1998,8 @@
     "album": "The Line-Up",
     "tags": [
       "brightness",
-      "crazy"
+      "crazy",
+      "healing"
     ],
     "link": "https://music.163.com/#/search/m/?s=随意门"
   },
@@ -1987,8 +2009,8 @@
     "song": "隨意門",
     "album": "The Line-Up",
     "tags": [
-      "philosophy",
-      "life"
+      "life",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=随意门"
   },
@@ -2042,8 +2064,8 @@
     "song": "沙龍",
     "album": "H3M",
     "tags": [
-      "philosophy",
-      "classic"
+      "classic",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=沙龙"
   },
@@ -2053,8 +2075,8 @@
     "song": "沙龍",
     "album": "H3M",
     "tags": [
-      "philosophy",
-      "life"
+      "life",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=沙龙"
   },
@@ -2064,8 +2086,8 @@
     "song": "無人之境",
     "album": "Time Flies",
     "tags": [
-      "love",
-      "crazy"
+      "crazy",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=无人之境"
   },
@@ -2075,8 +2097,8 @@
     "song": "無人之境",
     "album": "Time Flies",
     "tags": [
-      "sad",
-      "love"
+      "love",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=无人之境"
   },
@@ -2086,8 +2108,9 @@
     "song": "誰來剪月光",
     "album": "C'mon In~",
     "tags": [
-      "sad",
-      "memory"
+      "classic",
+      "memory",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=谁来剪月光"
   },
@@ -2108,8 +2131,8 @@
     "song": "是但求其愛",
     "album": "致明日的舞",
     "tags": [
-      "philosophy",
-      "love"
+      "love",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=是但求其爱"
   },
@@ -2120,7 +2143,8 @@
     "album": "致明日的舞",
     "tags": [
       "philosophy",
-      "regret"
+      "regret",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=是但求其爱"
   },
@@ -2130,8 +2154,8 @@
     "song": "塵大師",
     "album": "CHIN UP!",
     "tags": [
-      "philosophy",
-      "healing"
+      "healing",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=尘大师"
   },
@@ -2141,8 +2165,8 @@
     "song": "塵大師",
     "album": "CHIN UP!",
     "tags": [
-      "healing",
-      "brightness"
+      "brightness",
+      "healing"
     ],
     "link": "https://music.163.com/#/search/m/?s=尘大师"
   },
@@ -2152,8 +2176,8 @@
     "song": "聖誕結",
     "album": "七",
     "tags": [
-      "sad",
-      "lonely"
+      "lonely",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=圣诞结"
   },
@@ -2163,8 +2187,8 @@
     "song": "聖誕結",
     "album": "七",
     "tags": [
-      "sad",
-      "classic"
+      "classic",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=圣诞结"
   },
@@ -2174,8 +2198,8 @@
     "song": "Lonely Christmas",
     "album": "4 A Change & Hits",
     "tags": [
-      "sad",
-      "lonely"
+      "lonely",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=Lonely Christmas"
   },
@@ -2185,8 +2209,8 @@
     "song": "Lonely Christmas",
     "album": "4 A Change & Hits",
     "tags": [
-      "sad",
-      "regret"
+      "regret",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=Lonely Christmas"
   },
@@ -2196,8 +2220,8 @@
     "song": "完",
     "album": "3mm",
     "tags": [
-      "philosophy",
-      "life"
+      "life",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=完"
   },
@@ -2273,8 +2297,9 @@
     "song": "與我常在",
     "album": "与我常在",
     "tags": [
+      "lonely",
       "philosophy",
-      "lonely"
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=与我常在"
   },
@@ -2295,8 +2320,9 @@
     "song": "幸福摩天輪",
     "album": "天佑爱人",
     "tags": [
-      "love",
-      "brightness"
+      "brightness",
+      "healing",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=幸福摩天轮"
   },
@@ -2306,8 +2332,8 @@
     "song": "幸福摩天輪",
     "album": "天佑爱人",
     "tags": [
-      "love",
-      "classic"
+      "classic",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=幸福摩天轮"
   },
@@ -2339,8 +2365,9 @@
     "song": "冤氣",
     "album": "Mixed Up",
     "tags": [
-      "love",
-      "brightness"
+      "brightness",
+      "healing",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=冤气"
   },
@@ -2350,8 +2377,8 @@
     "song": "煙味",
     "album": "七",
     "tags": [
-      "sad",
-      "lonely"
+      "lonely",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=烟味"
   },
@@ -2361,8 +2388,9 @@
     "song": "煙味",
     "album": "七",
     "tags": [
+      "dark",
       "philosophy",
-      "dark"
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=烟味"
   },
@@ -2394,8 +2422,8 @@
     "song": "白玫瑰",
     "album": "What's Going On...?",
     "tags": [
-      "philosophy",
-      "classic"
+      "classic",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=白玫瑰"
   },
@@ -2405,8 +2433,8 @@
     "song": "白玫瑰",
     "album": "What's Going On...?",
     "tags": [
-      "sad",
-      "dark"
+      "dark",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=白玫瑰"
   },
@@ -2416,8 +2444,9 @@
     "song": "心燒",
     "album": "3mm",
     "tags": [
-      "sad",
-      "memory"
+      "classic",
+      "memory",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=心烧"
   },
@@ -2428,7 +2457,8 @@
     "album": "The Easy Ride",
     "tags": [
       "crazy",
-      "dark"
+      "dark",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=潜龙勿用"
   },
@@ -2438,8 +2468,8 @@
     "song": "潛龍勿用",
     "album": "The Easy Ride",
     "tags": [
-      "love",
-      "crazy"
+      "crazy",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=潜龙勿用"
   },
@@ -2449,8 +2479,8 @@
     "song": "喬克叔叔",
     "album": "Rice & Shine",
     "tags": [
-      "sad",
-      "lonely"
+      "lonely",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=乔克叔叔"
   },
@@ -2460,8 +2490,8 @@
     "song": "喬克叔叔",
     "album": "Rice & Shine",
     "tags": [
-      "sad",
-      "philosophy"
+      "philosophy",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=乔克叔叔"
   },
@@ -2504,8 +2534,8 @@
     "song": "牀頭牀尾",
     "album": "The Key",
     "tags": [
-      "life",
-      "healing"
+      "healing",
+      "life"
     ],
     "link": "https://music.163.com/#/search/m/?s=床头床尾"
   },
@@ -2516,7 +2546,8 @@
     "album": "Rice & Shine",
     "tags": [
       "life",
-      "regret"
+      "regret",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=娱乐天空"
   },
@@ -2537,8 +2568,9 @@
     "song": "四季",
     "album": "四季",
     "tags": [
-      "sad",
-      "memory"
+      "classic",
+      "memory",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=四季"
   },
@@ -2548,8 +2580,8 @@
     "song": "四季",
     "album": "四季",
     "tags": [
-      "sad",
-      "pain"
+      "pain",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=四季"
   },
@@ -2570,8 +2602,8 @@
     "song": "披風",
     "album": "C'mon In~",
     "tags": [
-      "healing",
-      "brightness"
+      "brightness",
+      "healing"
     ],
     "link": "https://music.163.com/#/search/m/?s=披风"
   },
@@ -2593,7 +2625,8 @@
     "album": "C'mon In~",
     "tags": [
       "life",
-      "lonely"
+      "lonely",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=海胆"
   },
@@ -2603,8 +2636,8 @@
     "song": "漸漸",
     "album": "L.O.V.E.",
     "tags": [
-      "sad",
-      "regret"
+      "regret",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=渐渐"
   },
@@ -2614,8 +2647,9 @@
     "song": "漸漸",
     "album": "L.O.V.E.",
     "tags": [
-      "sad",
-      "memory"
+      "classic",
+      "memory",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=渐渐"
   },
@@ -2625,8 +2659,8 @@
     "song": "龍舌蘭",
     "album": "L.O.V.E.",
     "tags": [
-      "sad",
-      "dark"
+      "dark",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=龙舌兰"
   },
@@ -2637,7 +2671,8 @@
     "album": "L.O.V.E.",
     "tags": [
       "crazy",
-      "dark"
+      "dark",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=龙舌兰"
   },
@@ -2647,8 +2682,9 @@
     "song": "我們萬歲",
     "album": "L.O.V.E.",
     "tags": [
-      "love",
-      "brightness"
+      "brightness",
+      "healing",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=我们万岁"
   },
@@ -2658,8 +2694,8 @@
     "song": "我們萬歲",
     "album": "L.O.V.E.",
     "tags": [
-      "love",
-      "classic"
+      "classic",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=我们万岁"
   },
@@ -2669,8 +2705,8 @@
     "song": "致明日的舞",
     "album": "致明日的舞",
     "tags": [
-      "healing",
-      "brightness"
+      "brightness",
+      "healing"
     ],
     "link": "https://music.163.com/#/search/m/?s=致明日的舞"
   },
@@ -2691,8 +2727,8 @@
     "song": "盲婚啞嫁",
     "album": "盲婚哑嫁",
     "tags": [
-      "philosophy",
-      "life"
+      "life",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=盲婚哑嫁"
   },
@@ -2702,8 +2738,8 @@
     "song": "盲婚啞嫁",
     "album": "盲婚哑嫁",
     "tags": [
-      "philosophy",
-      "healing"
+      "healing",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=盲婚哑嫁"
   },
@@ -2713,8 +2749,8 @@
     "song": "社交恐懼癌",
     "album": "CHIN UP!",
     "tags": [
-      "social",
-      "life"
+      "life",
+      "social"
     ],
     "link": "https://music.163.com/#/search/m/?s=社交恐惧癌"
   },
@@ -2724,8 +2760,9 @@
     "song": "社交恐懼癌",
     "album": "CHIN UP!",
     "tags": [
-      "social",
-      "crazy"
+      "crazy",
+      "life",
+      "social"
     ],
     "link": "https://music.163.com/#/search/m/?s=社交恐惧癌"
   },
@@ -2758,7 +2795,9 @@
     "album": "Rice & Shine",
     "tags": [
       "brightness",
-      "friendship"
+      "friendship",
+      "healing",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=愚人快乐"
   },
@@ -2768,6 +2807,7 @@
     "song": "愚人快樂",
     "album": "Rice & Shine",
     "tags": [
+      "classic",
       "life",
       "memory"
     ],
@@ -2779,8 +2819,8 @@
     "song": "季軍",
     "album": "The Easy Ride",
     "tags": [
-      "philosophy",
-      "life"
+      "life",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=季军"
   },
@@ -2790,6 +2830,7 @@
     "song": "信任",
     "album": "Life Continues...",
     "tags": [
+      "life",
       "love",
       "social"
     ],
@@ -2801,8 +2842,9 @@
     "song": "I Do",
     "album": "C'mon In~",
     "tags": [
-      "love",
-      "brightness"
+      "brightness",
+      "healing",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=I Do"
   },
@@ -2812,8 +2854,8 @@
     "song": "I Do",
     "album": "C'mon In~",
     "tags": [
-      "love",
-      "classic"
+      "classic",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=I Do"
   },
@@ -2823,8 +2865,10 @@
     "song": "謊言",
     "album": "The Easy Ride",
     "tags": [
-      "social",
-      "dark"
+      "dark",
+      "life",
+      "sad",
+      "social"
     ],
     "link": "https://music.163.com/#/search/m/?s=谎言"
   },
@@ -2834,8 +2878,9 @@
     "song": "謊言",
     "album": "The Easy Ride",
     "tags": [
-      "social",
-      "philosophy"
+      "life",
+      "philosophy",
+      "social"
     ],
     "link": "https://music.163.com/#/search/m/?s=谎言"
   },
@@ -2845,8 +2890,8 @@
     "song": "預感",
     "album": "酝酿",
     "tags": [
-      "sad",
-      "love"
+      "love",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=预感"
   },
@@ -2856,8 +2901,8 @@
     "song": "預感",
     "album": "酝酿",
     "tags": [
-      "sad",
-      "crazy"
+      "crazy",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=预感"
   },
@@ -2879,6 +2924,7 @@
     "album": "U87",
     "tags": [
       "crazy",
+      "life",
       "social"
     ],
     "link": "https://music.163.com/#/search/m/?s=浮夸"
@@ -2889,8 +2935,8 @@
     "song": "K歌之王",
     "album": "打得火热",
     "tags": [
-      "sad",
-      "love"
+      "love",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=K歌之王"
   },
@@ -2900,8 +2946,8 @@
     "song": "K歌之王",
     "album": "打得火热",
     "tags": [
-      "sad",
-      "classic"
+      "classic",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=K歌之王"
   },
@@ -2911,8 +2957,8 @@
     "song": "十年",
     "album": "黑·白·灰",
     "tags": [
-      "sad",
-      "classic"
+      "classic",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=十年"
   },
@@ -2922,8 +2968,8 @@
     "song": "十年",
     "album": "黑·白·灰",
     "tags": [
-      "sad",
-      "philosophy"
+      "philosophy",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=十年"
   },
@@ -2933,8 +2979,9 @@
     "song": "十年",
     "album": "黑·白·灰",
     "tags": [
-      "sad",
-      "memory"
+      "classic",
+      "memory",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=十年"
   },
@@ -2944,8 +2991,8 @@
     "song": "富士山下",
     "album": "What's Going On...?",
     "tags": [
-      "sad",
-      "classic"
+      "classic",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=富士山下"
   },
@@ -2966,8 +3013,9 @@
     "song": "最佳損友",
     "album": "Life Continues...",
     "tags": [
-      "sad",
-      "friendship"
+      "friendship",
+      "love",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=最佳损友"
   },
@@ -2977,8 +3025,8 @@
     "song": "單車",
     "album": "Shall We Dance? Shall We Talk!",
     "tags": [
-      "sad",
-      "classic"
+      "classic",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=单车"
   },
@@ -2988,8 +3036,8 @@
     "song": "單車",
     "album": "Shall We Dance? Shall We Talk!",
     "tags": [
-      "healing",
-      "classic"
+      "classic",
+      "healing"
     ],
     "link": "https://music.163.com/#/search/m/?s=单车"
   },
@@ -2999,8 +3047,8 @@
     "song": "孤獨患者",
     "album": "？",
     "tags": [
-      "sad",
-      "lonely"
+      "lonely",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=孤独患者"
   },
@@ -3010,8 +3058,8 @@
     "song": "孤獨患者",
     "album": "？",
     "tags": [
-      "sad",
-      "classic"
+      "classic",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=孤独患者"
   },
@@ -3021,8 +3069,9 @@
     "song": "淘汰",
     "album": "认了吧",
     "tags": [
-      "sad",
-      "memory"
+      "classic",
+      "memory",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=淘汰"
   },
@@ -3043,6 +3092,7 @@
     "song": "陰天快樂",
     "album": "Rice & Shine",
     "tags": [
+      "classic",
       "love",
       "memory"
     ],
@@ -3054,8 +3104,8 @@
     "song": "紅玫瑰",
     "album": "认了吧",
     "tags": [
-      "love",
-      "classic"
+      "classic",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=红玫瑰"
   },
@@ -3076,8 +3126,8 @@
     "song": "與我常在",
     "album": "与我常在",
     "tags": [
-      "love",
-      "life"
+      "life",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=与我常在"
   },
@@ -3087,8 +3137,8 @@
     "song": "幸福摩天輪",
     "album": "天佑爱人",
     "tags": [
-      "healing",
-      "classic"
+      "classic",
+      "healing"
     ],
     "link": "https://music.163.com/#/search/m/?s=幸福摩天轮"
   },
@@ -3120,8 +3170,8 @@
     "song": "冤氣",
     "album": "Mixed Up",
     "tags": [
-      "love",
-      "crazy"
+      "crazy",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=冤气"
   },
@@ -3131,8 +3181,8 @@
     "song": "心燒",
     "album": "3mm",
     "tags": [
-      "love",
-      "healing"
+      "healing",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=心烧"
   },
@@ -3142,8 +3192,8 @@
     "song": "潛龍勿用",
     "album": "The Easy Ride",
     "tags": [
-      "love",
-      "crazy"
+      "crazy",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=潜龙勿用"
   },
@@ -3153,8 +3203,9 @@
     "song": "喬克叔叔",
     "album": "Rice & Shine",
     "tags": [
+      "classic",
       "lonely",
-      "classic"
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=乔克叔叔"
   },
@@ -3164,8 +3215,8 @@
     "song": "給你",
     "album": "上五楼的快活",
     "tags": [
-      "sad",
-      "lonely"
+      "lonely",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=给你"
   },
@@ -3187,7 +3238,8 @@
     "album": "Rice & Shine",
     "tags": [
       "life",
-      "regret"
+      "regret",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=愚人快乐"
   },
@@ -3197,8 +3249,8 @@
     "song": "海膽",
     "album": "C'mon In~",
     "tags": [
-      "power",
-      "life"
+      "life",
+      "power"
     ],
     "link": "https://music.163.com/#/search/m/?s=海胆"
   },
@@ -3208,8 +3260,8 @@
     "song": "漸漸",
     "album": "L.O.V.E.",
     "tags": [
-      "sad",
-      "pain"
+      "pain",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=渐渐"
   },
@@ -3219,8 +3271,8 @@
     "song": "龍舌蘭",
     "album": "L.O.V.E.",
     "tags": [
-      "sad",
-      "dark"
+      "dark",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=龙舌兰"
   },
@@ -3230,8 +3282,8 @@
     "song": "我們萬歲",
     "album": "L.O.V.E.",
     "tags": [
-      "love",
-      "classic"
+      "classic",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=我们万岁"
   },
@@ -3252,8 +3304,8 @@
     "song": "盲婚啞嫁",
     "album": "盲婚哑嫁",
     "tags": [
-      "philosophy",
-      "healing"
+      "healing",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=盲婚哑嫁"
   },
@@ -3263,8 +3315,8 @@
     "song": "社交恐懼癌",
     "album": "CHIN UP!",
     "tags": [
-      "social",
-      "life"
+      "life",
+      "social"
     ],
     "link": "https://music.163.com/#/search/m/?s=社交恐惧癌"
   },
@@ -3285,8 +3337,8 @@
     "song": "季軍",
     "album": "The Easy Ride",
     "tags": [
-      "philosophy",
-      "life"
+      "life",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=季军"
   },
@@ -3296,6 +3348,7 @@
     "song": "信任",
     "album": "Life Continues...",
     "tags": [
+      "life",
       "philosophy",
       "social"
     ],
@@ -3307,8 +3360,8 @@
     "song": "I Do",
     "album": "C'mon In~",
     "tags": [
-      "love",
-      "life"
+      "life",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=I Do"
   },
@@ -3318,8 +3371,10 @@
     "song": "謊言",
     "album": "The Easy Ride",
     "tags": [
-      "social",
-      "dark"
+      "dark",
+      "life",
+      "sad",
+      "social"
     ],
     "link": "https://music.163.com/#/search/m/?s=谎言"
   },
@@ -3329,8 +3384,8 @@
     "song": "預感",
     "album": "酝酿",
     "tags": [
-      "sad",
-      "love"
+      "love",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=预感"
   },
@@ -3340,8 +3395,9 @@
     "song": "你的揹包",
     "album": "Special Thanks To...",
     "tags": [
-      "sad",
-      "memory"
+      "classic",
+      "memory",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=你的揹包"
   },
@@ -3351,8 +3407,8 @@
     "song": "你的揹包",
     "album": "Special Thanks To...",
     "tags": [
-      "sad",
-      "regret"
+      "regret",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=你的揹包"
   },
@@ -3362,8 +3418,8 @@
     "song": "十年",
     "album": "黑·白·灰",
     "tags": [
-      "sad",
-      "philosophy"
+      "philosophy",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=十年"
   },
@@ -3395,8 +3451,8 @@
     "song": "盲婚啞嫁",
     "album": "盲婚哑嫁",
     "tags": [
-      "philosophy",
-      "life"
+      "life",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=盲婚哑嫁"
   },
@@ -3406,8 +3462,9 @@
     "song": "社交恐懼癌",
     "album": "CHIN UP!",
     "tags": [
-      "social",
-      "crazy"
+      "crazy",
+      "life",
+      "social"
     ],
     "link": "https://music.163.com/#/search/m/?s=社交恐惧癌"
   },
@@ -3417,8 +3474,8 @@
     "song": "季軍",
     "album": "The Easy Ride",
     "tags": [
-      "philosophy",
-      "life"
+      "life",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=季军"
   },
@@ -3428,8 +3485,8 @@
     "song": "I Do",
     "album": "C'mon In~",
     "tags": [
-      "sad",
-      "love"
+      "love",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=I Do"
   },
@@ -3439,8 +3496,10 @@
     "song": "謊言",
     "album": "The Easy Ride",
     "tags": [
-      "social",
-      "dark"
+      "dark",
+      "life",
+      "sad",
+      "social"
     ],
     "link": "https://music.163.com/#/search/m/?s=谎言"
   },
@@ -3461,8 +3520,8 @@
     "song": "陪你度過漫長歲月",
     "album": "陪你度过漫长岁月",
     "tags": [
-      "love",
-      "healing"
+      "healing",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=陪你度过漫长岁月"
   },
@@ -3505,6 +3564,7 @@
     "song": "你的揹包",
     "album": "Special Thanks To...",
     "tags": [
+      "classic",
       "memory",
       "story"
     ],
@@ -3527,8 +3587,8 @@
     "song": "你的揹包",
     "album": "Special Thanks To...",
     "tags": [
-      "sad",
-      "regret"
+      "regret",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=你的揹包"
   },
@@ -3538,8 +3598,8 @@
     "song": "你的揹包",
     "album": "Special Thanks To...",
     "tags": [
-      "sad",
-      "life"
+      "life",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=你的揹包"
   },
@@ -3549,8 +3609,8 @@
     "song": "你的揹包",
     "album": "Special Thanks To...",
     "tags": [
-      "sad",
-      "pain"
+      "pain",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=你的揹包"
   },
@@ -3560,8 +3620,8 @@
     "song": "十年",
     "album": "黑·白·灰",
     "tags": [
-      "sad",
-      "classic"
+      "classic",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=十年"
   },
@@ -3571,8 +3631,8 @@
     "song": "十年",
     "album": "黑·白·灰",
     "tags": [
-      "sad",
-      "philosophy"
+      "philosophy",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=十年"
   },
@@ -3582,8 +3642,9 @@
     "song": "淘汰",
     "album": "认了吧",
     "tags": [
-      "sad",
-      "memory"
+      "classic",
+      "memory",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=淘汰"
   },
@@ -3593,8 +3654,8 @@
     "song": "淘汰",
     "album": "认了吧",
     "tags": [
-      "sad",
-      "pain"
+      "pain",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=淘汰"
   },
@@ -3615,8 +3676,9 @@
     "song": "最佳損友",
     "album": "Life Continues...",
     "tags": [
-      "sad",
-      "memory"
+      "classic",
+      "memory",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=最佳损友"
   },
@@ -3626,8 +3688,8 @@
     "song": "孤獨患者",
     "album": "？",
     "tags": [
-      "sad",
-      "lonely"
+      "lonely",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=孤独患者"
   },
@@ -3637,8 +3699,8 @@
     "song": "孤獨患者",
     "album": "？",
     "tags": [
-      "sad",
-      "classic"
+      "classic",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=孤独患者"
   },
@@ -3648,8 +3710,8 @@
     "song": "紅玫瑰",
     "album": "认了吧",
     "tags": [
-      "sad",
-      "dark"
+      "dark",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=红玫瑰"
   },
@@ -3659,8 +3721,8 @@
     "song": "浮誇",
     "album": "U87",
     "tags": [
-      "crazy",
-      "classic"
+      "classic",
+      "crazy"
     ],
     "link": "https://music.163.com/#/search/m/?s=浮夸"
   },
@@ -3670,8 +3732,8 @@
     "song": "浮誇",
     "album": "U87",
     "tags": [
-      "sad",
-      "crazy"
+      "crazy",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=浮夸"
   },
@@ -3681,8 +3743,8 @@
     "song": "浮誇",
     "album": "U87",
     "tags": [
-      "sad",
-      "crazy"
+      "crazy",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=浮夸"
   },
@@ -3703,8 +3765,8 @@
     "song": "浮誇",
     "album": "U87",
     "tags": [
-      "crazy",
-      "classic"
+      "classic",
+      "crazy"
     ],
     "link": "https://music.163.com/#/search/m/?s=浮夸"
   },
@@ -3714,8 +3776,8 @@
     "song": "K歌之王",
     "album": "打得火热",
     "tags": [
-      "sad",
-      "love"
+      "love",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=K歌之王"
   },
@@ -3725,8 +3787,8 @@
     "song": "K歌之王",
     "album": "打得火热",
     "tags": [
-      "sad",
-      "classic"
+      "classic",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=K歌之王"
   },
@@ -3736,8 +3798,8 @@
     "song": "K歌之王",
     "album": "打得火热",
     "tags": [
-      "sad",
-      "classic"
+      "classic",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=K歌之王"
   },
@@ -3747,8 +3809,8 @@
     "song": "十年",
     "album": "黑·白·灰",
     "tags": [
-      "sad",
-      "life"
+      "life",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=十年"
   },
@@ -3758,8 +3820,9 @@
     "song": "富士山下",
     "album": "What's Going On...?",
     "tags": [
-      "sad",
-      "memory"
+      "classic",
+      "memory",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=富士山下"
   },
@@ -3769,8 +3832,8 @@
     "song": "富士山下",
     "album": "What's Going On...?",
     "tags": [
-      "philosophy",
-      "healing"
+      "healing",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=富士山下"
   },
@@ -3791,8 +3854,9 @@
     "song": "最佳損友",
     "album": "Life Continues...",
     "tags": [
-      "sad",
-      "friendship"
+      "friendship",
+      "love",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=最佳损友"
   },
@@ -3802,8 +3866,8 @@
     "song": "單車",
     "album": "Shall We Dance? Shall We Talk!",
     "tags": [
-      "sad",
-      "classic"
+      "classic",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=单车"
   },
@@ -3813,8 +3877,8 @@
     "song": "單車",
     "album": "Shall We Dance? Shall We Talk!",
     "tags": [
-      "love",
-      "classic"
+      "classic",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=单车"
   },
@@ -3824,8 +3888,8 @@
     "song": "淘汰",
     "album": "认了吧",
     "tags": [
-      "sad",
-      "classic"
+      "classic",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=淘汰"
   },
@@ -3835,8 +3899,9 @@
     "song": "陰天快樂",
     "album": "Rice & Shine",
     "tags": [
+      "lonely",
       "love",
-      "lonely"
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=阴天快乐"
   },
@@ -3846,8 +3911,8 @@
     "song": "陰天快樂",
     "album": "Rice & Shine",
     "tags": [
-      "healing",
-      "classic"
+      "classic",
+      "healing"
     ],
     "link": "https://music.163.com/#/search/m/?s=阴天快乐"
   },
@@ -3868,8 +3933,9 @@
     "song": "人來人往",
     "album": "The Line-Up",
     "tags": [
-      "sad",
-      "memory"
+      "classic",
+      "memory",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=人来人往"
   },
@@ -3879,8 +3945,8 @@
     "song": "人來人往",
     "album": "The Line-Up",
     "tags": [
-      "philosophy",
-      "love"
+      "love",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=人来人往"
   },
@@ -3890,8 +3956,9 @@
     "song": "時代曲",
     "album": "陈奕迅",
     "tags": [
-      "philosophy",
-      "memory"
+      "classic",
+      "memory",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=时代曲"
   },
@@ -3901,8 +3968,8 @@
     "song": "時代曲",
     "album": "陈奕迅",
     "tags": [
-      "sad",
-      "philosophy"
+      "philosophy",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=时代曲"
   },
@@ -3912,8 +3979,9 @@
     "song": "傷信",
     "album": "陈奕迅",
     "tags": [
-      "sad",
-      "memory"
+      "classic",
+      "memory",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=伤信"
   },
@@ -3923,8 +3991,8 @@
     "song": "傷信",
     "album": "陈奕迅",
     "tags": [
-      "sad",
-      "pain"
+      "pain",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=伤信"
   },
@@ -3934,8 +4002,8 @@
     "song": "天下無雙",
     "album": "我的快乐时代",
     "tags": [
-      "love",
-      "classic"
+      "classic",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=天下无双"
   },
@@ -3945,8 +4013,9 @@
     "song": "天下無雙",
     "album": "我的快乐时代",
     "tags": [
-      "love",
-      "brightness"
+      "brightness",
+      "healing",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=天下无双"
   },
@@ -3956,8 +4025,9 @@
     "song": "時光倒流二十年",
     "album": "新生活",
     "tags": [
+      "love",
       "regret",
-      "love"
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=时光倒流二十年"
   },
@@ -3967,8 +4037,8 @@
     "song": "時光倒流二十年",
     "album": "新生活",
     "tags": [
-      "love",
-      "classic"
+      "classic",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=时光倒流二十年"
   },
@@ -4022,8 +4092,8 @@
     "song": "打得火熱",
     "album": "打得火热",
     "tags": [
-      "love",
-      "crazy"
+      "crazy",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=打得火热"
   },
@@ -4033,8 +4103,8 @@
     "song": "打得火熱",
     "album": "打得火热",
     "tags": [
-      "love",
-      "crazy"
+      "crazy",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=打得火热"
   },
@@ -4044,8 +4114,10 @@
     "song": "六月飛霜",
     "album": "Stranger Under My Skin",
     "tags": [
-      "social",
-      "dark"
+      "dark",
+      "life",
+      "sad",
+      "social"
     ],
     "link": "https://music.163.com/#/search/m/?s=六月飞霜"
   },
@@ -4055,8 +4127,9 @@
     "song": "六月飛霜",
     "album": "Stranger Under My Skin",
     "tags": [
-      "social",
-      "crazy"
+      "crazy",
+      "life",
+      "social"
     ],
     "link": "https://music.163.com/#/search/m/?s=六月飞霜"
   },
@@ -4066,6 +4139,7 @@
     "song": "主旋律",
     "album": "The Key",
     "tags": [
+      "life",
       "philosophy",
       "social"
     ],
@@ -4077,8 +4151,8 @@
     "song": "主旋律",
     "album": "The Key",
     "tags": [
-      "philosophy",
-      "life"
+      "life",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=主旋律"
   },
@@ -4088,8 +4162,8 @@
     "song": "斯德哥爾摩情人",
     "album": "The Key",
     "tags": [
-      "love",
-      "crazy"
+      "crazy",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=斯德哥尔摩情人"
   },
@@ -4121,8 +4195,8 @@
     "song": "失憶蝴蝶",
     "album": "The Key",
     "tags": [
-      "philosophy",
-      "healing"
+      "healing",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=失忆蝴蝶"
   },
@@ -4132,8 +4206,8 @@
     "song": "重口味",
     "album": "3mm",
     "tags": [
-      "power",
-      "crazy"
+      "crazy",
+      "power"
     ],
     "link": "https://music.163.com/#/search/m/?s=重口味"
   },
@@ -4154,8 +4228,8 @@
     "song": "碌卡",
     "album": "3mm",
     "tags": [
-      "social",
-      "life"
+      "life",
+      "social"
     ],
     "link": "https://music.163.com/#/search/m/?s=碌卡"
   },
@@ -4165,8 +4239,9 @@
     "song": "碌卡",
     "album": "3mm",
     "tags": [
-      "social",
-      "philosophy"
+      "life",
+      "philosophy",
+      "social"
     ],
     "link": "https://music.163.com/#/search/m/?s=碌卡"
   },
@@ -4176,8 +4251,10 @@
     "song": "非禮",
     "album": "3mm",
     "tags": [
-      "social",
-      "dark"
+      "dark",
+      "life",
+      "sad",
+      "social"
     ],
     "link": "https://music.163.com/#/search/m/?s=非礼"
   },
@@ -4187,8 +4264,9 @@
     "song": "非禮",
     "album": "3mm",
     "tags": [
-      "social",
-      "crazy"
+      "crazy",
+      "life",
+      "social"
     ],
     "link": "https://music.163.com/#/search/m/?s=非礼"
   },
@@ -4198,8 +4276,9 @@
     "song": "空城記",
     "album": "CHIN UP!",
     "tags": [
-      "sad",
-      "memory"
+      "classic",
+      "memory",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=空城记"
   },
@@ -4209,8 +4288,8 @@
     "song": "空城記",
     "album": "CHIN UP!",
     "tags": [
-      "sad",
-      "classic"
+      "classic",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=空城记"
   },
@@ -4220,8 +4299,8 @@
     "song": "人啊人",
     "album": "CHIN UP!",
     "tags": [
-      "philosophy",
-      "life"
+      "life",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=人啊人"
   },
@@ -4231,6 +4310,7 @@
     "song": "人啊人",
     "album": "CHIN UP!",
     "tags": [
+      "life",
       "philosophy",
       "social"
     ],
@@ -4242,8 +4322,8 @@
     "song": "焦焦焦",
     "album": "CHIN UP!",
     "tags": [
-      "social",
-      "life"
+      "life",
+      "social"
     ],
     "link": "https://music.163.com/#/search/m/?s=焦焦焦"
   },
@@ -4253,8 +4333,9 @@
     "song": "焦焦焦",
     "album": "CHIN UP!",
     "tags": [
-      "social",
-      "crazy"
+      "crazy",
+      "life",
+      "social"
     ],
     "link": "https://music.163.com/#/search/m/?s=焦焦焦"
   },
@@ -4264,8 +4345,8 @@
     "song": "不知所謂",
     "album": "The Line-Up",
     "tags": [
-      "love",
-      "life"
+      "life",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=不知所谓"
   },
@@ -4276,7 +4357,8 @@
     "album": "The Line-Up",
     "tags": [
       "love",
-      "regret"
+      "regret",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=不知所谓"
   },
@@ -4286,8 +4368,8 @@
     "song": "少見不怪",
     "album": "The Line-Up",
     "tags": [
-      "sad",
-      "love"
+      "love",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=少见不怪"
   },
@@ -4297,8 +4379,8 @@
     "song": "少見不怪",
     "album": "The Line-Up",
     "tags": [
-      "sad",
-      "regret"
+      "regret",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=少见不怪"
   },
@@ -4353,7 +4435,8 @@
     "album": "Time Flies",
     "tags": [
       "life",
-      "regret"
+      "regret",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=陀飞轮"
   },
@@ -4375,7 +4458,8 @@
     "album": "Time Flies",
     "tags": [
       "love",
-      "pain"
+      "pain",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=一丝不挂"
   },
@@ -4385,8 +4469,8 @@
     "song": "一絲不掛",
     "album": "Time Flies",
     "tags": [
-      "philosophy",
-      "love"
+      "love",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=一丝不挂"
   },
@@ -4407,8 +4491,8 @@
     "song": "苦瓜",
     "album": "Stranger Under My Skin",
     "tags": [
-      "life",
-      "healing"
+      "healing",
+      "life"
     ],
     "link": "https://music.163.com/#/search/m/?s=苦瓜"
   },
@@ -4418,8 +4502,8 @@
     "song": "告別娑婆",
     "album": "The Key",
     "tags": [
-      "philosophy",
-      "life"
+      "life",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=告别娑婆"
   },
@@ -4429,8 +4513,9 @@
     "song": "告別娑婆",
     "album": "The Key",
     "tags": [
+      "dark",
       "philosophy",
-      "dark"
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=告别娑婆"
   },
@@ -4452,7 +4537,8 @@
     "album": "The Key",
     "tags": [
       "love",
-      "pain"
+      "pain",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=远在咫尺"
   },
@@ -4474,7 +4560,8 @@
     "album": "H3M",
     "tags": [
       "lonely",
-      "pain"
+      "pain",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=吟游诗人"
   },
@@ -4495,8 +4582,8 @@
     "song": "失憶蝴蝶",
     "album": "The Key",
     "tags": [
-      "philosophy",
-      "healing"
+      "healing",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=失忆蝴蝶"
   },
@@ -4506,8 +4593,8 @@
     "song": "失憶蝴蝶",
     "album": "The Key",
     "tags": [
-      "philosophy",
-      "love"
+      "love",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=失忆蝴蝶"
   },
@@ -4517,8 +4604,8 @@
     "song": "失憶蝴蝶",
     "album": "The Key",
     "tags": [
-      "philosophy",
-      "healing"
+      "healing",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=失忆蝴蝶"
   },
@@ -4539,8 +4626,8 @@
     "song": "重口味",
     "album": "3mm",
     "tags": [
-      "power",
-      "life"
+      "life",
+      "power"
     ],
     "link": "https://music.163.com/#/search/m/?s=重口味"
   },
@@ -4550,8 +4637,8 @@
     "song": "重口味",
     "album": "3mm",
     "tags": [
-      "healing",
-      "crazy"
+      "crazy",
+      "healing"
     ],
     "link": "https://music.163.com/#/search/m/?s=重口味"
   },
@@ -4572,8 +4659,8 @@
     "song": "碌卡",
     "album": "3mm",
     "tags": [
-      "social",
-      "life"
+      "life",
+      "social"
     ],
     "link": "https://music.163.com/#/search/m/?s=碌卡"
   },
@@ -4583,8 +4670,9 @@
     "song": "碌卡",
     "album": "3mm",
     "tags": [
-      "social",
-      "crazy"
+      "crazy",
+      "life",
+      "social"
     ],
     "link": "https://music.163.com/#/search/m/?s=碌卡"
   },
@@ -4594,8 +4682,10 @@
     "song": "非禮",
     "album": "3mm",
     "tags": [
-      "social",
-      "dark"
+      "dark",
+      "life",
+      "sad",
+      "social"
     ],
     "link": "https://music.163.com/#/search/m/?s=非礼"
   },
@@ -4605,8 +4695,8 @@
     "song": "空城記",
     "album": "CHIN UP!",
     "tags": [
-      "sad",
-      "love"
+      "love",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=空城记"
   },
@@ -4616,8 +4706,8 @@
     "song": "空城記",
     "album": "CHIN UP!",
     "tags": [
-      "sad",
-      "lonely"
+      "lonely",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=空城记"
   },
@@ -4627,8 +4717,8 @@
     "song": "人啊人",
     "album": "CHIN UP!",
     "tags": [
-      "philosophy",
-      "humanity"
+      "humanity",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=人啊人"
   },
@@ -4638,8 +4728,8 @@
     "song": "焦焦焦",
     "album": "CHIN UP!",
     "tags": [
-      "social",
-      "life"
+      "life",
+      "social"
     ],
     "link": "https://music.163.com/#/search/m/?s=焦焦焦"
   },
@@ -4649,8 +4739,8 @@
     "song": "不知所謂",
     "album": "The Line-Up",
     "tags": [
-      "love",
-      "life"
+      "life",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=不知所谓"
   },
@@ -4661,7 +4751,8 @@
     "album": "The Line-Up",
     "tags": [
       "love",
-      "regret"
+      "regret",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=不知所谓"
   },
@@ -4671,8 +4762,8 @@
     "song": "少見不怪",
     "album": "The Line-Up",
     "tags": [
-      "sad",
-      "love"
+      "love",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=少见不怪"
   },
@@ -4682,8 +4773,9 @@
     "song": "少見不怪",
     "album": "The Line-Up",
     "tags": [
-      "sad",
-      "memory"
+      "classic",
+      "memory",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=少见不怪"
   },
@@ -4693,6 +4785,7 @@
     "song": "萬佛朝宗",
     "album": "Life Continues...",
     "tags": [
+      "life",
       "philosophy",
       "social"
     ],
@@ -4704,8 +4797,8 @@
     "song": "萬佛朝宗",
     "album": "Life Continues...",
     "tags": [
-      "philosophy",
-      "life"
+      "life",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=万佛朝宗"
   },
@@ -4727,7 +4820,8 @@
     "album": "Time Flies",
     "tags": [
       "life",
-      "regret"
+      "regret",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=陀飞轮"
   },
@@ -4759,8 +4853,9 @@
     "song": "陀飛輪",
     "album": "Time Flies",
     "tags": [
-      "philosophy",
-      "money"
+      "life",
+      "money",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=陀飞轮"
   },
@@ -4770,8 +4865,8 @@
     "song": "一絲不掛",
     "album": "Time Flies",
     "tags": [
-      "sad",
-      "love"
+      "love",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=一丝不挂"
   },
@@ -4803,8 +4898,8 @@
     "song": "告別娑婆",
     "album": "The Key",
     "tags": [
-      "philosophy",
-      "life"
+      "life",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=告别娑婆"
   },
@@ -4847,8 +4942,9 @@
     "song": "吟遊詩人",
     "album": "H3M",
     "tags": [
-      "life",
-      "freedom"
+      "crazy",
+      "freedom",
+      "life"
     ],
     "link": "https://music.163.com/#/search/m/?s=吟游诗人"
   },
@@ -4858,8 +4954,8 @@
     "song": "夕陽無限好",
     "album": "U87",
     "tags": [
-      "philosophy",
-      "life"
+      "life",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=夕阳无限好"
   },
@@ -4869,8 +4965,8 @@
     "song": "Shall We Talk",
     "album": "Shall We Dance? Shall We Talk!",
     "tags": [
-      "philosophy",
-      "love"
+      "love",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=Shall We Talk"
   },
@@ -4881,7 +4977,8 @@
     "album": "Shall We Dance? Shall We Talk!",
     "tags": [
       "love",
-      "regret"
+      "regret",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=Shall We Talk"
   },
@@ -4902,8 +4999,8 @@
     "song": "不如不見",
     "album": "What's Going On...?",
     "tags": [
-      "sad",
-      "philosophy"
+      "philosophy",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=不如不见"
   },
@@ -4924,8 +5021,8 @@
     "song": "一切還好",
     "album": "Great 5000 Secs",
     "tags": [
-      "sad",
-      "healing"
+      "healing",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=一切还好"
   },
@@ -4935,8 +5032,9 @@
     "song": "人來人往",
     "album": "The Line-Up",
     "tags": [
-      "philosophy",
-      "memory"
+      "classic",
+      "memory",
+      "philosophy"
     ],
     "link": "https://music.163.com/#/search/m/?s=人来人往"
   },
@@ -4946,8 +5044,8 @@
     "song": "想哭",
     "album": "Special Thanks To...",
     "tags": [
-      "sad",
-      "philosophy"
+      "philosophy",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=想哭"
   },
@@ -4957,8 +5055,8 @@
     "song": "一切還好",
     "album": "Great 5000 Secs",
     "tags": [
-      "sad",
-      "regret"
+      "regret",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=一切还好"
   },
@@ -4968,8 +5066,8 @@
     "song": "阿牛",
     "album": "U87",
     "tags": [
-      "sad",
-      "crazy"
+      "crazy",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=阿牛"
   },
@@ -5001,8 +5099,8 @@
     "song": "路...一直都在",
     "album": "不想放手",
     "tags": [
-      "life",
-      "confused"
+      "confused",
+      "life"
     ],
     "link": "https://music.163.com/#/search/m/?s=路...一直都在"
   },
@@ -5012,8 +5110,8 @@
     "song": "人來人往",
     "album": "The Line-Up",
     "tags": [
-      "sad",
-      "classic"
+      "classic",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=人来人往"
   },
@@ -5023,8 +5121,8 @@
     "song": "天下無雙",
     "album": "我的快乐时代",
     "tags": [
-      "love",
-      "classic"
+      "classic",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=天下无双"
   },
@@ -5045,8 +5143,9 @@
     "song": "每一個明天",
     "album": "Every Best of Eason",
     "tags": [
-      "love",
-      "brightness"
+      "brightness",
+      "healing",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=每一个明天"
   },
@@ -5056,8 +5155,8 @@
     "song": "幸福摩天輪",
     "album": "天佑爱人",
     "tags": [
-      "love",
-      "classic"
+      "classic",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=幸福摩天轮"
   },
@@ -5067,8 +5166,9 @@
     "song": "幸福摩天輪",
     "album": "天佑爱人",
     "tags": [
-      "love",
-      "journey"
+      "journey",
+      "life",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=幸福摩天轮"
   },
@@ -5078,8 +5178,8 @@
     "song": "黃金時代",
     "album": "我的快乐时代",
     "tags": [
-      "love",
-      "crazy"
+      "crazy",
+      "love"
     ],
     "link": "https://music.163.com/#/search/m/?s=黄金时代"
   },
@@ -5089,8 +5189,9 @@
     "song": "一切還好",
     "album": "Great 5000 Secs",
     "tags": [
-      "sad",
-      "repeat"
+      "crazy",
+      "repeat",
+      "sad"
     ],
     "link": "https://music.163.com/#/search/m/?s=一切还好"
   },

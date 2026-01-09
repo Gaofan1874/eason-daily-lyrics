@@ -13,7 +13,7 @@ export interface Lyric {
 const lyricsData = require('./lyrics.json') as Lyric[];
 
 // 定义心情类型
-type Mood = 'random' | 'sad' | 'healing' | 'crazy' | 'love' | 'brightness' | 'power';
+type Mood = 'random' | 'acting' | 'brightness' | 'classic' | 'confused' | 'crazy' | 'dark' | 'freedom' | 'friendship' | 'healing' | 'humanity' | 'journey' | 'life' | 'lonely' | 'love' | 'memory' | 'money' | 'pain' | 'philosophy' | 'power' | 'pressure' | 'promise' | 'regret' | 'religion' | 'repeat' | 'sad' | 'self' | 'social' | 'soul' | 'story';
 
 let myStatusBarItem: vscode.StatusBarItem;
 let intervalId: NodeJS.Timeout | undefined;
@@ -40,27 +40,37 @@ export function activate(context: vscode.ExtensionContext) {
 
         const menuCmd = vscode.commands.registerCommand('eason.showMenu', async () => {
             try {
-              const lyric = currentLyric;                                                               
-              if (!lyric) {   
-                  updateLyric()   
-                  return                                                                                 updateLyric(); // 如果没有当前歌词，先更新一个                                           │return;                                                                                  │
-              }
-
-                const selection = await vscode.window.showQuickPick(
-                    [
-                        { label: '$(arrow-right) 切歌', description: '换下一句' },
-                        { label: '$(heart) 切换心情', description: `当前: ${getMoodLabel(currentMood)}` },
-                        { label: '$(link) 查看歌曲信息', description: `${lyric.song} - ${lyric.album}` }
-                    ],
-                    { placeHolder: `正在播放: ${lyric.content}` }
+                const lyric = currentLyric;
+                
+                // Define menu items
+                const menuItems = [];
+                
+                if (lyric) {
+                    menuItems.push(
+                        { label: '$(arrow-right) 切歌', description: '换下一句', action: 'next' }
+                    );
+                }
+                
+                menuItems.push(
+                    { label: '$(heart) 切换心情', description: `当前: ${getMoodLabel(currentMood)}`, action: 'mood' }
                 );
+                
+                if (lyric) {
+                    menuItems.push(
+                        { label: '$(link) 查看歌曲信息', description: `${lyric.song} - ${lyric.album}`, action: 'link' }
+                    );
+                }
+
+                const placeHolder = lyric ? `正在播放: ${lyric.content}` : 'Eason 休息中... (当前分类无歌词)';
+
+                const selection = await vscode.window.showQuickPick(menuItems, { placeHolder });
 
                 if (selection) {
-                    if (selection.label.includes('切歌')) {
+                    if (selection.action === 'next') {
                         updateLyric();
-                    } else if (selection.label.includes('切换心情')) {
+                    } else if (selection.action === 'mood') {
                         vscode.commands.executeCommand('eason.changeMood');
-                    } else if (selection.label.includes('查看歌曲信息')) {
+                    } else if (selection.action === 'link' && lyric) {
                         vscode.env.openExternal(vscode.Uri.parse(lyric.link || 'https://music.163.com'));
                     }
                 }
@@ -72,12 +82,45 @@ export function activate(context: vscode.ExtensionContext) {
 
         const changeMoodCmd = vscode.commands.registerCommand('eason.changeMood', async () => {
             try {
-                const moods: Mood[] = ['random', 'sad', 'healing', 'crazy', 'love', 'brightness', 'power']
-                const selected = await vscode.window.showQuickPick(moods, {
-                    placeHolder: '选择你此刻的心情'
+                // Calculate mood counts dynamically
+                const moodCounts: Record<string, number> = {};
+                lyricsData.forEach(lyric => {
+                    lyric.tags.forEach(tag => {
+                        moodCounts[tag] = (moodCounts[tag] || 0) + 1;
+                    });
                 });
+
+                const moods: Mood[] = [
+                    'random', 'sad', 'healing', 'love', 'philosophy', 'life', 'classic', 'memory',
+                    'power', 'crazy', 'lonely', 'regret', 'social', 'dark', 'brightness', 'pain',
+                    'story', 'friendship', 'freedom', 'self', 'journey', 'humanity', 'soul',
+                    'confused', 'pressure', 'money', 'promise', 'acting', 'religion', 'repeat'
+                ];
+                
+                // Filter and map moods to QuickPickItems
+                const moodItems = moods
+                    .map(m => {
+                        const count = m === 'random' ? lyricsData.length : (moodCounts[m] || 0);
+                        return {
+                            label: getMoodLabel(m),
+                            description: `${count} 句`,
+                            mood: m,
+                            count: count
+                        };
+                    })
+                    .filter(item => item.count >= 5) // Only show moods with at least 5 songs
+                    .sort((a, b) => {
+                        if (a.mood === 'random') return -1; // Random always first
+                        if (b.mood === 'random') return 1;
+                        return b.count - a.count; // Sort by count descending
+                    });
+
+                const selected = await vscode.window.showQuickPick(moodItems, {
+                    placeHolder: '选择你此刻的心情 (仅显示歌词数 > 5 的分类)'
+                });
+                
                 if (selected) {
-                    currentMood = selected as Mood;
+                    currentMood = selected.mood as Mood;
                     updateLyric();
                     vscode.window.showInformationMessage(`Eason 已切换至 ${getMoodLabel(currentMood)} 模式`);
                 }
@@ -112,13 +155,36 @@ function startTimer() {
 
 function getMoodLabel(mood: Mood): string {
     const labels: Record<Mood, string> = {
-        'random': '🎲 随机漫步',
-        'sad': '🌧️ 深夜抑郁',
-        'healing': '☕ 治愈哲理',
-        'crazy': '🔥 浮夸热血',
-        'love': '💗 暖心甜歌',
-        'brightness': '🔥 寻找光明',
-        'power': '💪 给人力量'
+        'random': '🎲 随机漫步 (Random)',
+        'sad': '🌧️ 深夜抑郁 (Sad)',
+        'healing': '☕ 治愈哲理 (Healing)',
+        'love': '💗 暖心甜歌 (Love)',
+        'philosophy': '🤔 人生哲理 (Philosophy)',
+        'life': '🌱 生活感悟 (Life)',
+        'classic': '📀 岁月金曲 (Classic)',
+        'memory': '🎞️ 往事回忆 (Memory)',
+        'power': '💪 给人力量 (Power)',
+        'crazy': '🔥 浮夸热血 (Crazy)',
+        'lonely': '🍂 孤独患者 (Lonely)',
+        'regret': '🥀 遗憾惋惜 (Regret)',
+        'social': '🏙️ 社会观察 (Social)',
+        'dark': '🌑 黑色幽默 (Dark)',
+        'brightness': '☀️ 寻找光明 (Brightness)',
+        'pain': '💔 痛彻心扉 (Pain)',
+        'story': '📖 故事人生 (Story)',
+        'friendship': '🤝 最佳损友 (Friendship)',
+        'freedom': '🕊️ 向往自由 (Freedom)',
+        'self': '🧘 自我对话 (Self)',
+        'journey': '🚀 漫长旅途 (Journey)',
+        'humanity': '👥 人性探索 (Humanity)',
+        'soul': '👻 灵魂深处 (Soul)',
+        'confused': '😵 迷茫困惑 (Confused)',
+        'pressure': '🏋️ 压力释放 (Pressure)',
+        'money': '💰 现实主义 (Money)',
+        'promise': '🤞 爱的承诺 (Promise)',
+        'acting': '🎭 人生如戏 (Acting)',
+        'religion': '🙏 因果轮回 (Religion)',
+        'repeat': '🔁 循环往复 (Repeat)'
     };
     return labels[mood] || mood;
 }
