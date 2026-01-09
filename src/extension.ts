@@ -158,7 +158,7 @@ function getMoodLabel(mood: Mood): string {
         'random': '🎲 随机漫步 (Random)',
         'sad': '🌧️ 深夜抑郁 (Sad)',
         'healing': '☕ 治愈哲理 (Healing)',
-        'love': '💗 暖心甜歌 (Love)',
+        'love': '💗 爱与浪漫 (Love)',
         'philosophy': '🤔 人生哲理 (Philosophy)',
         'life': '🌱 生活感悟 (Life)',
         'classic': '📀 岁月金曲 (Classic)',
