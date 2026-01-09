@@ -2,6 +2,12 @@
 
 "在成人的世界里，我们都需要一点陈奕迅。"
 
+---
+**GitHub**: [Gaofan1874/eason-daily-lyrics](https://github.com/Gaofan1874/eason-daily-lyrics)   
+**作者 (Authors)**: Gaofan & Gemini
+
+---
+
 **EasonCode** 是一款专为陈奕迅粉丝（兼程序员）打造的 VS Code 插件。它不想打扰你写代码，只是想在你 Debug 到深夜、或者项目上线成功的那一刻，在状态栏轻轻对你说一句最懂你的歌词。
 
 > 🎬 **插件核心功能演示 (希望它能陪伴你的编码时光)**
@@ -41,7 +47,7 @@
 > 💡 **小贴士**：点击状态栏歌词即可呼出心情切换菜单，菜单会按歌词数量自动排序。
 
 <div align="center">
-  <img src="src/assets/category.png" width="32%" />
+  <img src="src/assets/category.png" width="60%" />
 </div>
 
 ### **3\. 低打扰设计 (Zen Mode)**
@@ -57,15 +63,18 @@
    * 切歌 (Next Lyric)：手动切换下一句。  
    * 切换心情 (Change Mood)：选择你当前的心情模式。  
    * 查看歌曲信息 (Open Link)：跳转到网易云音乐等平台收听。  
-4. **命令调用**：使用快捷键 Ctrl+Shift+P (Mac: Cmd+Shift+P) 输入 Eason 查找所有命令。
+4. **命令调用**：使用快捷键 `Ctrl+Shift+P` (Mac: `Cmd+Shift+P`) 输入 Eason 查找所有命令。
 
 ## **⚙️ 设置 (Settings)**
 
-你可以在 VS Code 的设置 (Ctrl+,) 中自定义插件行为：
+你可以在 VS Code 的设置 `Ctrl + ,` (Mac: `Cmd + ,`) 中自定义插件行为：
 
 * **eason.updateInterval**:  
   * 描述：歌词自动轮播的间隔时间（单位：秒）。  
   * 默认值：300 (5分钟)。  
+* **eason.lyricColor**:  
+  * 描述：歌词在状态栏显示的颜色。  
+  * 默认值：`#FFD700` (金色)。  
 * **eason.defaultMood**:  
   * 描述：每次启动 VS Code 时的默认心情模式。  
   * 可选值：random, sad, healing, crazy。  
