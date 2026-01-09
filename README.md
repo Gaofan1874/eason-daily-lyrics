@@ -4,6 +4,10 @@
 
 **EasonCode** 是一款专为陈奕迅粉丝（兼程序员）打造的 VS Code 插件。它不想打扰你写代码，只是想在你 Debug 到深夜、或者项目上线成功的那一刻，在状态栏轻轻对你说一句最懂你的歌词。
 
+> 🎬 **插件核心功能演示 (希望它能陪伴你的编码时光)**
+
+![EasonCode Demo](src/assets/demo.gif)
+
 ## **✨ 核心特性 (Features)**
 
 ### **1\. 每日/每时歌词 (Daily Lyrics)**
@@ -12,6 +16,10 @@
 
 * 就像他在耳边轻轻哼唱。  
 * 支持点击歌词查看出处（歌曲、专辑）。
+
+<div align="center">
+  <img src="src/assets/lyrics.png" width="32%" />
+</div>
 
 ### **2\. 情绪模式切换 (Mood Switch)**
 
@@ -31,6 +39,10 @@
 | **寻找光明 (Brightness)**| ☀️   | 低谷期寻找希望与力量      | "天空它像什么，爱情就像什么..."|
 
 > 💡 **小贴士**：点击状态栏歌词即可呼出心情切换菜单，菜单会按歌词数量自动排序。
+
+<div align="center">
+  <img src="src/assets/category.png" width="32%" />
+</div>
 
 ### **3\. 低打扰设计 (Zen Mode)**
 
