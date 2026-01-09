@@ -13,11 +13,12 @@ export interface Lyric {
 const lyricsData = require('./lyrics.json') as Lyric[];
 
 // 定义心情类型
-type Mood = 'random' | 'sad' | 'healing' | 'crazy';
+type Mood = 'random' | 'sad' | 'healing' | 'crazy' | 'love' | 'brightness' | 'power';
 
 let myStatusBarItem: vscode.StatusBarItem;
 let intervalId: NodeJS.Timeout | undefined;
 let currentMood: Mood = 'random';
+let currentLyric: Lyric | null = null;
 
 export function activate(context: vscode.ExtensionContext) {
     try {
@@ -39,13 +40,16 @@ export function activate(context: vscode.ExtensionContext) {
 
         const menuCmd = vscode.commands.registerCommand('eason.showMenu', async () => {
             try {
-                const lyric = getCurrentLyric();
-                if (!lyric) { return; }
+              const lyric = currentLyric;                                                               
+              if (!lyric) {   
+                  updateLyric()   
+                  return                                                                                 updateLyric(); // 如果没有当前歌词，先更新一个                                           │return;                                                                                  │
+              }
 
                 const selection = await vscode.window.showQuickPick(
                     [
-                        { label: '$(arrow-right) 切歌 (Next)', description: '换下一句' },
-                        { label: '$(heart) 切换心情 (Mood)', description: `当前: ${getMoodLabel(currentMood)}` },
+                        { label: '$(arrow-right) 切歌', description: '换下一句' },
+                        { label: '$(heart) 切换心情', description: `当前: ${getMoodLabel(currentMood)}` },
                         { label: '$(link) 查看歌曲信息', description: `${lyric.song} - ${lyric.album}` }
                     ],
                     { placeHolder: `正在播放: ${lyric.content}` }
@@ -68,9 +72,9 @@ export function activate(context: vscode.ExtensionContext) {
 
         const changeMoodCmd = vscode.commands.registerCommand('eason.changeMood', async () => {
             try {
-                const moods: Mood[] = ['random', 'sad', 'healing', 'crazy'];
+                const moods: Mood[] = ['random', 'sad', 'healing', 'crazy', 'love', 'brightness', 'power']
                 const selected = await vscode.window.showQuickPick(moods, {
-                    placeHolder: '选择你此刻的心情 (Select your mood)'
+                    placeHolder: '选择你此刻的心情'
                 });
                 if (selected) {
                     currentMood = selected as Mood;
@@ -111,7 +115,10 @@ function getMoodLabel(mood: Mood): string {
         'random': '🎲 随机漫步',
         'sad': '🌧️ 深夜抑郁',
         'healing': '☕ 治愈哲理',
-        'crazy': '🔥 浮夸热血'
+        'crazy': '🔥 浮夸热血',
+        'love': '💗 暖心甜歌',
+        'brightness': '🔥 寻找光明',
+        'power': '💪 给人力量'
     };
     return labels[mood] || mood;
 }
@@ -121,7 +128,7 @@ function filterLyrics(): Lyric[] {
     return lyricsData.filter(l => l.tags.includes(currentMood));
 }
 
-function getCurrentLyric(): Lyric | null {
+function pickRandomLyric(): Lyric | null {
     const filtered = filterLyrics();
     if (filtered.length === 0) { return null; }
 
@@ -131,7 +138,8 @@ function getCurrentLyric(): Lyric | null {
 }
 
 function updateLyric() {
-    const lyric = getCurrentLyric();
+    const lyric = pickRandomLyric();
+     currentLyric = lyric;
     if (!lyric) {
         myStatusBarItem.text = '$(music) Eason 休息中...';
         return;

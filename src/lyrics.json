@@ -12,11 +12,19 @@
     "content": "闭起双眼你最挂念谁，眼睛张开身边竟是谁",
     "song": "人来人往",
     "album": "The Line-Up",
-    "tags": ["sad"],
+    "tags": ["sad", "classic"],
     "link": "https://music.163.com/#/song?id=64805"
   },
   {
     "id": 3,
+    "content": "拥挤的房间一个人的心，有多孤独",
+    "song": "K歌之王",
+    "album": "打得火热",
+    "tags": ["sad", "classic"],
+    "link": "https://music.163.com/#/song?id=65538"
+  },
+  {
+    "id": 4,
     "content": "顽童大了别再追问，可以任我走怎么到头来又随着大队走",
     "song": "任我行",
     "album": "The Key",
@@ -24,15 +32,15 @@
     "link": "https://music.163.com/#/song?id=26092780"
   },
   {
-    "id": 4,
+    "id": 5,
     "content": "得不到的永远在骚动，被偏爱的都有恃无恐",
     "song": "红玫瑰",
     "album": "认了吧",
-    "tags": ["sad", "classic"],
+    "tags": ["sad", "classic", "love"],
     "link": "https://music.163.com/#/song?id=65766"
   },
   {
-    "id": 5,
+    "id": 6,
     "content": "劳力是无止境，活着多好不需要靠物证",
     "song": "陀飞轮",
     "album": "Time Flies",
@@ -40,7 +48,7 @@
     "link": "https://music.163.com/#/song?id=396434"
   },
   {
-    "id": 6,
+    "id": 7,
     "content": "幸运儿并不多，若然未当过就知我为何",
     "song": "浮夸",
     "album": "U87",
@@ -48,35 +56,1003 @@
     "link": "https://music.163.com/#/song?id=64497"
   },
   {
-    "id": 7,
+    "id": 8,
     "content": "谁人又相信一世一生这肤浅对白",
     "song": "K歌之王",
     "album": "打得火热",
-    "tags": ["sad"],
+    "tags": ["sad", "classic"],
     "link": "https://music.163.com/#/song?id=65538"
   },
   {
-    "id": 8,
+    "id": 9,
     "content": "谁说站在光里的才算英雄",
     "song": "孤勇者",
     "album": "孤勇者",
-    "tags": ["crazy", "healing"],
+    "tags": ["crazy", "healing", "power"],
     "link": "https://music.163.com/#/song?id=1901371647"
   },
   {
-    "id": 9,
+    "id": 10,
     "content": "开始时捱一些苦，栽种绝处的花",
     "song": "苦瓜",
     "album": "Stranger Under My Skin",
-    "tags": ["healing"],
+    "tags": ["healing", "philosophy"],
     "link": "https://music.163.com/#/song?id=4946394"
   },
   {
-    "id": 10,
+    "id": 11,
     "content": "其实我宁愿你不那么好，得不到也好",
     "song": "一切还好",
     "album": "Great 5000 Secs",
     "tags": ["sad"],
     "link": "https://music.163.com/#/song?id=64293"
+  },
+  {
+    "id": 12,
+    "content": "十年之后，我们是朋友，还可以问候",
+    "song": "十年",
+    "album": "黑·白·灰",
+    "tags": ["sad", "classic", "healing"],
+    "link": "https://music.163.com/#/song?id=64317"
+  },
+  {
+    "id": 13,
+    "content": "只是那种温柔，再也找不到拥抱的理由",
+    "song": "十年",
+    "album": "黑·白·灰",
+    "tags": ["sad", "classic"],
+    "link": "https://music.163.com/#/song?id=64317"
+  },
+  {
+    "id": 14,
+    "content": "情人最后难免沦为朋友",
+    "song": "十年",
+    "album": "黑·白·灰",
+    "tags": ["sad", "classic", "philosophy"],
+    "link": "https://music.163.com/#/song?id=64317"
+  },
+  {
+    "id": 15,
+    "content": "陪你把沿路感想活出了答案",
+    "song": "陪你度过漫长岁月",
+    "album": "陪你度过漫长岁月",
+    "tags": ["healing", "love"],
+    "link": "https://music.163.com/#/song?id=36990266"
+  },
+  {
+    "id": 16,
+    "content": "陪你把独自孤单变成了勇敢",
+    "song": "陪你度过漫长岁月",
+    "album": "陪你度过漫长岁月",
+    "tags": ["healing", "power"],
+    "link": "https://music.163.com/#/song?id=36990266"
+  },
+  {
+    "id": 17,
+    "content": "一次次失去又重来，我没离开",
+    "song": "陪你度过漫长岁月",
+    "album": "陪你度过漫长岁月",
+    "tags": ["healing", "love"],
+    "link": "https://music.163.com/#/song?id=36990266"
+  },
+  {
+    "id": 18,
+    "content": "陪伴是最长情的告白",
+    "song": "陪你度过漫长岁月",
+    "album": "陪你度过漫长岁月",
+    "tags": ["healing", "love", "classic"],
+    "link": "https://music.163.com/#/song?id=36990266"
+  },
+  {
+    "id": 19,
+    "content": "我多么想和你见一面，看看你最近改变",
+    "song": "好久不见",
+    "album": "认了吧",
+    "tags": ["sad", "healing", "classic"],
+    "link": "https://music.163.com/#/song?id=65533"
+  },
+  {
+    "id": 20,
+    "content": "不再去说从前，只是寒暄",
+    "song": "好久不见",
+    "album": "认了吧",
+    "tags": ["sad", "classic"],
+    "link": "https://music.163.com/#/song?id=65533"
+  },
+  {
+    "id": 21,
+    "content": "对你说一句，只是说一句，好久不见",
+    "song": "好久不见",
+    "album": "认了吧",
+    "tags": ["sad", "healing", "classic"],
+    "link": "https://music.163.com/#/song?id=65533"
+  },
+  {
+    "id": 22,
+    "content": "在有生的瞬间能遇到你，竟花光我所有运气",
+    "song": "明年今日",
+    "album": "The Line-Up",
+    "tags": ["sad", "classic", "love"],
+    "link": "https://music.163.com/#/song?id=64817"
+  },
+  {
+    "id": 23,
+    "content": "明年今日，未见你一面，谁舍得改变",
+    "song": "明年今日",
+    "album": "The Line-Up",
+    "tags": ["sad", "classic"],
+    "link": "https://music.163.com/#/song?id=64817"
+  },
+  {
+    "id": 24,
+    "content": "人总需要勇敢生存，我还是重新许愿",
+    "song": "明年今日",
+    "album": "The Line-Up",
+    "tags": ["healing", "power"],
+    "link": "https://music.163.com/#/song?id=64817"
+  },
+  {
+    "id": 25,
+    "content": "我要稳稳的幸福，能用双手去碰触",
+    "song": "稳稳的幸福",
+    "album": "稳稳的幸福",
+    "tags": ["healing", "love", "brightness"],
+    "link": "https://music.163.com/#/song?id=26092780"
+  },
+  {
+    "id": 26,
+    "content": "每次伸手入怀中，能有你温度",
+    "song": "稳稳的幸福",
+    "album": "稳稳的幸福",
+    "tags": ["healing", "love"],
+    "link": "https://music.163.com/#/song?id=26092780"
+  },
+  {
+    "id": 27,
+    "content": "能抵挡末日的残酷，在不安的深夜能有个归宿",
+    "song": "稳稳的幸福",
+    "album": "稳稳的幸福",
+    "tags": ["healing", "love", "power"],
+    "link": "https://music.163.com/#/song?id=26092780"
+  },
+  {
+    "id": 28,
+    "content": "何不把悲哀感觉假设是来自你虚构",
+    "song": "富士山下",
+    "album": "What's Going On...?",
+    "tags": ["philosophy", "healing", "sad"],
+    "link": "https://music.163.com/#/song?id=64443"
+  },
+  {
+    "id": 29,
+    "content": "试管里找不到它染污眼眸",
+    "song": "富士山下",
+    "album": "What's Going On...?",
+    "tags": ["philosophy"],
+    "link": "https://music.163.com/#/song?id=64443"
+  },
+  {
+    "id": 30,
+    "content": "要拥有必先懂得失去怎接受",
+    "song": "富士山下",
+    "album": "What's Going On...?",
+    "tags": ["philosophy", "healing", "classic"],
+    "link": "https://music.163.com/#/song?id=64443"
+  },
+  {
+    "id": 31,
+    "content": "曾沿着雪路浪游，为何为好事泪流",
+    "song": "富士山下",
+    "album": "What's Going On...?",
+    "tags": ["sad", "classic"],
+    "link": "https://music.163.com/#/song?id=64443"
+  },
+  {
+    "id": 32,
+    "content": "谁能凭爱意要富士山私有",
+    "song": "富士山下",
+    "album": "What's Going On...?",
+    "tags": ["philosophy", "classic", "love"],
+    "link": "https://music.163.com/#/song?id=64443"
+  },
+  {
+    "id": 33,
+    "content": "回忆是抓不到的月光握紧就变黑暗",
+    "song": "爱情转移",
+    "album": "认了吧",
+    "tags": ["sad", "philosophy", "classic"],
+    "link": "https://music.163.com/#/song?id=65766"
+  },
+  {
+    "id": 34,
+    "content": "等虚假的背影消失于晴朗",
+    "song": "爱情转移",
+    "album": "认了吧",
+    "tags": ["sad"],
+    "link": "https://music.163.com/#/song?id=65766"
+  },
+  {
+    "id": 35,
+    "content": "阳光在身上流转，等所有业障被原谅",
+    "song": "爱情转移",
+    "album": "认了吧",
+    "tags": ["healing", "philosophy"],
+    "link": "https://music.163.com/#/song?id=65766"
+  },
+  {
+    "id": 36,
+    "content": "爱情不停站，想开往地老天荒，需要多勇敢",
+    "song": "爱情转移",
+    "album": "认了吧",
+    "tags": ["love", "philosophy", "power"],
+    "link": "https://music.163.com/#/song?id=65766"
+  },
+  {
+    "id": 37,
+    "content": "感激车站里，尚有月台能让我们满足到落泪",
+    "song": "人来人往",
+    "album": "The Line-Up",
+    "tags": ["sad", "classic", "healing"],
+    "link": "https://music.163.com/#/song?id=64805"
+  },
+  {
+    "id": 38,
+    "content": "我已经相信，有些人我永远不必等",
+    "song": "K歌之王",
+    "album": "打得火热",
+    "tags": ["sad", "classic", "love"],
+    "link": "https://music.163.com/#/song?id=65538"
+  },
+  {
+    "id": 39,
+    "content": "所以我明白，在灯火阑珊处为什么会哭",
+    "song": "K歌之王",
+    "album": "打得火热",
+    "tags": ["sad", "classic"],
+    "link": "https://music.163.com/#/song?id=65538"
+  },
+  {
+    "id": 40,
+    "content": "我从来不说话因为我害怕没有人回答",
+    "song": "让我留在你身边",
+    "album": "让我留在你身边",
+    "tags": ["sad", "healing"],
+    "link": "https://music.163.com/#/song?id=440208476"
+  },
+  {
+    "id": 41,
+    "content": "我从来不挣扎因为我知道这世界太大",
+    "song": "让我留在你身边",
+    "album": "让我留在你身边",
+    "tags": ["philosophy", "healing"],
+    "link": "https://music.163.com/#/song?id=440208476"
+  },
+  {
+    "id": 42,
+    "content": "太多时间浪费 太多事要面对 太多已无所谓",
+    "song": "让我留在你身边",
+    "album": "让我留在你身边",
+    "tags": ["philosophy", "healing"],
+    "link": "https://music.163.com/#/song?id=440208476"
+  },
+  {
+    "id": 43,
+    "content": "不能后退的时候，不再彷徨的时候",
+    "song": "路一直都在",
+    "album": "不想放手",
+    "tags": ["power", "healing"],
+    "link": "https://music.163.com/#/song?id=64923"
+  },
+  {
+    "id": 44,
+    "content": "永远向前，路一直都在",
+    "song": "路一直都在",
+    "album": "不想放手",
+    "tags": ["power", "brightness"],
+    "link": "https://music.163.com/#/song?id=64923"
+  },
+  {
+    "id": 45,
+    "content": "That's just life 寻找梦里的未来",
+    "song": "路一直都在",
+    "album": "不想放手",
+    "tags": ["power", "philosophy"],
+    "link": "https://music.163.com/#/song?id=64923"
+  },
+  {
+    "id": 46,
+    "content": "That's just life 笑对现实的无奈",
+    "song": "路一直都在",
+    "album": "不想放手",
+    "tags": ["healing", "philosophy", "power"],
+    "link": "https://music.163.com/#/song?id=64923"
+  },
+  {
+    "id": 47,
+    "content": "烦恼会解决烦恼",
+    "song": "不求人",
+    "album": "C'mon In~",
+    "tags": ["philosophy", "healing"],
+    "link": "https://music.163.com/#/song?id=513360721"
+  },
+  {
+    "id": 48,
+    "content": "是所有热情会乾掉，一发现已经成熟了",
+    "song": "Crying In The Party",
+    "album": "Listen To Eason Chan",
+    "tags": ["philosophy", "sad"],
+    "link": "https://music.163.com/#/song?id=64769"
+  },
+  {
+    "id": 49,
+    "content": "若沉默似金，还谈什么恋爱",
+    "song": "Shall We Talk",
+    "album": "Shall We Dance? Shall We Talk!",
+    "tags": ["philosophy", "love"],
+    "link": "https://music.163.com/#/song?id=64860"
+  },
+  {
+    "id": 50,
+    "content": "宁愿在发声机器面前笑着忙",
+    "song": "Shall We Talk",
+    "album": "Shall We Dance? Shall We Talk!",
+    "tags": ["sad", "philosophy"],
+    "link": "https://music.163.com/#/song?id=64860"
+  },
+  {
+    "id": 51,
+    "content": "我说了所有的谎，你全都相信",
+    "song": "淘汰",
+    "album": "认了吧",
+    "tags": ["sad", "love"],
+    "link": "https://music.163.com/#/song?id=65776"
+  },
+  {
+    "id": 52,
+    "content": "简单的我爱你，你却老不信",
+    "song": "淘汰",
+    "album": "认了吧",
+    "tags": ["sad", "love"],
+    "link": "https://music.163.com/#/song?id=65776"
+  },
+  {
+    "id": 53,
+    "content": "说来实在嘲讽，我不太懂，偏渴望你懂",
+    "song": "红玫瑰",
+    "album": "认了吧",
+    "tags": ["sad", "love", "philosophy"],
+    "link": "https://music.163.com/#/song?id=65766"
+  },
+  {
+    "id": 54,
+    "content": "是否幸福轻得太沉重，过度使用不痒不痛",
+    "song": "红玫瑰",
+    "album": "认了吧",
+    "tags": ["philosophy", "sad"],
+    "link": "https://music.163.com/#/song?id=65766"
+  },
+  {
+    "id": 55,
+    "content": "曾爱惜的总要放手，难接手的又来等候",
+    "song": "我什么都没有",
+    "album": "我的快乐时代",
+    "tags": ["philosophy", "sad"],
+    "link": "https://music.163.com/#/song?id=64668"
+  },
+  {
+    "id": 56,
+    "content": "如我爱你你爱的他都要走，同样犯不着哀求",
+    "song": "我什么都没有",
+    "album": "我的快乐时代",
+    "tags": ["philosophy", "healing"],
+    "link": "https://music.163.com/#/song?id=64668"
+  },
+  {
+    "id": 57,
+    "content": "若无其事原来是最狠的报复",
+    "song": "想哭",
+    "album": "Special Thanks To...",
+    "tags": ["sad", "classic"],
+    "link": "https://music.163.com/#/song?id=64548"
+  },
+  {
+    "id": 58,
+    "content": "我才明白时间较分手还残酷",
+    "song": "想哭",
+    "album": "Special Thanks To...",
+    "tags": ["sad", "philosophy"],
+    "link": "https://music.163.com/#/song?id=64548"
+  },
+  {
+    "id": 59,
+    "content": "老朋友了再没资格不满足",
+    "song": "想哭",
+    "album": "Special Thanks To...",
+    "tags": ["sad"],
+    "link": "https://music.163.com/#/song?id=64548"
+  },
+  {
+    "id": 60,
+    "content": "为何旧知己，在最后变不到老友",
+    "song": "最佳损友",
+    "album": "Life Continues...",
+    "tags": ["sad", "classic", "healing"],
+    "link": "https://music.163.com/#/song?id=64293"
+  },
+  {
+    "id": 61,
+    "content": "来年陌生的，是昨日最亲的某某",
+    "song": "最佳损友",
+    "album": "Life Continues...",
+    "tags": ["sad", "classic"],
+    "link": "https://music.163.com/#/song?id=64293"
+  },
+  {
+    "id": 62,
+    "content": "我们约会我们再会，没想到再没有拥抱的机会",
+    "song": "你会不会",
+    "album": "认了吧",
+    "tags": ["sad", "love"],
+    "link": "https://music.163.com/#/song?id=65778"
+  },
+  {
+    "id": 63,
+    "content": "我们伤悲我们流泪，也只能流落到陌生人的嘴",
+    "song": "你会不会",
+    "album": "认了吧",
+    "tags": ["sad", "philosophy"],
+    "link": "https://music.163.com/#/song?id=65778"
+  },
+  {
+    "id": 64,
+    "content": "我们活在选择的年代，选择电视该看哪一台",
+    "song": "阿怪",
+    "album": "Nothing Really Matters",
+    "tags": ["philosophy", "classic"],
+    "link": "https://music.163.com/#/song?id=65099"
+  },
+  {
+    "id": 65,
+    "content": "选择一个人值不值得爱，选择离不开选择生小孩",
+    "song": "阿怪",
+    "album": "Nothing Really Matters",
+    "tags": ["philosophy", "classic"],
+    "link": "https://music.163.com/#/song?id=65099"
+  },
+  {
+    "id": 66,
+    "content": "我们很努力活得精彩，好让看起来活得精彩",
+    "song": "阿怪",
+    "album": "Nothing Really Matters",
+    "tags": ["philosophy", "sad", "classic"],
+    "link": "https://music.163.com/#/song?id=65099"
+  },
+  {
+    "id": 67,
+    "content": "难离难舍想抱紧些，茫茫人生好象荒野",
+    "song": "单车",
+    "album": "Shall We Dance? Shall We Talk!",
+    "tags": ["sad", "classic", "healing"],
+    "link": "https://music.163.com/#/song?id=64858"
+  },
+  {
+    "id": 68,
+    "content": "如孩儿能伏于爸爸的肩膊，哪怕遥遥长路多斜",
+    "song": "单车",
+    "album": "Shall We Dance? Shall We Talk!",
+    "tags": ["healing", "love", "classic"],
+    "link": "https://music.163.com/#/song?id=64858"
+  },
+  {
+    "id": 69,
+    "content": "一时进一时退，保持安全范围",
+    "song": "兄妹",
+    "album": "黑·白·灰",
+    "tags": ["sad", "love"],
+    "link": "https://music.163.com/#/song?id=64319"
+  },
+  {
+    "id": 70,
+    "content": "享受被爱滋味，却不让你想入非非",
+    "song": "兄妹",
+    "album": "黑·白·灰",
+    "tags": ["sad", "love"],
+    "link": "https://music.163.com/#/song?id=64319"
+  },
+  {
+    "id": 71,
+    "content": "不能相爱的一对，亲爱像两兄妹",
+    "song": "兄妹",
+    "album": "黑·白·灰",
+    "tags": ["sad", "love", "classic"],
+    "link": "https://music.163.com/#/song?id=64319"
+  },
+  {
+    "id": 72,
+    "content": "每次退后又错过你的世界一点",
+    "song": "心的距离",
+    "album": "5711",
+    "tags": ["sad", "love"],
+    "link": "https://music.163.com/#/song?id=208902"
+  },
+  {
+    "id": 73,
+    "content": "我没有办法清醒应付新的对决",
+    "song": "心的距离",
+    "album": "5711",
+    "tags": ["sad", "love"],
+    "link": "https://music.163.com/#/song?id=208902"
+  },
+  {
+    "id": 74,
+    "content": "你却轻易让我的心委屈到极限",
+    "song": "心的距离",
+    "album": "5711",
+    "tags": ["sad", "love"],
+    "link": "https://music.163.com/#/song?id=208902"
+  },
+  {
+    "id": 75,
+    "content": "爱一个人是不是应该有默契",
+    "song": "不要说话",
+    "album": "不想放手",
+    "tags": ["love", "classic"],
+    "link": "https://music.163.com/#/song?id=64929"
+  },
+  {
+    "id": 76,
+    "content": "我以为你懂得每当我看着你",
+    "song": "不要说话",
+    "album": "不想放手",
+    "tags": ["love"],
+    "link": "https://music.163.com/#/song?id=64929"
+  },
+  {
+    "id": 77,
+    "content": "愿意在角落唱沙哑的歌，再大声也都是给你",
+    "song": "不要说话",
+    "album": "不想放手",
+    "tags": ["love", "classic"],
+    "link": "https://music.163.com/#/song?id=64929"
+  },
+  {
+    "id": 78,
+    "content": "请用心听不要说话",
+    "song": "不要说话",
+    "album": "不想放手",
+    "tags": ["love", "classic"],
+    "link": "https://music.163.com/#/song?id=64929"
+  },
+  {
+    "id": 79,
+    "content": "夸张只因我很怕",
+    "song": "浮夸",
+    "album": "U87",
+    "tags": ["crazy", "sad"],
+    "link": "https://music.163.com/#/song?id=64497"
+  },
+  {
+    "id": 80,
+    "content": "似木头似石头的话得到注意吗",
+    "song": "浮夸",
+    "album": "U87",
+    "tags": ["crazy", "sad", "philosophy"],
+    "link": "https://music.163.com/#/song?id=64497"
+  },
+  {
+    "id": 81,
+    "content": "其实怕被忘记，至放大来演吧",
+    "song": "浮夸",
+    "album": "U87",
+    "tags": ["crazy", "sad"],
+    "link": "https://music.163.com/#/song?id=64497"
+  },
+  {
+    "id": 82,
+    "content": "很不安怎去优雅，世上还赞颂沉默吗，不够爆炸",
+    "song": "浮夸",
+    "album": "U87",
+    "tags": ["crazy", "power"],
+    "link": "https://music.163.com/#/song?id=64497"
+  },
+  {
+    "id": 83,
+    "content": "我想见的笑脸只有怀念",
+    "song": "不如不见",
+    "album": "What's Going On...?",
+    "tags": ["sad", "classic"],
+    "link": "https://music.163.com/#/song?id=64445"
+  },
+  {
+    "id": 84,
+    "content": "不懂怎去再聊天",
+    "song": "不如不见",
+    "album": "What's Going On...?",
+    "tags": ["sad"],
+    "link": "https://music.163.com/#/song?id=64445"
+  },
+  {
+    "id": 85,
+    "content": "似等了一百年忽已明白",
+    "song": "不如不见",
+    "album": "What's Going On...?",
+    "tags": ["sad", "philosophy"],
+    "link": "https://music.163.com/#/song?id=64445"
+  },
+  {
+    "id": 86,
+    "content": "即使再见面，成熟地表演，不如不见",
+    "song": "不如不见",
+    "album": "What's Going On...?",
+    "tags": ["sad", "classic", "healing"],
+    "link": "https://music.163.com/#/song?id=64445"
+  },
+  {
+    "id": 87,
+    "content": "爱上了，看见你，如何不懂谦卑",
+    "song": "岁月如歌",
+    "album": "Live For Today",
+    "tags": ["love", "classic"],
+    "link": "https://music.163.com/#/song?id=64609"
+  },
+  {
+    "id": 88,
+    "content": "去讲心中理想，不会俗气",
+    "song": "岁月如歌",
+    "album": "Live For Today",
+    "tags": ["power", "love"],
+    "link": "https://music.163.com/#/song?id=64609"
+  },
+  {
+    "id": 89,
+    "content": "也许一生太短陪着你",
+    "song": "岁月如歌",
+    "album": "Live For Today",
+    "tags": ["love", "sad"],
+    "link": "https://music.163.com/#/song?id=64609"
+  },
+  {
+    "id": 90,
+    "content": "情感有若行李，仍然沉重，待我整理",
+    "song": "岁月如歌",
+    "album": "Live For Today",
+    "tags": ["love", "sad", "philosophy"],
+    "link": "https://music.163.com/#/song?id=64609"
+  },
+  {
+    "id": 91,
+    "content": "但我拖著躯壳发现沿途寻找的快乐",
+    "song": "一丝不挂",
+    "album": "Time Flies",
+    "tags": ["philosophy", "sad"],
+    "link": "https://music.163.com/#/song?id=396435"
+  },
+  {
+    "id": 92,
+    "content": "仍系於你肩膊或是其实在等我舍割",
+    "song": "一丝不挂",
+    "album": "Time Flies",
+    "tags": ["love", "sad"],
+    "link": "https://music.163.com/#/song?id=396435"
+  },
+  {
+    "id": 93,
+    "content": "然后断线风筝会直飞天国",
+    "song": "一丝不挂",
+    "album": "Time Flies",
+    "tags": ["healing", "sad"],
+    "link": "https://music.163.com/#/song?id=396435"
+  },
+  {
+    "id": 94,
+    "content": "那个背包载满记念品和患难",
+    "song": "你的背包",
+    "album": "Special Thanks To...",
+    "tags": ["classic", "love"],
+    "link": "https://music.163.com/#/song?id=64543"
+  },
+  {
+    "id": 95,
+    "content": "还有摩擦留下的图案",
+    "song": "你的背包",
+    "album": "Special Thanks To...",
+    "tags": ["love", "memory"],
+    "link": "https://music.163.com/#/song?id=64543"
+  },
+  {
+    "id": 96,
+    "content": "千金不换它已熟悉我的汗",
+    "song": "你的背包",
+    "album": "Special Thanks To...",
+    "tags": ["love", "classic"],
+    "link": "https://music.163.com/#/song?id=64543"
+  },
+  {
+    "id": 97,
+    "content": "它是我肩膀上的指环",
+    "song": "你的背包",
+    "album": "Special Thanks To...",
+    "tags": ["love", "classic"],
+    "link": "https://music.163.com/#/song?id=64543"
+  },
+  {
+    "id": 98,
+    "content": "这是个残酷的喜剧",
+    "song": "婚礼的祝福",
+    "album": "婚礼的祝福",
+    "tags": ["sad", "classic"],
+    "link": "https://music.163.com/#/song?id=65271"
+  },
+  {
+    "id": 99,
+    "content": "我的人生早留在你那里",
+    "song": "婚礼的祝福",
+    "album": "婚礼的祝福",
+    "tags": ["sad", "love"],
+    "link": "https://music.163.com/#/song?id=65271"
+  },
+  {
+    "id": 100,
+    "content": "我却还要故作潇洒地",
+    "song": "婚礼的祝福",
+    "album": "婚礼的祝福",
+    "tags": ["sad", "acting"],
+    "link": "https://music.163.com/#/song?id=65271"
+  },
+  {
+    "id": 101,
+    "content": "你的喜贴是我的请贴",
+    "song": "婚礼的祝福",
+    "album": "婚礼的祝福",
+    "tags": ["sad", "classic"],
+    "link": "https://music.163.com/#/song?id=65271"
+  },
+  {
+    "id": 102,
+    "content": "你邀我举杯，我只能回敬我的崩溃",
+    "song": "婚礼的祝福",
+    "album": "婚礼的祝福",
+    "tags": ["sad", "classic", "healing"],
+    "link": "https://music.163.com/#/song?id=65271"
+  },
+  {
+    "id": 103,
+    "content": "幸得艰辛的引路甜蜜不致太寡",
+    "song": "苦瓜",
+    "album": "Stranger Under My Skin",
+    "tags": ["healing", "philosophy"],
+    "link": "https://music.163.com/#/song?id=4946394"
+  },
+  {
+    "id": 104,
+    "content": "我最大的遗憾，是你的遗憾与我有关",
+    "song": "我们",
+    "album": "我们",
+    "tags": ["sad", "love", "classic"],
+    "link": "https://music.163.com/#/song?id=551816010"
+  },
+  {
+    "id": 105,
+    "content": "无论我身在何处，都不会迷途",
+    "song": "稳稳的幸福",
+    "album": "稳稳的幸福",
+    "tags": ["healing", "power"],
+    "link": "https://music.163.com/#/song?id=26092780"
+  },
+  {
+    "id": 106,
+    "content": "我是沉默的存在，不当你的世界，只作你肩膀",
+    "song": "陪你度过漫长岁月",
+    "album": "陪你度过漫长岁月",
+    "tags": ["love", "healing"],
+    "link": "https://music.163.com/#/song?id=36990266"
+  },
+  {
+    "id": 107,
+    "content": "让我对这世界好奇让我信自己的真理",
+    "song": "我的快乐时代",
+    "album": "我的快乐时代",
+    "tags": ["power", "classic"],
+    "link": "https://music.163.com/#/song?id=64663"
+  },
+  {
+    "id": 108,
+    "content": "长路漫漫是如何走过",
+    "song": "我的快乐时代",
+    "album": "我的快乐时代",
+    "tags": ["philosophy", "classic"],
+    "link": "https://music.163.com/#/song?id=64663"
+  },
+  {
+    "id": 109,
+    "content": "宁愿让乐极忘形的我，离时代远远没人间烟火",
+    "song": "我的快乐时代",
+    "album": "我的快乐时代",
+    "tags": ["classic", "philosophy"],
+    "link": "https://music.163.com/#/song?id=64663"
+  },
+  {
+    "id": 110,
+    "content": "毫无代价唱最幸福的歌",
+    "song": "我的快乐时代",
+    "album": "我的快乐时代",
+    "tags": ["classic", "healing", "brightness"],
+    "link": "https://music.163.com/#/song?id=64663"
+  },
+  {
+    "id": 111,
+    "content": "结伴创将来多么的美",
+    "song": "每一个明天",
+    "album": "Every Best of Eason",
+    "tags": ["brightness", "power"],
+    "link": "https://music.163.com/#/song?id=64953"
+  },
+  {
+    "id": 112,
+    "content": "你的路我的途再也不分己与彼",
+    "song": "每一个明天",
+    "album": "Every Best of Eason",
+    "tags": ["love", "brightness"],
+    "link": "https://music.163.com/#/song?id=64953"
+  },
+  {
+    "id": 113,
+    "content": "有浪有风来不舍不弃每一明天也赠你",
+    "song": "每一个明天",
+    "album": "Every Best of Eason",
+    "tags": ["love", "power"],
+    "link": "https://music.163.com/#/song?id=64953"
+  },
+  {
+    "id": 114,
+    "content": "抬头吧相信爱你便能飞",
+    "song": "今日",
+    "album": "天佑爱人",
+    "tags": ["power", "healing"],
+    "link": "https://music.163.com/#/song?id=64684"
+  },
+  {
+    "id": 115,
+    "content": "敢交出你会创出传奇",
+    "song": "今日",
+    "album": "天佑爱人",
+    "tags": ["power", "brightness"],
+    "link": "https://music.163.com/#/song?id=64684"
+  },
+  {
+    "id": 116,
+    "content": "变幻人生是避无可避",
+    "song": "今日",
+    "album": "天佑爱人",
+    "tags": ["philosophy", "power"],
+    "link": "https://music.163.com/#/song?id=64684"
+  },
+  {
+    "id": 117,
+    "content": "却没人可驱使爱别离",
+    "song": "今日",
+    "album": "天佑爱人",
+    "tags": ["love", "power"],
+    "link": "https://music.163.com/#/song?id=64684"
+  },
+  {
+    "id": 118,
+    "content": "别要惊别要惊乱世下佈满樽颈",
+    "song": "黑择明",
+    "album": "What's Going On...?",
+    "tags": ["power", "healing"],
+    "link": "https://music.163.com/#/song?id=64448"
+  },
+  {
+    "id": 119,
+    "content": "这都市已吃够血腥",
+    "song": "黑择明",
+    "album": "What's Going On...?",
+    "tags": ["dark", "social"],
+    "link": "https://music.163.com/#/song?id=64448"
+  },
+  {
+    "id": 120,
+    "content": "死亡迟早都找你切勿凭自己",
+    "song": "黑择明",
+    "album": "What's Going On...?",
+    "tags": ["philosophy", "healing"],
+    "link": "https://music.163.com/#/song?id=64448"
+  },
+  {
+    "id": 121,
+    "content": "我相信做好自己我相信我就是奇迹",
+    "song": "相信自己无限极",
+    "album": "相信自己无限极",
+    "tags": ["power", "brightness"],
+    "link": "https://music.163.com/#/song?id=26428006"
+  },
+  {
+    "id": 122,
+    "content": "我知道我心里会有更大的天地",
+    "song": "相信自己无限极",
+    "album": "相信自己无限极",
+    "tags": ["power", "brightness"],
+    "link": "https://music.163.com/#/song?id=26428006"
+  },
+  {
+    "id": 123,
+    "content": "要相信自己无限极",
+    "song": "相信自己无限极",
+    "album": "相信自己无限极",
+    "tags": ["power", "brightness"],
+    "link": "https://music.163.com/#/song?id=26428006"
+  },
+  {
+    "id": 124,
+    "content": "你也需要一个相信你的人",
+    "song": "相信你的人",
+    "album": "相信你的人",
+    "tags": ["healing", "love"],
+    "link": "https://music.163.com/#/song?id=1376137684"
+  },
+  {
+    "id": 125,
+    "content": "暖暖看你不同于人们的眼神",
+    "song": "相信你的人",
+    "album": "相信你的人",
+    "tags": ["healing", "love"],
+    "link": "https://music.163.com/#/song?id=1376137684"
+  },
+  {
+    "id": 126,
+    "content": "当你怀抱伤痕仍旧朝梦想狂奔",
+    "song": "相信你的人",
+    "album": "相信你的人",
+    "tags": ["power", "healing"],
+    "link": "https://music.163.com/#/song?id=1376137684"
+  },
+  {
+    "id": 127,
+    "content": "他会心疼不忍同时又为你兴奋",
+    "song": "相信你的人",
+    "album": "相信你的人",
+    "tags": ["love", "healing"],
+    "link": "https://music.163.com/#/song?id=1376137684"
+  },
+  {
+    "id": 128,
+    "content": "呕心搞些搞作但青春都给挥霍",
+    "song": "大人",
+    "album": "The Key",
+    "tags": ["philosophy", "sad"],
+    "link": "https://music.163.com/#/song?id=26092784"
+  },
+  {
+    "id": 129,
+    "content": "何不开心吹吹那号角",
+    "song": "大人",
+    "album": "The Key",
+    "tags": ["power", "brightness"],
+    "link": "https://music.163.com/#/song?id=26092784"
+  },
+  {
+    "id": 130,
+    "content": "来到一家电影院我让他买票",
+    "song": "疯狂的朋友",
+    "album": "Rice & Shine",
+    "tags": ["crazy", "memory"],
+    "link": "https://music.163.com/#/song?id=28481190"
+  },
+  {
+    "id": 131,
+    "content": "花了总共六百元谁跟你开玩笑",
+    "song": "疯狂的朋友",
+    "album": "Rice & Shine",
+    "tags": ["crazy"],
+    "link": "https://music.163.com/#/song?id=28481190"
+  },
+  {
+    "id": 132,
+    "content": "长路漫漫是如何走过，宁愿让乐极忘形的我",
+    "song": "我的快乐时代",
+    "album": "我的快乐时代",
+    "tags": ["philosophy", "classic"],
+    "link": "https://music.163.com/#/song?id=64663"
   }
 ]
