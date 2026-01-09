@@ -2,7 +2,8 @@
   "name": "eason-daily-lyrics",
   "displayName": "EasonCode",
   "description": "让Eason的歌词陪你度过每一个Debug的漫长岁月。",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "author": "Gaofan & Gemini",
   "publisher": "EasonFan",
   "icon": "images/eason_code_icon.png",
   "repository": {
