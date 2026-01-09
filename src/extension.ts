@@ -132,6 +132,16 @@ export function activate(context: vscode.ExtensionContext) {
 
         context.subscriptions.push(nextLyricCmd, menuCmd, changeMoodCmd);
 
+        // 监听配置变化
+        context.subscriptions.push(vscode.workspace.onDidChangeConfiguration(e => {
+            if (e.affectsConfiguration('eason.updateInterval')) {
+                startTimer();
+            }
+            if (e.affectsConfiguration('eason.lyricColor')) {
+                updateLyric();
+            }
+        }));
+
         // 3. 初始化并开始轮播
         updateLyric();
         startTimer();
@@ -209,6 +219,14 @@ function updateLyric() {
     if (!lyric) {
         myStatusBarItem.text = '$(music) Eason 休息中...';
         return;
+    }
+
+    const config = vscode.workspace.getConfiguration('eason');
+    const color = config.get<string>('lyricColor');
+    if (color) {
+        myStatusBarItem.color = color;
+    } else {
+        myStatusBarItem.color = undefined;
     }
 
     // 状态栏显示格式： 🎤 歌词内容

@@ -4,7 +4,7 @@
   "description": "让Eason的歌词陪你度过每一个Debug的漫长岁月。",
   "version": "0.0.1",
   "publisher": "EasonFan",
-  "icon": "assets/eason_code_icon.png",
+  "icon": "images/eason_code_icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/Gaofan1874/eason-daily-lyrics.git"
@@ -13,8 +13,7 @@
     "vscode": "^1.80.0"
   },
   "categories": [
-    "Other",
-    "Fun"
+    "Other"
   ],
   "activationEvents": [
     "onStartupFinished"
@@ -59,6 +58,11 @@
             "crazy"
           ],
           "description": "默认启动时的心情模式"
+        },
+        "eason.lyricColor": {
+          "type": "string",
+          "default": "#FFD700",
+          "description": "歌词在状态栏显示的颜色 (Hex code, e.g. #FFD700)"
         }
       }
     }
