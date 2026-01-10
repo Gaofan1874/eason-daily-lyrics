@@ -8,53 +8,138 @@ const bgSrc = window.posterData.bgSrc;
 const canvas = document.getElementById('posterCanvas');
 const ctx = canvas.getContext('2d');
 
-// --- Drawing Logic ---
+// --- State Management ---
+const state = {
+    img: null,
+    isLoaded: false,
+    x: 0,
+    y: 0,
+    scale: 1,
+    isDragging: false,
+    lastMouseX: 0,
+    lastMouseY: 0
+};
+
+// --- Initialization ---
+
+// Load Image
+const img = new Image();
+img.src = bgSrc;
+img.onload = () => {
+    state.img = img;
+    state.isLoaded = true;
+    
+    // Initial Fit: Cover
+    fitImageToCover();
+    draw();
+};
+img.onerror = () => {
+    draw(); // Draw fallback
+}
+
+// --- Interaction Events ---
+
+canvas.addEventListener('mousedown', (e) => {
+    if (!state.isLoaded) return;
+    state.isDragging = true;
+    state.lastMouseX = e.offsetX;
+    state.lastMouseY = e.offsetY;
+    canvas.style.cursor = 'grabbing';
+});
+
+window.addEventListener('mouseup', () => {
+    state.isDragging = false;
+    canvas.style.cursor = 'grab';
+});
+
+canvas.addEventListener('mousemove', (e) => {
+    if (!state.isDragging) return;
+    
+    const dx = e.offsetX - state.lastMouseX;
+    const dy = e.offsetY - state.lastMouseY;
+    
+    state.x += dx;
+    state.y += dy;
+    
+    state.lastMouseX = e.offsetX;
+    state.lastMouseY = e.offsetY;
+    
+    requestAnimationFrame(draw);
+});
+
+canvas.addEventListener('wheel', (e) => {
+    if (!state.isLoaded) return;
+    e.preventDefault();
+
+    const zoomIntensity = 0.1;
+    const delta = e.deltaY < 0 ? 1 : -1;
+    const newScale = state.scale + (delta * zoomIntensity);
+
+    // Limit zoom
+    if (newScale > 0.1 && newScale < 10) {
+        // Zoom towards center logic (simplified: just scale)
+        // Ideally we zoom towards mouse, but center zoom is easier for now
+        // To keep image centered while zooming:
+        // current_center_x = (canvas_w/2 - x) / scale
+        
+        // Let's implement simple center zoom for stability
+        const canvasCenterX = canvas.width / 2;
+        const canvasCenterY = canvas.height / 2;
+        
+        // Calculate offset based on scale change to keep center fixed
+        state.x = canvasCenterX - (canvasCenterX - state.x) * (newScale / state.scale);
+        state.y = canvasCenterY - (canvasCenterY - state.y) * (newScale / state.scale);
+        
+        state.scale = newScale;
+        requestAnimationFrame(draw);
+    }
+});
+
+// Set initial cursor
+canvas.style.cursor = 'grab';
+
+// --- Logic ---
+
+function fitImageToCover() {
+    if (!state.img) return;
+    
+    const canvasRatio = canvas.width / canvas.height;
+    const imgRatio = state.img.width / state.img.height;
+    
+    if (imgRatio > canvasRatio) {
+        // Image is wider: Match height
+        state.scale = canvas.height / state.img.height;
+        state.x = (canvas.width - state.img.width * state.scale) / 2;
+        state.y = 0;
+    } else {
+        // Image is taller: Match width
+        state.scale = canvas.width / state.img.width;
+        state.x = 0;
+        state.y = (canvas.height - state.img.height * state.scale) / 2;
+    }
+}
 
 function draw() {
-    // 1. Background Fill (Fallback)
+    // 1. Clear & Background Fill
     ctx.fillStyle = '#2d2d2d';
     ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-    // 2. Background Image (Full Screen Cover)
-    const img = new Image();
-    img.src = bgSrc;
-    img.onload = () => {
-        drawCoverImage(ctx, img);
-        drawOverlay();
-        drawText();
-    };
-    img.onerror = () => {
-        // If image fails, just draw overlay and text
-        drawOverlay();
-        drawText();
+    // 2. Draw Image with Transform
+    if (state.isLoaded && state.img) {
+        ctx.save();
+        ctx.translate(state.x, state.y);
+        ctx.scale(state.scale, state.scale);
+        ctx.drawImage(state.img, 0, 0);
+        ctx.restore();
     }
-}
 
-function drawCoverImage(ctx, img) {
-    const canvasRatio = canvas.width / canvas.height;
-    const imgRatio = img.width / img.height;
-    let renderW, renderH, renderX, renderY;
-
-    if (imgRatio > canvasRatio) {
-        // Image is wider than canvas: Match height, center width
-        renderH = canvas.height;
-        renderW = img.width * (canvas.height / img.height);
-        renderX = (canvas.width - renderW) / 2;
-        renderY = 0;
-    } else {
-        // Image is taller than canvas: Match width, center height
-        renderW = canvas.width;
-        renderH = img.height * (canvas.width / img.width);
-        renderX = 0;
-        renderY = (canvas.height - renderH) / 2;
-    }
-    
-    ctx.drawImage(img, renderX, renderY, renderW, renderH);
+    // 3. Draw Overlay & Text (Static)
+    drawOverlay();
+    drawText();
 }
 
 function drawOverlay() {
-    // 3. Dark Overlay for Text Readability
-    ctx.fillStyle = 'rgba(0, 0, 0, 0.6)'; // 60% opacity black
+    ctx.fillStyle = 'rgba(0, 0, 0, 0.4)'; // Slightly lighter for editing visibility
     ctx.fillRect(0, 0, canvas.width, canvas.height);
 }
 
@@ -66,9 +151,16 @@ function drawText() {
     // 4. Lyric Text
     ctx.font = 'bold 36px "Microsoft YaHei", sans-serif';
     
-    // Wrap text logic
-    // Lift text slightly up
+    // Shadow for better readability over complex images
+    ctx.shadowColor = 'rgba(0, 0, 0, 0.8)';
+    ctx.shadowBlur = 4;
+    ctx.shadowOffsetX = 2;
+    ctx.shadowOffsetY = 2;
+
     wrapText(ctx, lyric.content, 300, 320, 450, 60);
+
+    // Reset shadow
+    ctx.shadowColor = 'transparent';
 
     // 5. Song Info
     ctx.fillStyle = '#dddddd';
@@ -78,7 +170,7 @@ function drawText() {
     ctx.fillText('Album: ' + lyric.album, 300, 615);
 
     // 6. Footer
-    ctx.fillStyle = '#FFD700'; // Gold color
+    ctx.fillStyle = '#FFD700'; 
     ctx.font = 'italic 14px sans-serif';
     ctx.fillText('Generated by Eason Code VSCode Extension', 300, 750);
 }
@@ -88,7 +180,6 @@ function wrapText(context, text, x, y, maxWidth, lineHeight) {
     let line = '';
     let currentY = y;
 
-    // Auto-split logic
     for(let n = 0; n < chars.length; n++) {
         const testLine = line + chars[n];
         const metrics = context.measureText(testLine);
@@ -104,10 +195,14 @@ function wrapText(context, text, x, y, maxWidth, lineHeight) {
     context.fillText(line, x, currentY);
 }
 
-// --- Initialization ---
-
-// Initial Draw
+// Initial Draw Call
 draw();
+
+// Reset Action
+document.getElementById('resetBtn').addEventListener('click', () => {
+    fitImageToCover();
+    draw();
+});
 
 // Save Action
 document.getElementById('saveBtn').addEventListener('click', () => {
