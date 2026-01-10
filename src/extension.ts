@@ -11,8 +11,6 @@ let statusBarManager: StatusBarManager;
 let posterManager: PosterManager;
 
 export function activate(context: vscode.ExtensionContext) {
-    console.log('EasonCode is now active!');
-
     // 1. Initialize Services
     const config = vscode.workspace.getConfiguration('eason');
     const defaultMood = config.get<string>('defaultMood', 'random') as Mood;

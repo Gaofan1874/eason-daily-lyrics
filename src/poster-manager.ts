@@ -11,7 +11,44 @@ export class PosterManager {
         this.context = context;
     }
 
-    public generatePoster(lyric: Lyric) {
+    public async generatePoster(lyric: Lyric) {
+        // 1. User Selection for Background
+        const selection = await vscode.window.showQuickPick(
+            [
+                { label: '$(file-media) 默认背景', description: '使用 Eason Code 图标', type: 'default' },
+                { label: '$(file-directory) 选择本地图片...', description: '使用自己的 Eason 照片', type: 'local' }
+            ],
+            { placeHolder: '选择海报背景图' }
+        );
+
+        if (!selection) {
+            return;
+        }
+
+        let bgSrc = '';
+
+        if (selection.type === 'local') {
+            const fileUri = await vscode.window.showOpenDialog({
+                canSelectFiles: true,
+                canSelectFolders: false,
+                canSelectMany: false,
+                filters: {
+                    'Images': ['png', 'jpg', 'jpeg', 'gif', 'webp']
+                }
+            });
+
+            if (fileUri && fileUri[0]) {
+                // Read file to Base64 to avoid Webview permission issues with arbitrary paths
+                try {
+                    const fileData = fs.readFileSync(fileUri[0].fsPath);
+                    const mimeType = this.getMimeType(fileUri[0].fsPath);
+                    bgSrc = `data:${mimeType};base64,${fileData.toString('base64')}`;
+                } catch (e) {
+                    vscode.window.showErrorMessage('读取图片失败，将使用默认背景');
+                }
+            }
+        }
+
         // Create or show panel
         if (this.panel) {
             this.panel.reveal(vscode.ViewColumn.One);
@@ -50,7 +87,25 @@ export class PosterManager {
             );
         }
 
-        this.panel.webview.html = this.getHtmlForWebview(lyric);
+        // If bgSrc is still empty (default or error), use internal icon
+        if (!bgSrc) {
+            const iconPath = vscode.Uri.file(path.join(this.context.extensionPath, 'images', 'eason_code_icon.png'));
+            bgSrc = this.panel.webview.asWebviewUri(iconPath).toString();
+        }
+
+        this.panel.webview.html = this.getHtmlForWebview(lyric, bgSrc);
+    }
+
+    private getMimeType(filePath: string): string {
+        const ext = path.extname(filePath).toLowerCase();
+        switch (ext) {
+            case '.png': return 'image/png';
+            case '.jpg':
+            case '.jpeg': return 'image/jpeg';
+            case '.gif': return 'image/gif';
+            case '.webp': return 'image/webp';
+            default: return 'image/png';
+        }
     }
 
     private async savePosterImage(base64Data: string) {
@@ -76,21 +131,19 @@ export class PosterManager {
         }
     }
 
-    private getHtmlForWebview(lyric: Lyric): string {
+    private getHtmlForWebview(lyric: Lyric, bgSrc: string): string {
         // 1. Get Resource Paths
         const stylePath = vscode.Uri.file(path.join(this.context.extensionPath, 'media', 'poster.css'));
         const scriptPath = vscode.Uri.file(path.join(this.context.extensionPath, 'media', 'poster.js'));
-        const iconPath = vscode.Uri.file(path.join(this.context.extensionPath, 'images', 'eason_code_icon.png'));
 
         // 2. Convert to Webview URIs
         const styleUri = this.panel?.webview.asWebviewUri(stylePath);
         const scriptUri = this.panel?.webview.asWebviewUri(scriptPath);
-        const bgUri = this.panel?.webview.asWebviewUri(iconPath);
 
         // 3. Prepare Data
         const posterData = {
             lyric: lyric,
-            bgSrc: bgUri?.toString() || ''
+            bgSrc: bgSrc
         };
 
         // 4. Read Template
@@ -98,7 +151,6 @@ export class PosterManager {
         let html = fs.readFileSync(htmlPath, 'utf-8');
 
         // 5. Inject Content
-        // Using simple string replacement. In a larger app, a template engine might be better.
         html = html.replace('{{styleUri}}', styleUri?.toString() || '');
         html = html.replace('{{scriptUri}}', scriptUri?.toString() || '');
         html = html.replace('{{posterData}}', JSON.stringify(posterData));
