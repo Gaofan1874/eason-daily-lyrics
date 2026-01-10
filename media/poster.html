@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lyric Poster</title>
+    <!-- CSS Injection -->
+    <link href="{{styleUri}}" rel="stylesheet">
+</head>
+<body>
+    <div id="canvas-container">
+        <canvas id="posterCanvas" width="600" height="800"></canvas>
+    </div>
+    <button id="saveBtn">保存海报 (Save)</button>
+
+    <!-- Data Injection -->
+    <script>
+        window.posterData = {{posterData}};
+    </script>
+    
+    <!-- Script Injection -->
+    <script src="{{scriptUri}}"></script>
+</body>
+</html>
