@@ -15,7 +15,7 @@ export class PosterManager {
         // 1. User Selection for Background
         const selection = await vscode.window.showQuickPick(
             [
-                { label: '$(file-media) 默认背景', description: '使用 Eason Code 图标', type: 'default' },
+                { label: '$(file-media) 默认背景', description: '使用 Eason Code 默认提供的背景', type: 'default' },
                 { label: '$(file-directory) 选择本地图片...', description: '使用自己的 Eason 照片', type: 'local' }
             ],
             { placeHolder: '选择海报背景图' }
@@ -89,7 +89,7 @@ export class PosterManager {
 
         // If bgSrc is still empty (default or error), use internal icon
         if (!bgSrc) {
-            const iconPath = vscode.Uri.file(path.join(this.context.extensionPath, 'images', 'eason_code_icon.png'));
+            const iconPath = vscode.Uri.file(path.join(this.context.extensionPath, 'media', 'light&eason.png'));
             bgSrc = this.panel.webview.asWebviewUri(iconPath).toString();
         }
 

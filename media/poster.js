@@ -184,7 +184,7 @@ function drawClassic() {
     // 2. Image
     drawImageStandard();
 
-    // 3. Overlay
+    // 3. Overlay - REMOVED per user request for clearer image
     // ctx.fillStyle = 'rgba(0, 0, 0, 0.4)';
     // ctx.fillRect(0, 0, canvas.width, canvas.height);
 
@@ -193,8 +193,10 @@ function drawClassic() {
     ctx.textAlign = 'center';
     ctx.textBaseline = 'middle';
     ctx.font = 'bold 36px "Microsoft YaHei", sans-serif';
-    ctx.shadowColor = 'rgba(0, 0, 0, 0.8)';
-    ctx.shadowBlur = 4;
+    
+    // Stronger shadow since we removed the overlay
+    ctx.shadowColor = 'rgba(0, 0, 0, 0.9)';
+    ctx.shadowBlur = 6;
     ctx.shadowOffsetX = 2;
     ctx.shadowOffsetY = 2;
 
@@ -202,14 +204,27 @@ function drawClassic() {
 
     ctx.shadowColor = 'transparent';
 
+    // Song Info - Add shadow too because bg might be light
+    ctx.save();
+    ctx.shadowColor = 'rgba(0, 0, 0, 0.8)';
+    ctx.shadowBlur = 4;
     ctx.fillStyle = '#dddddd';
     ctx.font = '22px sans-serif';
     ctx.fillText('—— ' + lyric.song + ' ——', 300, 580);
     ctx.font = '16px sans-serif';
     ctx.fillText('Album: ' + lyric.album, 300, 615);
+    ctx.restore();
 
     if (state.showWatermark) {
-        drawFooter('#FFD700', 780);
+        ctx.save();
+        ctx.shadowColor = 'rgba(0, 0, 0, 0.8)';
+        ctx.shadowBlur = 4;
+        ctx.fillStyle = '#FFD700';
+        ctx.font = 'normal 12px "Courier New", monospace';
+        ctx.textAlign = 'center';
+        const text = 'E  A  S  O  N     C  O  D  E     D  A  I  L  Y';
+        ctx.fillText(text, 300, 780);
+        ctx.restore();
     }
 }
 
@@ -263,7 +278,11 @@ function drawPolaroid() {
 
     // 4. Watermark - Bottom Center (Stylish)
     if (state.showWatermark) {
-        drawFooter('#888888', 780);
+        ctx.fillStyle = '#555555'; // Darker for Polaroid
+        ctx.font = 'normal 10px "Courier New", monospace';
+        ctx.textAlign = 'center';
+        const text = 'S  H  O  T     O  N     E  A  S  O  N     C  O  D  E';
+        ctx.fillText(text, 300, 780);
     }
 }
 
@@ -307,7 +326,7 @@ function drawCinema() {
 
     // Watermark (Credits Style - Centered)
     if (state.showWatermark) {
-        ctx.fillStyle = '#aaaaaa'; // Brighter for visibility
+        ctx.fillStyle = '#eeeeee'; // Much brighter for Cinema
         ctx.textAlign = 'center';
         // Monospace, small, wide spacing simulated
         ctx.font = 'normal 10px "Courier New", monospace';
