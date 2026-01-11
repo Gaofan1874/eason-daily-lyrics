@@ -185,8 +185,8 @@ function drawClassic() {
     drawImageStandard();
 
     // 3. Overlay
-    ctx.fillStyle = 'rgba(0, 0, 0, 0.4)';
-    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    // ctx.fillStyle = 'rgba(0, 0, 0, 0.4)';
+    // ctx.fillRect(0, 0, canvas.width, canvas.height);
 
     // 4. Text
     ctx.fillStyle = '#ffffff';
