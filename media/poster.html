@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lyric Poster</title>
+    <!-- CSS Injection -->
+    <link href="{{styleUri}}" rel="stylesheet">
+</head>
+<body>
+    <div id="theme-controls">
+        <label><input type="radio" name="theme" value="classic" checked> 经典沉浸</label>
+        <label><input type="radio" name="theme" value="polaroid"> 拍立得</label>
+        <label><input type="radio" name="theme" value="cinema"> 电影感</label>
+        <div style="width: 20px;"></div> <!-- Spacer -->
+        <label><input type="checkbox" id="watermarkCheck" checked> 显示落款</label>
+    </div>
+
+    <div id="canvas-container">
+        <canvas id="posterCanvas" width="600" height="800"></canvas>
+    </div>
+    <div id="controls">
+        <button id="resetBtn">重置位置 (Reset)</button>
+        <button id="saveBtn">保存海报 (Save)</button>
+    </div>
+
+    <!-- Data Injection -->
+    <script>
+        window.posterData = {{posterData}};
+    </script>
+    
+    <!-- Script Injection -->
+    <script src="{{scriptUri}}"></script>
+</body>
+</html>

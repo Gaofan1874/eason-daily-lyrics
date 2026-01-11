@@ -1,18 +1,30 @@
 import * as vscode from 'vscode';
 import { LyricService } from './lyric-service';
 import { StatusBarManager } from './status-bar-manager';
+import { PosterManager } from './poster-manager';
 import { MOOD_LABELS } from './constant';
 import { Mood } from './types';
 
 export function registerCommands(
     context: vscode.ExtensionContext,
     service: LyricService,
-    ui: StatusBarManager
+    ui: StatusBarManager,
+    posterManager: PosterManager
 ) {
     // Command: Next Lyric
     const nextLyricCmd = vscode.commands.registerCommand('eason.nextLyric', () => {
         const lyric = service.pickRandomLyric();
         ui.update(lyric);
+    });
+
+    // Command: Generate Poster
+    const posterCmd = vscode.commands.registerCommand('eason.generatePoster', () => {
+        const lyric = service.getCurrentLyric();
+        if (lyric) {
+            posterManager.generatePoster(lyric);
+        } else {
+            vscode.window.showInformationMessage('当前没有播放歌词，无法生成海报。');
+        }
     });
 
     // Command: Show Menu
@@ -27,6 +39,12 @@ export function registerCommands(
                 label: '$(arrow-right) 切歌', 
                 description: '换下一句', 
                 action: 'next' 
+            });
+            
+            menuItems.push({
+                label: '$(file-media) 生成歌词海报',
+                description: '分享此刻心情',
+                action: 'poster'
             });
         }
         
@@ -54,6 +72,8 @@ export function registerCommands(
                 vscode.commands.executeCommand('eason.nextLyric');
             } else if (selection.action === 'mood') {
                 vscode.commands.executeCommand('eason.changeMood');
+            } else if (selection.action === 'poster') {
+                vscode.commands.executeCommand('eason.generatePoster');
             } else if (selection.action === 'link' && lyric) {
                 vscode.env.openExternal(vscode.Uri.parse(lyric.link || 'https://music.163.com'));
             }
@@ -91,14 +111,16 @@ export function registerCommands(
         });
         
         if (selected) {
-            service.setMood(selected.mood as Mood);
+            const newMood = selected.mood as Mood;
+            service.setMood(newMood);
+            
             const newLyric = service.pickRandomLyric();
             ui.update(newLyric);
             
-            const moodLabel = MOOD_LABELS[selected.mood as Mood];
-            vscode.window.showInformationMessage(`Eason 已切换至 ${moodLabel} 模式`);
+            const moodLabel = MOOD_LABELS[newMood];
+            vscode.window.showInformationMessage(`Eason 已切换至 ${moodLabel} mode`);
         }
     });
 
-    context.subscriptions.push(nextLyricCmd, menuCmd, changeMoodCmd);
+    context.subscriptions.push(nextLyricCmd, posterCmd, menuCmd, changeMoodCmd);
 }
