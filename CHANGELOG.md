@@ -4,6 +4,22 @@ All notable changes to the "eason-daily-lyrics" extension will be documented in 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.1.0] - 2026-01-12
+
+### ✨ Major Features
+- **海报编辑器 2.0 (Poster Editor 2.0)**:
+  - **全新 UI 设计**：采用左右双栏布局，深度适配 VS Code 原生风格，操作更流畅。
+  - **📝 交互式歌词编辑**：
+    - 直接在编辑器中修改歌词内容。
+    - 支持**空格换行**和手动回车换行，轻松掌控排版。
+  - **🎛️ 专业排版控制**：
+    - **字号调节**：滑动条无级调节文字大小。
+    - **行高调节**：自定义行间距，适应不同长度的歌词。
+    - **垂直偏移**：上下移动文字区域，完美避开背景图的主体部分。
+  - **🎨 智能主题系统**：
+    - 切换风格（经典/拍立得/电影感）时，自动应用该风格的最佳默认参数。
+    - **独立重置功能**：支持分别重置“图片构图”和“排版参数”，操作更灵活。
+
 ## [0.0.3] - 2026-01-10
 
 ### ✨ Added
