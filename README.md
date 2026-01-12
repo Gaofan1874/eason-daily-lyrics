@@ -13,7 +13,7 @@
 
 > 🎬 **插件演示 (希望它能陪伴你的编码时光)**
 
-![EasonCode Demo](src/assets/demo.gif)
+![EasonCode Demo](images/readme_assets/demo.gif)
 
 ## **✨ 核心特性 (Features)**
 
@@ -30,7 +30,7 @@
 
 | 经典沉浸 (Classic) | 文艺拍立得 (Polaroid) | 电影故事 (Cinema) |
 | :---: | :---: | :---: |
-| <img src="src/assets/黑夜不再来-经典.png" width="100%"> | <img src="src/assets/黑夜不再来-拍立得.png" width="100%"> | <img src="src/assets/黑夜不再来-电影感.png" width="100%"> |
+| <img src="images/readme_assets/poster-classic.png" width="100%"> | <img src="images/readme_assets/poster-polaroid.png" width="100%"> | <img src="images/readme_assets/poster-cinema.png" width="100%"> |
 
 ---
 
@@ -42,7 +42,7 @@
 *   支持点击歌词查看出处（歌曲、专辑）。
 
 <div align="center">
-  <img src="src/assets/lyrics.png" width="40%" />
+  <img src="images/readme_assets/lyrics.png" width="40%" />
 </div>
 
 ### **3\. 情绪模式切换 (Mood Switch)**
@@ -60,7 +60,7 @@
 | **岁月金曲 (Classic)** | 📀 | 怀旧/经典 | 午后闲暇，重温经典旋律 |
 
 <div align="center">
-  <img src="src/assets/category.png" width="60%" />
+  <img src="images/readme_assets/category.png" width="60%" />
 </div>
 
 ### **4\. 低打扰设计 (Zen Mode)**
