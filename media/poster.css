@@ -1,57 +1,212 @@
 body {
     display: flex;
-    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: var(--vscode-editor-background);
+    color: var(--vscode-foreground);
+    font-family: var(--vscode-font-family);
+    overflow: hidden;
+}
+
+/* 左侧预览区 */
+#preview-area {
+    flex: 1;
+    display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    background-color: var(--vscode-editor-background);
-    color: var(--vscode-editor-foreground);
-    margin: 0;
+    background-color: var(--vscode-editor-background); /* 或稍微深一点/浅一点区分 */
     padding: 20px;
+    overflow: auto;
+    position: relative;
 }
 
-#theme-controls {
-    display: flex;
-    gap: 20px;
-    margin-bottom: 15px;
-    background: var(--vscode-editor-widget-background);
-    padding: 10px 20px;
-    border-radius: 20px;
-}
-
-label {
-    cursor: pointer;
-    font-size: 14px;
-    display: flex;
-    align-items: center;
-    gap: 5px;
-}
-
-input[type="radio"] {
-    accent-color: var(--vscode-progressBar-background);
+/* 棋盘格背景，让透明区域可见（如果有） */
+#preview-area::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    z-index: -1;
+    opacity: 0.1;
+    background-image: linear-gradient(45deg, #808080 25%, transparent 25%), 
+                      linear-gradient(-45deg, #808080 25%, transparent 25%), 
+                      linear-gradient(45deg, transparent 75%, #808080 75%), 
+                      linear-gradient(-45deg, transparent 75%, #808080 75%);
+    background-size: 20px 20px;
+    background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
 }
 
 #canvas-container {
-    box-shadow: 0 0 20px rgba(0,0,0,0.5);
-    margin-bottom: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    /* 确保画布不超出容器 */
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
 }
 
-#controls {
+canvas {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+/* 右侧设置栏 */
+#sidebar {
+    width: 320px;
+    min-width: 300px;
+    background-color: var(--vscode-sideBar-background);
+    border-left: 1px solid var(--vscode-sideBar-border);
+    padding: 20px;
     display: flex;
-    gap: 15px;
-    margin-bottom: 20px;
+    flex-direction: column;
+    gap: 24px;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+
+/* 设置分组 */
+.setting-section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.section-title {
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--vscode-sideBarTitle-foreground);
+    opacity: 0.8;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid var(--vscode-panel-border);
+    padding-bottom: 4px;
+}
+
+/* 控件行 */
+.control-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.control-label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+.control-value {
+    font-family: monospace;
+    opacity: 0.8;
+}
+
+/* 样式化输入控件 */
+input[type="range"] {
+    width: 100%;
+    accent-color: var(--vscode-progressBar-background);
+    height: 4px;
+    margin: 8px 0;
+}
+
+textarea {
+    background-color: var(--vscode-input-background);
+    color: var(--vscode-input-foreground);
+    border: 1px solid var(--vscode-input-border);
+    border-radius: 2px;
+    padding: 8px;
+    font-family: var(--vscode-font-family);
+    font-size: 13px;
+    resize: vertical;
+    min-height: 80px;
+}
+
+textarea:focus {
+    outline: 1px solid var(--vscode-focusBorder);
+}
+
+/* Radio Button Group (类似 Segmented Control) */
+.theme-selector {
+    display: flex;
+    background-color: var(--vscode-input-background);
+    border-radius: 4px;
+    padding: 2px;
+    gap: 2px;
+}
+
+.theme-option {
+    flex: 1;
+    position: relative;
+}
+
+.theme-option input {
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.theme-option span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    font-size: 12px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background 0.2s;
+    text-align: center;
+}
+
+.theme-option input:checked + span {
+    background-color: var(--vscode-button-background);
+    color: var(--vscode-button-foreground);
+    font-weight: 500;
+}
+
+.checkbox-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    font-size: 13px;
+    user-select: none;
+}
+
+/* 底部按钮区 */
+.actions {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
 }
 
 button {
     background-color: var(--vscode-button-background);
     color: var(--vscode-button-foreground);
     border: none;
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 500;
     cursor: pointer;
-    border-radius: 4px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
 }
 
 button:hover {
     background-color: var(--vscode-button-hoverBackground);
+}
+
+button.secondary {
+    background-color: var(--vscode-button-secondaryBackground);
+    color: var(--vscode-button-secondaryForeground);
+}
+
+button.secondary:hover {
+    background-color: var(--vscode-button-secondaryHoverBackground);
 }

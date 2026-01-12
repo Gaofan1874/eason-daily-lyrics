@@ -4,24 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lyric Poster</title>
-    <!-- CSS Injection -->
     <link href="{{styleUri}}" rel="stylesheet">
 </head>
 <body>
-    <div id="theme-controls">
-        <label><input type="radio" name="theme" value="classic" checked> 经典沉浸</label>
-        <label><input type="radio" name="theme" value="polaroid"> 拍立得</label>
-        <label><input type="radio" name="theme" value="cinema"> 电影感</label>
-        <div style="width: 20px;"></div> <!-- Spacer -->
-        <label><input type="checkbox" id="watermarkCheck" checked> 显示落款</label>
+    <!-- 左侧：预览区域 -->
+    <div id="preview-area">
+        <div id="canvas-container">
+            <canvas id="posterCanvas" width="600" height="800"></canvas>
+        </div>
     </div>
 
-    <div id="canvas-container">
-        <canvas id="posterCanvas" width="600" height="800"></canvas>
-    </div>
-    <div id="controls">
-        <button id="resetBtn">重置位置 (Reset)</button>
-        <button id="saveBtn">保存海报 (Save)</button>
+    <!-- 右侧：设置侧边栏 -->
+    <div id="sidebar">
+        
+        <!-- 1. 主题风格 -->
+        <div class="setting-section">
+            <div class="section-title">风格 (Style)</div>
+            
+            <div class="theme-selector">
+                <label class="theme-option">
+                    <input type="radio" name="theme" value="classic" checked>
+                    <span>经典</span>
+                </label>
+                <label class="theme-option">
+                    <input type="radio" name="theme" value="polaroid">
+                    <span>拍立得</span>
+                </label>
+                <label class="theme-option">
+                    <input type="radio" name="theme" value="cinema">
+                    <span>电影感</span>
+                </label>
+            </div>
+
+            <label class="checkbox-row">
+                <input type="checkbox" id="watermarkCheck" checked>
+                <span>显示 "Eason Code" 落款</span>
+            </label>
+        </div>
+
+        <!-- 2. 排版设置 -->
+        <div class="setting-section">
+            <div class="section-title">排版 (Typography)</div>
+            
+            <div class="control-group">
+                <div class="control-label">
+                    <span>文字大小</span>
+                    <span id="fontSizeVal" class="control-value">36px</span>
+                </div>
+                <input type="range" id="fontSizeInput" min="12" max="80">
+            </div>
+
+            <div class="control-group">
+                <div class="control-label">
+                    <span>行间距</span>
+                    <span id="lineHeightVal" class="control-value">60px</span>
+                </div>
+                <input type="range" id="lineHeightInput" min="20" max="120">
+            </div>
+
+            <div class="control-group">
+                <div class="control-label">
+                    <span>垂直位置</span>
+                    <span id="textOffsetVal" class="control-value">0</span>
+                </div>
+                <input type="range" id="textOffsetInput" min="-300" max="300" value="0">
+            </div>
+        </div>
+
+        <!-- 3. 内容编辑 -->
+        <div class="setting-section">
+            <div class="section-title">内容 (Content)</div>
+            <div class="control-group">
+                <textarea id="lyricInput" placeholder="在此编辑歌词..."></textarea>
+            </div>
+        </div>
+
+        <!-- 4. 操作按钮 -->
+        <div class="actions">
+            <button id="saveBtn">
+                <span>保存海报</span>
+            </button>
+            <div style="display: flex; gap: 10px;">
+                <button id="resetPosBtn" class="secondary" style="flex: 1;">
+                    <span>重置图片位置</span>
+                </button>
+                <button id="resetParamsBtn" class="secondary" style="flex: 1;">
+                    <span>恢复默认参数</span>
+                </button>
+            </div>
+        </div>
     </div>
 
     <!-- Data Injection -->

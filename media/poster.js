@@ -2,13 +2,23 @@
 const vscode = acquireVsCodeApi();
 
 // Get data injected from the extension
-const lyric = window.posterData.lyric;
+const initialLyric = window.posterData.lyric;
 const bgSrc = window.posterData.bgSrc;
 
 const canvas = document.getElementById('posterCanvas');
 const ctx = canvas.getContext('2d');
 
+// --- Configuration & Defaults ---
+const THEME_DEFAULTS = {
+    classic: { fontSize: 36, lineHeight: 60, fontFace: 'Microsoft YaHei', color: '#ffffff' },
+    polaroid: { fontSize: 26, lineHeight: 42, fontFace: 'Times New Roman', color: '#333333' },
+    cinema:   { fontSize: 24, lineHeight: 35, fontFace: 'sans-serif', color: '#FFC90E' }
+};
+
 // --- State Management ---
+const initialTheme = 'classic';
+const initialDefaults = THEME_DEFAULTS[initialTheme];
+
 const state = {
     img: null,
     isLoaded: false,
@@ -18,13 +28,40 @@ const state = {
     isDragging: false,
     lastMouseX: 0,
     lastMouseY: 0,
-    theme: 'classic', // classic | polaroid | cinema
-    showWatermark: true
+    
+    // User Settings
+    theme: initialTheme, // classic | polaroid | cinema
+    showWatermark: true,
+    
+    // Text Settings
+    lyricText: initialLyric.content,
+    fontSize: initialDefaults.fontSize,
+    lineHeight: initialDefaults.lineHeight,
+    textOffsetY: 0
+};
+
+// --- UI Elements ---
+const els = {
+    lyricInput: document.getElementById('lyricInput'),
+    fontSizeInput: document.getElementById('fontSizeInput'),
+    lineHeightInput: document.getElementById('lineHeightInput'),
+    textOffsetInput: document.getElementById('textOffsetInput'),
+    fontSizeVal: document.getElementById('fontSizeVal'),
+    lineHeightVal: document.getElementById('lineHeightVal'),
+    textOffsetVal: document.getElementById('textOffsetVal'),
+    watermarkCheck: document.getElementById('watermarkCheck'),
+    resetPosBtn: document.getElementById('resetPosBtn'),
+    resetParamsBtn: document.getElementById('resetParamsBtn'),
+    saveBtn: document.getElementById('saveBtn')
 };
 
 // --- Initialization ---
 
-// Load Image
+// 1. Initialize Inputs
+els.lyricInput.value = state.lyricText;
+updateInputsFromState();
+
+// 2. Load Image
 const img = new Image();
 img.src = bgSrc;
 img.onload = () => {
@@ -39,8 +76,33 @@ img.onerror = () => {
 
 // --- Interaction Events ---
 
-// Watermark Toggle
-document.getElementById('watermarkCheck').addEventListener('change', (e) => {
+// Text Controls
+els.lyricInput.addEventListener('input', (e) => {
+    state.lyricText = e.target.value;
+    draw();
+});
+
+els.fontSizeInput.addEventListener('input', (e) => {
+    state.fontSize = parseInt(e.target.value, 10);
+    els.fontSizeVal.textContent = state.fontSize + 'px';
+    draw();
+});
+
+els.lineHeightInput.addEventListener('input', (e) => {
+    state.lineHeight = parseInt(e.target.value, 10);
+    els.lineHeightVal.textContent = state.lineHeight + 'px';
+    draw();
+});
+
+els.textOffsetInput.addEventListener('input', (e) => {
+    state.textOffsetY = parseInt(e.target.value, 10);
+    els.textOffsetVal.textContent = state.textOffsetY;
+    draw();
+});
+
+
+// Watermark
+els.watermarkCheck.addEventListener('change', (e) => {
     state.showWatermark = e.target.checked;
     draw();
 });
@@ -48,12 +110,22 @@ document.getElementById('watermarkCheck').addEventListener('change', (e) => {
 // Theme Switching
 document.querySelectorAll('input[name="theme"]').forEach(radio => {
     radio.addEventListener('change', (e) => {
-        state.theme = e.target.value;
+        const newTheme = e.target.value;
+        state.theme = newTheme;
+        
+        // Apply Theme Defaults
+        const defaults = THEME_DEFAULTS[newTheme];
+        state.fontSize = defaults.fontSize;
+        state.lineHeight = defaults.lineHeight;
+        state.textOffsetY = 0; // Reset offset on theme change
+        
+        updateInputsFromState();
         fitImageToLayout(); // Reset layout for new theme
         draw();
     });
 });
 
+// Canvas Interaction (Drag & Zoom)
 canvas.addEventListener('mousedown', (e) => {
     if (!state.isLoaded) return;
     state.isDragging = true;
@@ -104,21 +176,27 @@ canvas.addEventListener('wheel', (e) => {
 
 canvas.style.cursor = 'grab';
 
-// --- Layout Helpers ---
+// --- Helper Functions ---
+
+function updateInputsFromState() {
+    els.fontSizeInput.value = state.fontSize;
+    els.fontSizeVal.textContent = state.fontSize + 'px';
+    
+    els.lineHeightInput.value = state.lineHeight;
+    els.lineHeightVal.textContent = state.lineHeight + 'px';
+    
+    els.textOffsetInput.value = state.textOffsetY;
+    els.textOffsetVal.textContent = state.textOffsetY;
+}
 
 function getDrawingArea() {
-    // Return the area where the image is allowed/expected to be drawn
     const w = canvas.width;
     const h = canvas.height;
 
     switch (state.theme) {
         case 'polaroid':
-            // Image is a square in the top part
-            // Padding: 40px
-            return { x: 40, y: 40, w: w - 80, h: w - 80 }; 
+            return { x: 45, y: 30, w: w - 90, h: w - 90 }; 
         case 'cinema':
-            // Image is full screen minus black bars
-            // Bar height: 100px
             return { x: 0, y: 100, w: w, h: h - 200 };
         case 'classic':
         default:
@@ -130,25 +208,17 @@ function fitImageToLayout() {
     if (!state.img) return;
     
     const area = getDrawingArea();
-    
-    // Calculate scale to cover the target area
     const areaRatio = area.w / area.h;
     const imgRatio = state.img.width / state.img.height;
     
     let scale;
     if (imgRatio > areaRatio) {
-        // Image is wider: Match height
         scale = area.h / state.img.height;
     } else {
-        // Image is taller: Match width
         scale = area.w / state.img.width;
     }
     
     state.scale = scale;
-    
-    // Center image in the area
-    // state.x/y represents the top-left corner of the image relative to canvas (0,0)
-    // We want: area.x + (area.w - imgW)/2
     state.x = area.x + (area.w - state.img.width * scale) / 2;
     state.y = area.y + (area.h - state.img.height * scale) / 2;
 }
@@ -157,7 +227,6 @@ function fitImageToLayout() {
 // --- Main Draw Loop ---
 
 function draw() {
-    // Clear
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
     switch (state.theme) {
@@ -177,6 +246,8 @@ function draw() {
 // --- Theme Renderers ---
 
 function drawClassic() {
+    const defaults = THEME_DEFAULTS.classic;
+
     // 1. Bg
     ctx.fillStyle = '#2d2d2d';
     ctx.fillRect(0, 0, canvas.width, canvas.height);
@@ -184,35 +255,32 @@ function drawClassic() {
     // 2. Image
     drawImageStandard();
 
-    // 3. Overlay - REMOVED per user request for clearer image
-    // ctx.fillStyle = 'rgba(0, 0, 0, 0.4)';
-    // ctx.fillRect(0, 0, canvas.width, canvas.height);
-
-    // 4. Text
-    ctx.fillStyle = '#ffffff';
+    // 3. Text
+    ctx.fillStyle = defaults.color;
     ctx.textAlign = 'center';
     ctx.textBaseline = 'middle';
-    ctx.font = 'bold 36px "Microsoft YaHei", sans-serif';
+    ctx.font = `bold ${state.fontSize}px "${defaults.fontFace}", sans-serif`;
     
-    // Stronger shadow since we removed the overlay
     ctx.shadowColor = 'rgba(0, 0, 0, 0.9)';
     ctx.shadowBlur = 6;
     ctx.shadowOffsetX = 2;
     ctx.shadowOffsetY = 2;
 
-    wrapText(ctx, lyric.content, 300, 320, 450, 60);
+    // Base Y is 320, apply offset
+    const startY = 320 + state.textOffsetY;
+    wrapText(ctx, state.lyricText, 300, startY, 450, state.lineHeight);
 
     ctx.shadowColor = 'transparent';
 
-    // Song Info - Add shadow too because bg might be light
+    // Song Info (Fixed position relative to bottom, but we can move it slightly if needed, keeping it fixed for now)
     ctx.save();
     ctx.shadowColor = 'rgba(0, 0, 0, 0.8)';
     ctx.shadowBlur = 4;
     ctx.fillStyle = '#dddddd';
     ctx.font = '22px sans-serif';
-    ctx.fillText('—— ' + lyric.song + ' ——', 300, 580);
+    ctx.fillText('—— ' + initialLyric.song + ' ——', 300, 580 + state.textOffsetY); // Move song info too? Yes, usually together.
     ctx.font = '16px sans-serif';
-    ctx.fillText('Album: ' + lyric.album, 300, 615);
+    ctx.fillText('Album: ' + initialLyric.album, 300, 615 + state.textOffsetY);
     ctx.restore();
 
     if (state.showWatermark) {
@@ -229,18 +297,19 @@ function drawClassic() {
 }
 
 function drawPolaroid() {
+    const defaults = THEME_DEFAULTS.polaroid;
+
     // 1. Paper Bg
     ctx.fillStyle = '#fdfdfd';
     ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-    // 2. Image Area (Clipping)
+    // 2. Image Area
     const area = getDrawingArea();
     ctx.save();
     ctx.beginPath();
     ctx.rect(area.x, area.y, area.w, area.h);
     ctx.clip();
     
-    // Draw Image
     if (state.isLoaded && state.img) {
         ctx.translate(state.x, state.y);
         ctx.scale(state.scale, state.scale);
@@ -248,37 +317,37 @@ function drawPolaroid() {
     }
     ctx.restore();
 
-    // Inner shadow-like border
     ctx.strokeStyle = '#f0f0f0';
     ctx.lineWidth = 1;
     ctx.strokeRect(area.x, area.y, area.w, area.h);
 
     // 3. Text Section
     const margin = 50;
-    const textStartY = area.y + area.h + 60;
+    // Base Start Y
+    const textBaseY = area.y + area.h + 35; 
+    const textStartY = textBaseY + state.textOffsetY;
     const maxWidth = canvas.width - (margin * 2);
 
-    // Lyric - Center Aligned
-    ctx.fillStyle = '#333333';
+    // Lyric
+    ctx.fillStyle = defaults.color;
     ctx.textAlign = 'center';
     ctx.textBaseline = 'top';
-    ctx.font = 'normal 26px "Times New Roman", serif';
+    ctx.font = `normal ${state.fontSize}px "${defaults.fontFace}", serif`;
     
-    // Lift text slightly (60 -> 50)
-    const linesDrawn = wrapText(ctx, lyric.content, 300, textStartY - 10, maxWidth, 45);
+    const linesDrawn = wrapText(ctx, state.lyricText, 300, textStartY, maxWidth, state.lineHeight);
 
-    // Citation - Right Aligned (No Book Marks)
+    // Citation
     ctx.fillStyle = '#777777';
     ctx.textAlign = 'right';
     ctx.font = 'italic 18px serif';
     
-    const citationY = (textStartY - 10) + (linesDrawn * 45) + 15;
-    const citationText = `—— ${lyric.song} · ${lyric.album}`;
+    const citationY = textStartY + (linesDrawn * state.lineHeight) + 15;
+    const citationText = `—— ${initialLyric.song} · ${initialLyric.album}`;
     ctx.fillText(citationText, canvas.width - margin, citationY);
 
-    // 4. Watermark - Bottom Center (Stylish)
+    // 4. Watermark
     if (state.showWatermark) {
-        ctx.fillStyle = '#555555'; // Darker for Polaroid
+        ctx.fillStyle = '#555555'; 
         ctx.font = 'normal 10px "Courier New", monospace';
         ctx.textAlign = 'center';
         const text = 'S  H  O  T     O  N     E  A  S  O  N     C  O  D  E';
@@ -287,18 +356,19 @@ function drawPolaroid() {
 }
 
 function drawCinema() {
-    // 1. Black Bg (Letterbox)
+    const defaults = THEME_DEFAULTS.cinema;
+
+    // 1. Black Bg
     ctx.fillStyle = '#000000';
     ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-    // 2. Image Area (Clipping)
+    // 2. Image Area
     const area = getDrawingArea();
     ctx.save();
     ctx.beginPath();
     ctx.rect(area.x, area.y, area.w, area.h);
     ctx.clip();
     
-    // Draw Image
     if (state.isLoaded && state.img) {
         ctx.translate(state.x, state.y);
         ctx.scale(state.scale, state.scale);
@@ -307,28 +377,28 @@ function drawCinema() {
     ctx.restore();
 
     // 3. Subtitle Text
-    ctx.fillStyle = '#FFC90E'; 
+    ctx.fillStyle = defaults.color; 
     ctx.textAlign = 'center';
     ctx.textBaseline = 'bottom';
-    ctx.font = 'normal 24px sans-serif';
+    ctx.font = `normal ${state.fontSize}px sans-serif`;
     ctx.strokeStyle = 'rgba(0,0,0,0.8)';
     ctx.lineWidth = 3;
 
-    const subY = area.y + area.h - 30;
-    wrapTextCinema(ctx, lyric.content, 300, subY, 550, 35);
+    // Base Y is bottom of image area - 30
+    const subY = (area.y + area.h - 30) + state.textOffsetY;
+    wrapTextCinema(ctx, state.lyricText, 300, subY, 550, state.lineHeight);
 
-    // Song info (tiny, in bottom bar)
+    // Song info
     ctx.fillStyle = '#bbbbbb'; 
     ctx.font = '12px sans-serif';
     ctx.textAlign = 'center';
     ctx.strokeStyle = 'transparent';
-    ctx.fillText(`${lyric.song} - ${lyric.album}`, 300, 750);
+    ctx.fillText(`${initialLyric.song} - ${initialLyric.album}`, 300, 750);
 
-    // Watermark (Credits Style - Centered)
+    // Watermark
     if (state.showWatermark) {
-        ctx.fillStyle = '#eeeeee'; // Much brighter for Cinema
+        ctx.fillStyle = '#eeeeee'; 
         ctx.textAlign = 'center';
-        // Monospace, small, wide spacing simulated
         ctx.font = 'normal 10px "Courier New", monospace';
         const text = 'P R E S E N T E D   B Y   E A S O N   C O D E';
         ctx.fillText(text, 300, 780);
@@ -347,18 +417,9 @@ function drawImageStandard() {
     }
 }
 
-function drawFooter(color, y) {
-    ctx.fillStyle = color;
-    // Stylish Monospace Footer
-    ctx.font = 'normal 12px "Courier New", monospace';
-    ctx.textAlign = 'center';
-    // Simulate wide tracking
-    const text = 'E  A  S  O  N     C  O  D  E';
-    ctx.fillText(text, 300, y);
-}
-
 function wrapText(context, text, x, y, maxWidth, lineHeight) {
-    const segments = text.split(' ');
+    // Split by newline OR space
+    const segments = text.split(/[\n\s]+/);
     let currentY = y;
     let totalLines = 0;
 
@@ -386,7 +447,7 @@ function wrapText(context, text, x, y, maxWidth, lineHeight) {
 }
 
 function wrapTextCinema(context, text, x, y, maxWidth, lineHeight) {
-    const segments = text.split(' ');
+    const segments = text.split(/[\n\s]+/);
     let allLines = [];
 
     segments.forEach(segment => {
@@ -415,14 +476,24 @@ function wrapTextCinema(context, text, x, y, maxWidth, lineHeight) {
     });
 }
 
-// Reset Action
-document.getElementById('resetBtn').addEventListener('click', () => {
+// Reset Actions
+els.resetPosBtn.addEventListener('click', () => {
     fitImageToLayout();
     draw();
 });
 
+els.resetParamsBtn.addEventListener('click', () => {
+    const defaults = THEME_DEFAULTS[state.theme];
+    state.fontSize = defaults.fontSize;
+    state.lineHeight = defaults.lineHeight;
+    state.textOffsetY = 0;
+    
+    updateInputsFromState();
+    draw();
+});
+
 // Save Action
-document.getElementById('saveBtn').addEventListener('click', () => {
+els.saveBtn.addEventListener('click', () => {
     const dataUrl = canvas.toDataURL('image/png');
     vscode.postMessage({
         command: 'savePoster',
