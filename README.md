@@ -31,6 +31,8 @@
     *   **🖼️ 构图调整**：支持 **自定义上传背景图**，并可在预览界面自由 **拖拽移动** 和 **滚轮缩放** 图片。
 *   **个性化定制**：支持一键隐藏/显示底部落款水印。
 
+![alt text](image.png)
+
 | 经典沉浸 (Classic) | 文艺拍立得 (Polaroid) | 电影故事 (Cinema) |
 | :---: | :---: | :---: |
 | <img src="images/readme_assets/poster-classic.png" width="100%"> | <img src="images/readme_assets/poster-polaroid.png" width="100%"> | <img src="images/readme_assets/poster-cinema.png" width="100%"> |
