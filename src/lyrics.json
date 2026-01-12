@@ -8,7 +8,7 @@
       "healing",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=打回原形"
+    "link": "https://music.163.com/#/search/m/?s=%E6%89%93%E5%9B%9E%E5%8E%9F%E5%BD%A2"
   },
   {
     "id": 2,
@@ -19,18 +19,18 @@
       "classic",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=人来人往"
+    "link": "https://music.163.com/#/search/m/?s=%E4%BA%BA%E4%BE%86%E4%BA%BA%E5%BE%80"
   },
   {
-    "id": 3,
-    "content": "擁擠的房間一個人的心 有多孤獨",
+    "id": 463,
+    "content": "拥挤的房间一个人的心 有多孤独",
     "song": "K歌之王",
-    "album": "打得火热",
+    "album": "反正是我",
     "tags": [
       "classic",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=K歌之王"
+    "link": "https://music.163.com/#/search/m/?s=K%E6%AD%8C%E4%B9%8B%E7%8E%8B"
   },
   {
     "id": 4,
@@ -41,19 +41,29 @@
       "healing",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=任我行"
+    "link": "https://music.163.com/#/search/m/?s=%E4%BB%BB%E6%88%91%E8%A1%8C"
   },
   {
-    "id": 5,
-    "content": "得不到的永遠在騷動 被偏愛的都有恃無恐",
-    "song": "紅玫瑰",
+    "id": 464,
+    "content": "人群是那麼像羊群",
+    "song": "任我行",
+    "album": "The Key",
+    "tags": [
+      "philosophy"
+    ],
+    "link": "https://music.163.com/#/search/m/?s=%E4%BB%BB%E6%88%91%E8%A1%8C"
+  },
+  {
+    "id": 465,
+    "content": "得不到的永远在骚动 被偏爱的都有恃无恐",
+    "song": "红玫瑰",
     "album": "认了吧",
     "tags": [
       "classic",
       "love",
-      "sad"
+      "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=红玫瑰"
+    "link": "https://music.163.com/#/search/m/?s=%E7%BA%A2%E7%8E%AB%E7%91%B0"
   },
   {
     "id": 6,
@@ -64,7 +74,7 @@
       "healing",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=陀飞轮"
+    "link": "https://music.163.com/#/search/m/?s=%E9%99%80%E9%A3%9B%E8%BC%AA"
   },
   {
     "id": 7,
@@ -75,7 +85,7 @@
       "crazy",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=浮夸"
+    "link": "https://music.163.com/#/search/m/?s=%E6%B5%AE%E8%AA%87"
   },
   {
     "id": 8,
@@ -86,19 +96,29 @@
       "classic",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=K歌之王"
+    "link": "https://music.163.com/#/search/m/?s=K%E6%AD%8C%E4%B9%8B%E7%8E%8B"
   },
   {
-    "id": 9,
-    "content": "誰説站在光裏的才算英雄",
+    "id": 466,
+    "content": "谁说站在光里的才算英雄",
     "song": "孤勇者",
     "album": "孤勇者",
     "tags": [
-      "crazy",
-      "healing",
-      "power"
+      "power",
+      "healing"
     ],
-    "link": "https://music.163.com/#/search/m/?s=孤勇者"
+    "link": "https://music.163.com/#/search/m/?s=%E5%AD%A4%E5%8B%87%E8%80%85"
+  },
+  {
+    "id": 467,
+    "content": "你的斑驳与众不同 你的沉默震耳欲聋",
+    "song": "孤勇者",
+    "album": "孤勇者",
+    "tags": [
+      "power",
+      "healing"
+    ],
+    "link": "https://music.163.com/#/search/m/?s=%E5%AD%A4%E5%8B%87%E8%80%85"
   },
   {
     "id": 10,
@@ -109,7 +129,7 @@
       "healing",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=苦瓜"
+    "link": "https://music.163.com/#/search/m/?s=%E8%8B%A6%E7%93%9C"
   },
   {
     "id": 11,
@@ -119,122 +139,73 @@
     "tags": [
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=一切还好"
+    "link": "https://music.163.com/#/search/m/?s=%E4%B8%80%E5%88%87%E9%82%84%E5%A5%BD"
   },
   {
-    "id": 12,
-    "content": "十年之後 我們是朋友 還可以問候",
-    "song": "十年",
-    "album": "黑·白·灰",
-    "tags": [
-      "classic",
-      "healing",
-      "sad"
-    ],
-    "link": "https://music.163.com/#/search/m/?s=十年"
-  },
-  {
-    "id": 13,
-    "content": "只是那種温柔 再也找不到擁抱的理由",
+    "id": 468,
+    "content": "直到和你做了多年朋友 才明白我的眼泪 不只为你而流 也为别人而流",
     "song": "十年",
     "album": "黑·白·灰",
     "tags": [
       "classic",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=十年"
+    "link": "https://music.163.com/#/search/m/?s=%E5%8D%81%E5%B9%B4"
   },
   {
-    "id": 14,
-    "content": "情人最後難免淪為朋友",
+    "id": 469,
+    "content": "如果那两个字没有颤抖 我不会发现我难受",
     "song": "十年",
     "album": "黑·白·灰",
     "tags": [
       "classic",
-      "philosophy",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=十年"
+    "link": "https://music.163.com/#/search/m/?s=%E5%8D%81%E5%B9%B4"
   },
   {
-    "id": 15,
-    "content": "陪你把沿路感想活出了答案",
-    "song": "陪你度過漫長歲月",
+    "id": 470,
+    "content": "情人最后难免沦为朋友",
+    "song": "十年",
+    "album": "黑·白·灰",
+    "tags": [
+      "classic",
+      "sad"
+    ],
+    "link": "https://music.163.com/#/search/m/?s=%E5%8D%81%E5%B9%B4"
+  },
+  {
+    "id": 471,
+    "content": "陪你把沿路感想活出了答案 陪你把独自孤单变成了勇敢",
+    "song": "陪你度过漫长岁月",
     "album": "陪你度过漫长岁月",
     "tags": [
       "healing",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=陪你度过漫长岁月"
+    "link": "https://music.163.com/#/search/m/?s=%E9%99%AA%E4%BD%A0%E5%BA%A6%E8%BF%87%E6%BC%AB%E9%95%BF%E5%B2%81%E6%9C%88"
   },
   {
-    "id": 16,
-    "content": "陪你把獨自孤單變成了勇敢",
-    "song": "陪你度過漫長歲月",
+    "id": 472,
+    "content": "陪伴是最长情的告白",
+    "song": "陪你度过漫长岁月",
     "album": "陪你度过漫长岁月",
     "tags": [
-      "healing",
-      "power"
-    ],
-    "link": "https://music.163.com/#/search/m/?s=陪你度过漫长岁月"
-  },
-  {
-    "id": 17,
-    "content": "一次次失去又重來 我沒離開",
-    "song": "陪你度過漫長歲月",
-    "album": "陪你度过漫长岁月",
-    "tags": [
-      "healing",
+      "classic",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=陪你度过漫长岁月"
+    "link": "https://music.163.com/#/search/m/?s=%E9%99%AA%E4%BD%A0%E5%BA%A6%E8%BF%87%E6%BC%AB%E9%95%BF%E5%B2%81%E6%9C%88"
   },
   {
-    "id": 18,
-    "content": "陪伴是最長情的告白",
-    "song": "陪你度過漫長歲月",
-    "album": "陪你度过漫长岁月",
-    "tags": [
-      "classic",
-      "healing",
-      "love"
-    ],
-    "link": "https://music.163.com/#/search/m/?s=陪你度过漫长岁月"
-  },
-  {
-    "id": 19,
-    "content": "我多麼想和你見一面 看看你最近改變",
-    "song": "好久不見",
-    "album": "认了吧",
-    "tags": [
-      "classic",
-      "healing",
-      "sad"
-    ],
-    "link": "https://music.163.com/#/search/m/?s=好久不见"
-  },
-  {
-    "id": 20,
-    "content": "不再去説從前 只是寒暄",
-    "song": "好久不見",
+    "id": 473,
+    "content": "对你说一句 只是说一句 好久不见",
+    "song": "好久不见",
     "album": "认了吧",
     "tags": [
       "classic",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=好久不见"
-  },
-  {
-    "id": 21,
-    "content": "對你説一句 只是説一句 好久不見",
-    "song": "好久不見",
-    "album": "认了吧",
-    "tags": [
-      "classic",
-      "healing",
-      "sad"
-    ],
-    "link": "https://music.163.com/#/search/m/?s=好久不见"
+    "link": "https://music.163.com/#/search/m/?s=%E5%A5%BD%E4%B9%85%E4%B8%8D%E8%A7%81"
   },
   {
     "id": 22,
@@ -246,7 +217,18 @@
       "love",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=明年今日"
+    "link": "https://music.163.com/#/search/m/?s=%E6%98%8E%E5%B9%B4%E4%BB%8A%E6%97%A5"
+  },
+  {
+    "id": 474,
+    "content": "到這日才發現 層呼吸過空氣",
+    "song": "明年今日",
+    "album": "The Line-Up",
+    "tags": [
+      "classic",
+      "sad"
+    ],
+    "link": "https://music.163.com/#/search/m/?s=%E6%98%8E%E5%B9%B4%E4%BB%8A%E6%97%A5"
   },
   {
     "id": 23,
@@ -257,7 +239,7 @@
       "classic",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=明年今日"
+    "link": "https://music.163.com/#/search/m/?s=%E6%98%8E%E5%B9%B4%E4%BB%8A%E6%97%A5"
   },
   {
     "id": 24,
@@ -268,7 +250,28 @@
       "healing",
       "power"
     ],
-    "link": "https://music.163.com/#/search/m/?s=明年今日"
+    "link": "https://music.163.com/#/search/m/?s=%E6%98%8E%E5%B9%B4%E4%BB%8A%E6%97%A5"
+  },
+  {
+    "id": 475,
+    "content": "例如學會 承受失戀",
+    "song": "明年今日",
+    "album": "The Line-Up",
+    "tags": [
+      "healing",
+      "power"
+    ],
+    "link": "https://music.163.com/#/search/m/?s=%E6%98%8E%E5%B9%B4%E4%BB%8A%E6%97%A5"
+  },
+  {
+    "id": 476,
+    "content": "明年今日 別要再失眠",
+    "song": "明年今日",
+    "album": "The Line-Up",
+    "tags": [
+      "healing"
+    ],
+    "link": "https://music.163.com/#/search/m/?s=%E6%98%8E%E5%B9%B4%E4%BB%8A%E6%97%A5"
   },
   {
     "id": 25,
@@ -280,7 +283,7 @@
       "healing",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=稳稳的幸福"
+    "link": "https://music.163.com/#/search/m/?s=%E7%A9%A9%E7%A9%A9%E7%9A%84%E5%B9%B8%E7%A6%8F"
   },
   {
     "id": 26,
@@ -291,7 +294,7 @@
       "healing",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=稳稳的幸福"
+    "link": "https://music.163.com/#/search/m/?s=%E7%A9%A9%E7%A9%A9%E7%9A%84%E5%B9%B8%E7%A6%8F"
   },
   {
     "id": 27,
@@ -303,7 +306,7 @@
       "love",
       "power"
     ],
-    "link": "https://music.163.com/#/search/m/?s=稳稳的幸福"
+    "link": "https://music.163.com/#/search/m/?s=%E7%A9%A9%E7%A9%A9%E7%9A%84%E5%B9%B8%E7%A6%8F"
   },
   {
     "id": 28,
@@ -315,7 +318,7 @@
       "philosophy",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=富士山下"
+    "link": "https://music.163.com/#/search/m/?s=%E5%AF%8C%E5%A3%AB%E5%B1%B1%E4%B8%8B"
   },
   {
     "id": 29,
@@ -325,7 +328,7 @@
     "tags": [
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=富士山下"
+    "link": "https://music.163.com/#/search/m/?s=%E5%AF%8C%E5%A3%AB%E5%B1%B1%E4%B8%8B"
   },
   {
     "id": 30,
@@ -337,7 +340,7 @@
       "healing",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=富士山下"
+    "link": "https://music.163.com/#/search/m/?s=%E5%AF%8C%E5%A3%AB%E5%B1%B1%E4%B8%8B"
   },
   {
     "id": 31,
@@ -348,7 +351,7 @@
       "classic",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=富士山下"
+    "link": "https://music.163.com/#/search/m/?s=%E5%AF%8C%E5%A3%AB%E5%B1%B1%E4%B8%8B"
   },
   {
     "id": 32,
@@ -360,7 +363,7 @@
       "love",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=富士山下"
+    "link": "https://music.163.com/#/search/m/?s=%E5%AF%8C%E5%A3%AB%E5%B1%B1%E4%B8%8B"
   },
   {
     "id": 33,
@@ -372,7 +375,7 @@
       "philosophy",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=爱情转移"
+    "link": "https://music.163.com/#/search/m/?s=%E6%84%9B%E6%83%85%E8%BD%89%E7%A7%BB"
   },
   {
     "id": 34,
@@ -382,7 +385,7 @@
     "tags": [
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=爱情转移"
+    "link": "https://music.163.com/#/search/m/?s=%E6%84%9B%E6%83%85%E8%BD%89%E7%A7%BB"
   },
   {
     "id": 35,
@@ -393,7 +396,7 @@
       "healing",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=爱情转移"
+    "link": "https://music.163.com/#/search/m/?s=%E6%84%9B%E6%83%85%E8%BD%89%E7%A7%BB"
   },
   {
     "id": 36,
@@ -405,7 +408,7 @@
       "philosophy",
       "power"
     ],
-    "link": "https://music.163.com/#/search/m/?s=爱情转移"
+    "link": "https://music.163.com/#/search/m/?s=%E6%84%9B%E6%83%85%E8%BD%89%E7%A7%BB"
   },
   {
     "id": 37,
@@ -417,30 +420,30 @@
       "healing",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=人来人往"
+    "link": "https://music.163.com/#/search/m/?s=%E4%BA%BA%E4%BE%86%E4%BA%BA%E5%BE%80"
   },
   {
     "id": 38,
     "content": "我已經相信 有些人我永遠不必等",
     "song": "K歌之王",
-    "album": "打得火热",
+    "album": "反正是我",
     "tags": [
       "classic",
       "love",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=K歌之王"
+    "link": "https://music.163.com/#/search/m/?s=K%E6%AD%8C%E4%B9%8B%E7%8E%8B"
   },
   {
     "id": 39,
     "content": "所以我明白 在燈火闌珊處為什麼會哭",
     "song": "K歌之王",
-    "album": "打得火热",
+    "album": "反正是我",
     "tags": [
       "classic",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=K歌之王"
+    "link": "https://music.163.com/#/search/m/?s=K%E6%AD%8C%E4%B9%8B%E7%8E%8B"
   },
   {
     "id": 40,
@@ -451,7 +454,7 @@
       "healing",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=让我留在你身边"
+    "link": "https://music.163.com/#/search/m/?s=%E8%AE%93%E6%88%91%E7%95%99%E5%9C%A8%E4%BD%A0%E8%BA%AB%E9%82%8A"
   },
   {
     "id": 41,
@@ -462,7 +465,7 @@
       "healing",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=让我留在你身边"
+    "link": "https://music.163.com/#/search/m/?s=%E8%AE%93%E6%88%91%E7%95%99%E5%9C%A8%E4%BD%A0%E8%BA%AB%E9%82%8A"
   },
   {
     "id": 42,
@@ -473,7 +476,7 @@
       "healing",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=让我留在你身边"
+    "link": "https://music.163.com/#/search/m/?s=%E8%AE%93%E6%88%91%E7%95%99%E5%9C%A8%E4%BD%A0%E8%BA%AB%E9%82%8A"
   },
   {
     "id": 43,
@@ -484,7 +487,7 @@
       "healing",
       "power"
     ],
-    "link": "https://music.163.com/#/search/m/?s=路一直都在"
+    "link": "https://music.163.com/#/search/m/?s=%E8%B7%AF%E4%B8%80%E7%9B%B4%E9%83%BD%E5%9C%A8"
   },
   {
     "id": 44,
@@ -496,7 +499,7 @@
       "healing",
       "power"
     ],
-    "link": "https://music.163.com/#/search/m/?s=路一直都在"
+    "link": "https://music.163.com/#/search/m/?s=%E8%B7%AF%E4%B8%80%E7%9B%B4%E9%83%BD%E5%9C%A8"
   },
   {
     "id": 45,
@@ -507,7 +510,7 @@
       "philosophy",
       "power"
     ],
-    "link": "https://music.163.com/#/search/m/?s=路一直都在"
+    "link": "https://music.163.com/#/search/m/?s=%E8%B7%AF%E4%B8%80%E7%9B%B4%E9%83%BD%E5%9C%A8"
   },
   {
     "id": 46,
@@ -519,18 +522,7 @@
       "philosophy",
       "power"
     ],
-    "link": "https://music.163.com/#/search/m/?s=路一直都在"
-  },
-  {
-    "id": 47,
-    "content": "煩惱會解決煩惱",
-    "song": "不求人",
-    "album": "C'mon In~",
-    "tags": [
-      "healing",
-      "philosophy"
-    ],
-    "link": "https://music.163.com/#/search/m/?s=不求人"
+    "link": "https://music.163.com/#/search/m/?s=%E8%B7%AF%E4%B8%80%E7%9B%B4%E9%83%BD%E5%9C%A8"
   },
   {
     "id": 48,
@@ -541,7 +533,7 @@
       "philosophy",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=Crying In The Party"
+    "link": "https://music.163.com/#/search/m/?s=Crying%20In%20The%20Party"
   },
   {
     "id": 49,
@@ -552,7 +544,7 @@
       "love",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=Shall We Talk"
+    "link": "https://music.163.com/#/search/m/?s=Shall%20We%20Talk"
   },
   {
     "id": 50,
@@ -563,7 +555,7 @@
       "philosophy",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=Shall We Talk"
+    "link": "https://music.163.com/#/search/m/?s=Shall%20We%20Talk"
   },
   {
     "id": 51,
@@ -574,7 +566,7 @@
       "love",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=淘汰"
+    "link": "https://music.163.com/#/search/m/?s=%E6%B7%98%E6%B1%B0"
   },
   {
     "id": 52,
@@ -585,7 +577,7 @@
       "love",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=淘汰"
+    "link": "https://music.163.com/#/search/m/?s=%E6%B7%98%E6%B1%B0"
   },
   {
     "id": 53,
@@ -597,7 +589,7 @@
       "philosophy",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=红玫瑰"
+    "link": "https://music.163.com/#/search/m/?s=%E7%B4%85%E7%8E%AB%E7%91%B0"
   },
   {
     "id": 54,
@@ -608,7 +600,7 @@
       "philosophy",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=红玫瑰"
+    "link": "https://music.163.com/#/search/m/?s=%E7%B4%85%E7%8E%AB%E7%91%B0"
   },
   {
     "id": 55,
@@ -619,7 +611,7 @@
       "philosophy",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=我什么都没有"
+    "link": "https://music.163.com/#/search/m/?s=%E6%88%91%E4%BB%80%E9%BA%BC%E9%83%BD%E6%B2%92%E6%9C%89"
   },
   {
     "id": 56,
@@ -630,7 +622,7 @@
       "healing",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=我什么都没有"
+    "link": "https://music.163.com/#/search/m/?s=%E6%88%91%E4%BB%80%E9%BA%BC%E9%83%BD%E6%B2%92%E6%9C%89"
   },
   {
     "id": 57,
@@ -641,7 +633,7 @@
       "classic",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=想哭"
+    "link": "https://music.163.com/#/search/m/?s=%E6%83%B3%E5%93%AD"
   },
   {
     "id": 58,
@@ -652,7 +644,7 @@
       "philosophy",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=想哭"
+    "link": "https://music.163.com/#/search/m/?s=%E6%83%B3%E5%93%AD"
   },
   {
     "id": 59,
@@ -662,7 +654,7 @@
     "tags": [
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=想哭"
+    "link": "https://music.163.com/#/search/m/?s=%E6%83%B3%E5%93%AD"
   },
   {
     "id": 60,
@@ -674,7 +666,7 @@
       "healing",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=最佳损友"
+    "link": "https://music.163.com/#/search/m/?s=%E6%9C%80%E4%BD%B3%E6%90%8D%E5%8F%8B"
   },
   {
     "id": 61,
@@ -685,7 +677,7 @@
       "classic",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=最佳损友"
+    "link": "https://music.163.com/#/search/m/?s=%E6%9C%80%E4%BD%B3%E6%90%8D%E5%8F%8B"
   },
   {
     "id": 62,
@@ -696,7 +688,7 @@
       "love",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=你会不会"
+    "link": "https://music.163.com/#/search/m/?s=%E4%BD%A0%E6%9C%83%E4%B8%8D%E6%9C%83"
   },
   {
     "id": 63,
@@ -707,7 +699,7 @@
       "philosophy",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=你会不会"
+    "link": "https://music.163.com/#/search/m/?s=%E4%BD%A0%E6%9C%83%E4%B8%8D%E6%9C%83"
   },
   {
     "id": 64,
@@ -718,7 +710,7 @@
       "classic",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=阿怪"
+    "link": "https://music.163.com/#/search/m/?s=%E9%98%BF%E6%80%AA"
   },
   {
     "id": 65,
@@ -729,7 +721,7 @@
       "classic",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=阿怪"
+    "link": "https://music.163.com/#/search/m/?s=%E9%98%BF%E6%80%AA"
   },
   {
     "id": 66,
@@ -741,7 +733,7 @@
       "philosophy",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=阿怪"
+    "link": "https://music.163.com/#/search/m/?s=%E9%98%BF%E6%80%AA"
   },
   {
     "id": 67,
@@ -753,7 +745,7 @@
       "healing",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=单车"
+    "link": "https://music.163.com/#/search/m/?s=%E5%96%AE%E8%BB%8A"
   },
   {
     "id": 68,
@@ -765,7 +757,7 @@
       "healing",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=单车"
+    "link": "https://music.163.com/#/search/m/?s=%E5%96%AE%E8%BB%8A"
   },
   {
     "id": 69,
@@ -776,7 +768,7 @@
       "love",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=兄妹"
+    "link": "https://music.163.com/#/search/m/?s=%E5%85%84%E5%A6%B9"
   },
   {
     "id": 70,
@@ -787,7 +779,7 @@
       "love",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=兄妹"
+    "link": "https://music.163.com/#/search/m/?s=%E5%85%84%E5%A6%B9"
   },
   {
     "id": 71,
@@ -799,61 +791,40 @@
       "love",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=兄妹"
+    "link": "https://music.163.com/#/search/m/?s=%E5%85%84%E5%A6%B9"
   },
   {
     "id": 72,
     "content": "每次退後又錯過你的世界一點",
     "song": "心的距離",
-    "album": "5711",
+    "album": "上五楼的快活",
     "tags": [
       "love",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=心的距离"
+    "link": "https://music.163.com/#/search/m/?s=%E5%BF%83%E7%9A%84%E8%B7%9D%E9%9B%A2"
   },
   {
-    "id": 73,
-    "content": "我沒有辦法清醒應付新的對決",
+    "id": 477,
+    "content": "我沒有辦法清醒應付新的對決 你卻輕易讓我的心委屈到極限",
     "song": "心的距離",
-    "album": "5711",
+    "album": "上五楼的快活",
     "tags": [
-      "love",
-      "sad"
+      "sad",
+      "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=心的距离"
+    "link": "https://music.163.com/#/search/m/?s=%E5%BF%83%E7%9A%84%E8%B7%9D%E9%9B%A2"
   },
   {
-    "id": 74,
-    "content": "你卻輕易讓我的心委屈到極限",
-    "song": "心的距離",
-    "album": "5711",
-    "tags": [
-      "love",
-      "sad"
-    ],
-    "link": "https://music.163.com/#/search/m/?s=心的距离"
-  },
-  {
-    "id": 75,
-    "content": "愛一個人是不是應該有默契",
+    "id": 478,
+    "content": "愛一個人是不是應該有默契 我以為你懂得每當我看着你",
     "song": "不要説話",
     "album": "不想放手",
     "tags": [
       "classic",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=不要说话"
-  },
-  {
-    "id": 76,
-    "content": "我以為你懂得每當我看着你",
-    "song": "不要説話",
-    "album": "不想放手",
-    "tags": [
-      "love"
-    ],
-    "link": "https://music.163.com/#/search/m/?s=不要说话"
+    "link": "https://music.163.com/#/search/m/?s=%E4%B8%8D%E8%A6%81%E8%AA%AC%E8%A9%B1"
   },
   {
     "id": 77,
@@ -864,95 +835,72 @@
       "classic",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=不要说话"
+    "link": "https://music.163.com/#/search/m/?s=%E4%B8%8D%E8%A6%81%E8%AA%AC%E8%A9%B1"
   },
   {
-    "id": 78,
-    "content": "請用心聽不要説話",
+    "id": 479,
+    "content": "請用心聽 不要説話",
     "song": "不要説話",
     "album": "不想放手",
     "tags": [
       "classic",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=不要说话"
+    "link": "https://music.163.com/#/search/m/?s=%E4%B8%8D%E8%A6%81%E8%AA%AC%E8%A9%B1"
   },
   {
-    "id": 79,
-    "content": "誇張只因我很怕",
+    "id": 480,
+    "content": "你當我是浮誇吧誇張只因我很怕",
     "song": "浮誇",
     "album": "U87",
     "tags": [
       "crazy",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=浮夸"
+    "link": "https://music.163.com/#/search/m/?s=%E6%B5%AE%E8%AA%87"
   },
   {
-    "id": 80,
-    "content": "似木頭似石頭的話得到注意嗎",
-    "song": "浮誇",
-    "album": "U87",
-    "tags": [
-      "crazy",
-      "philosophy",
-      "sad"
-    ],
-    "link": "https://music.163.com/#/search/m/?s=浮夸"
-  },
-  {
-    "id": 81,
-    "content": "其實怕被忘記 至放大來演吧",
+    "id": 481,
+    "content": "似木頭似石頭的話 得到注意嗎",
     "song": "浮誇",
     "album": "U87",
     "tags": [
       "crazy",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=浮夸"
+    "link": "https://music.163.com/#/search/m/?s=%E6%B5%AE%E8%AA%87"
   },
   {
-    "id": 82,
-    "content": "很不安怎去優雅 世上還讚頌沉默嗎 不夠爆炸",
+    "id": 482,
+    "content": "其實怕被忘記 至放大來演吧 很不安怎去優雅 ",
     "song": "浮誇",
     "album": "U87",
     "tags": [
       "crazy",
-      "power"
+      "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=浮夸"
+    "link": "https://music.163.com/#/search/m/?s=%E6%B5%AE%E8%AA%87"
   },
   {
-    "id": 83,
-    "content": "我想見的笑臉只有懷念",
+    "id": 483,
+    "content": "我想見的笑臉 只有懷念 不懂怎去再聊天",
     "song": "不如不見",
     "album": "What's Going On...?",
     "tags": [
       "classic",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=不如不见"
+    "link": "https://music.163.com/#/search/m/?s=%E4%B8%8D%E5%A6%82%E4%B8%8D%E8%A6%8B"
   },
   {
-    "id": 84,
-    "content": "不懂怎去再聊天",
+    "id": 484,
+    "content": "似等了一百年 忽已明白",
     "song": "不如不見",
     "album": "What's Going On...?",
     "tags": [
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=不如不见"
-  },
-  {
-    "id": 85,
-    "content": "似等了一百年忽已明白",
-    "song": "不如不見",
-    "album": "What's Going On...?",
-    "tags": [
-      "philosophy",
-      "sad"
-    ],
-    "link": "https://music.163.com/#/search/m/?s=不如不见"
+    "link": "https://music.163.com/#/search/m/?s=%E4%B8%8D%E5%A6%82%E4%B8%8D%E8%A6%8B"
   },
   {
     "id": 86,
@@ -964,7 +912,7 @@
       "healing",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=不如不见"
+    "link": "https://music.163.com/#/search/m/?s=%E4%B8%8D%E5%A6%82%E4%B8%8D%E8%A6%8B"
   },
   {
     "id": 87,
@@ -975,7 +923,7 @@
       "classic",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=岁月如歌"
+    "link": "https://music.163.com/#/search/m/?s=%E6%AD%B2%E6%9C%88%E5%A6%82%E6%AD%8C"
   },
   {
     "id": 88,
@@ -986,7 +934,7 @@
       "love",
       "power"
     ],
-    "link": "https://music.163.com/#/search/m/?s=岁月如歌"
+    "link": "https://music.163.com/#/search/m/?s=%E6%AD%B2%E6%9C%88%E5%A6%82%E6%AD%8C"
   },
   {
     "id": 89,
@@ -997,7 +945,7 @@
       "love",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=岁月如歌"
+    "link": "https://music.163.com/#/search/m/?s=%E6%AD%B2%E6%9C%88%E5%A6%82%E6%AD%8C"
   },
   {
     "id": 90,
@@ -1009,29 +957,29 @@
       "philosophy",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=岁月如歌"
+    "link": "https://music.163.com/#/search/m/?s=%E6%AD%B2%E6%9C%88%E5%A6%82%E6%AD%8C"
   },
   {
-    "id": 91,
-    "content": "但我拖著軀殼發現沿途尋找的快樂",
+    "id": 485,
+    "content": "但我拖著軀殼 發現沿途尋找的快樂",
     "song": "一絲不掛",
     "album": "Time Flies",
     "tags": [
       "philosophy",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=一丝不挂"
+    "link": "https://music.163.com/#/search/m/?s=%E4%B8%80%E7%B5%B2%E4%B8%8D%E6%8E%9B"
   },
   {
-    "id": 92,
-    "content": "仍系於你肩膊或是其實在等我舍割",
+    "id": 486,
+    "content": "仍系於你肩膊 或是其實在等我舍割",
     "song": "一絲不掛",
     "album": "Time Flies",
     "tags": [
       "love",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=一丝不挂"
+    "link": "https://music.163.com/#/search/m/?s=%E4%B8%80%E7%B5%B2%E4%B8%8D%E6%8E%9B"
   },
   {
     "id": 93,
@@ -1042,18 +990,18 @@
       "healing",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=一丝不挂"
+    "link": "https://music.163.com/#/search/m/?s=%E4%B8%80%E7%B5%B2%E4%B8%8D%E6%8E%9B"
   },
   {
-    "id": 94,
-    "content": "那個揹包載滿記念品和患難",
+    "id": 487,
+    "content": "那個揹包 載滿記念品和患難",
     "song": "你的揹包",
     "album": "Special Thanks To...",
     "tags": [
       "classic",
-      "love"
+      "memory"
     ],
-    "link": "https://music.163.com/#/search/m/?s=你的揹包"
+    "link": "https://music.163.com/#/search/m/?s=%E4%BD%A0%E7%9A%84%E6%8F%B9%E5%8C%85"
   },
   {
     "id": 95,
@@ -1065,29 +1013,18 @@
       "love",
       "memory"
     ],
-    "link": "https://music.163.com/#/search/m/?s=你的揹包"
+    "link": "https://music.163.com/#/search/m/?s=%E4%BD%A0%E7%9A%84%E6%8F%B9%E5%8C%85"
   },
   {
-    "id": 96,
-    "content": "千金不換它已熟悉我的汗",
+    "id": 488,
+    "content": "千金不換它 已熟悉我的汗 它是我肩膀上的指環",
     "song": "你的揹包",
     "album": "Special Thanks To...",
     "tags": [
       "classic",
-      "love"
+      "memory"
     ],
-    "link": "https://music.163.com/#/search/m/?s=你的揹包"
-  },
-  {
-    "id": 97,
-    "content": "它是我肩膀上的指環",
-    "song": "你的揹包",
-    "album": "Special Thanks To...",
-    "tags": [
-      "classic",
-      "love"
-    ],
-    "link": "https://music.163.com/#/search/m/?s=你的揹包"
+    "link": "https://music.163.com/#/search/m/?s=%E4%BD%A0%E7%9A%84%E6%8F%B9%E5%8C%85"
   },
   {
     "id": 98,
@@ -1098,30 +1035,18 @@
       "classic",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=婚礼的祝福"
+    "link": "https://music.163.com/#/search/m/?s=%E5%A9%9A%E7%A6%AE%E7%9A%84%E7%A5%9D%E7%A6%8F"
   },
   {
-    "id": 99,
-    "content": "我的人生早留在你那裏",
+    "id": 489,
+    "content": "我的人生早留在你那裏 你要我來 我真的出席",
     "song": "婚禮的祝福",
     "album": "婚礼的祝福",
     "tags": [
-      "love",
-      "sad"
-    ],
-    "link": "https://music.163.com/#/search/m/?s=婚礼的祝福"
-  },
-  {
-    "id": 100,
-    "content": "我卻還要故作瀟灑地",
-    "song": "婚禮的祝福",
-    "album": "婚礼的祝福",
-    "tags": [
-      "acting",
       "classic",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=婚礼的祝福"
+    "link": "https://music.163.com/#/search/m/?s=%E5%A9%9A%E7%A6%AE%E7%9A%84%E7%A5%9D%E7%A6%8F"
   },
   {
     "id": 101,
@@ -1132,7 +1057,7 @@
       "classic",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=婚礼的祝福"
+    "link": "https://music.163.com/#/search/m/?s=%E5%A9%9A%E7%A6%AE%E7%9A%84%E7%A5%9D%E7%A6%8F"
   },
   {
     "id": 102,
@@ -1144,7 +1069,7 @@
       "healing",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=婚礼的祝福"
+    "link": "https://music.163.com/#/search/m/?s=%E5%A9%9A%E7%A6%AE%E7%9A%84%E7%A5%9D%E7%A6%8F"
   },
   {
     "id": 103,
@@ -1155,7 +1080,7 @@
       "healing",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=苦瓜"
+    "link": "https://music.163.com/#/search/m/?s=%E8%8B%A6%E7%93%9C"
   },
   {
     "id": 104,
@@ -1167,7 +1092,7 @@
       "love",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=我们"
+    "link": "https://music.163.com/#/search/m/?s=%E6%88%91%E5%80%91"
   },
   {
     "id": 105,
@@ -1178,7 +1103,7 @@
       "healing",
       "power"
     ],
-    "link": "https://music.163.com/#/search/m/?s=稳稳的幸福"
+    "link": "https://music.163.com/#/search/m/?s=%E7%A9%A9%E7%A9%A9%E7%9A%84%E5%B9%B8%E7%A6%8F"
   },
   {
     "id": 106,
@@ -1189,98 +1114,73 @@
       "healing",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=陪你度过漫长岁月"
+    "link": "https://music.163.com/#/search/m/?s=%E9%99%AA%E4%BD%A0%E5%BA%A6%E9%81%8E%E6%BC%AB%E9%95%B7%E6%AD%B2%E6%9C%88"
   },
   {
-    "id": 107,
-    "content": "讓我對這世界好奇讓我信自己的真理",
+    "id": 490,
+    "content": "讓我對這世界好奇 讓我信自己的真理",
     "song": "我的快樂時代",
     "album": "我的快乐时代",
     "tags": [
       "classic",
       "power"
     ],
-    "link": "https://music.163.com/#/search/m/?s=我的快乐时代"
+    "link": "https://music.163.com/#/search/m/?s=%E6%88%91%E7%9A%84%E5%BF%AB%E6%A8%82%E6%99%82%E4%BB%A3"
   },
   {
-    "id": 108,
-    "content": "長路漫漫是如何走過",
+    "id": 491,
+    "content": "長路漫漫是如何走過 寧願讓樂極忘形的我 ",
     "song": "我的快樂時代",
     "album": "我的快乐时代",
     "tags": [
       "classic",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=我的快乐时代"
+    "link": "https://music.163.com/#/search/m/?s=%E6%88%91%E7%9A%84%E5%BF%AB%E6%A8%82%E6%99%82%E4%BB%A3"
   },
   {
-    "id": 109,
-    "content": "寧願讓樂極忘形的我 離時代遠遠沒人間煙火",
+    "id": 492,
+    "content": "離時代遠遠沒人間煙火 毫無代價唱最幸福的歌",
     "song": "我的快樂時代",
     "album": "我的快乐时代",
     "tags": [
       "classic",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=我的快乐时代"
+    "link": "https://music.163.com/#/search/m/?s=%E6%88%91%E7%9A%84%E5%BF%AB%E6%A8%82%E6%99%82%E4%BB%A3"
   },
   {
-    "id": 110,
-    "content": "毫無代價唱最幸福的歌",
-    "song": "我的快樂時代",
-    "album": "我的快乐时代",
+    "id": 493,
+    "content": "結伴創將來多麼的美 你的路我的途再也不分己與彼",
+    "song": "每一個明天",
+    "album": "Every Best of Eason",
     "tags": [
       "brightness",
-      "classic",
       "healing"
     ],
-    "link": "https://music.163.com/#/search/m/?s=我的快乐时代"
+    "link": "https://music.163.com/#/search/m/?s=%E6%AF%8F%E4%B8%80%E5%80%8B%E6%98%8E%E5%A4%A9"
   },
   {
-    "id": 111,
-    "content": "結伴創將來多麼的美",
-    "song": "每一個明天",
-    "album": "Every Best of Eason",
-    "tags": [
-      "brightness",
-      "healing",
-      "power"
-    ],
-    "link": "https://music.163.com/#/search/m/?s=每一个明天"
-  },
-  {
-    "id": 112,
-    "content": "你的路我的途再也不分己與彼",
-    "song": "每一個明天",
-    "album": "Every Best of Eason",
-    "tags": [
-      "brightness",
-      "healing",
-      "love"
-    ],
-    "link": "https://music.163.com/#/search/m/?s=每一个明天"
-  },
-  {
-    "id": 113,
-    "content": "有浪有風來不捨不棄每一明天也贈你",
+    "id": 494,
+    "content": "有浪有風來 不捨不棄 每一明天也贈你",
     "song": "每一個明天",
     "album": "Every Best of Eason",
     "tags": [
       "love",
       "power"
     ],
-    "link": "https://music.163.com/#/search/m/?s=每一个明天"
+    "link": "https://music.163.com/#/search/m/?s=%E6%AF%8F%E4%B8%80%E5%80%8B%E6%98%8E%E5%A4%A9"
   },
   {
-    "id": 114,
-    "content": "抬頭吧相信愛你便能飛",
+    "id": 495,
+    "content": "抬頭吧 相信愛你便能飛",
     "song": "今日",
     "album": "天佑爱人",
     "tags": [
       "healing",
       "power"
     ],
-    "link": "https://music.163.com/#/search/m/?s=今日"
+    "link": "https://music.163.com/#/search/m/?s=%E4%BB%8A%E6%97%A5"
   },
   {
     "id": 115,
@@ -1292,7 +1192,7 @@
       "healing",
       "power"
     ],
-    "link": "https://music.163.com/#/search/m/?s=今日"
+    "link": "https://music.163.com/#/search/m/?s=%E4%BB%8A%E6%97%A5"
   },
   {
     "id": 116,
@@ -1303,7 +1203,7 @@
       "philosophy",
       "power"
     ],
-    "link": "https://music.163.com/#/search/m/?s=今日"
+    "link": "https://music.163.com/#/search/m/?s=%E4%BB%8A%E6%97%A5"
   },
   {
     "id": 117,
@@ -1314,133 +1214,84 @@
       "love",
       "power"
     ],
-    "link": "https://music.163.com/#/search/m/?s=今日"
+    "link": "https://music.163.com/#/search/m/?s=%E4%BB%8A%E6%97%A5"
   },
   {
-    "id": 118,
-    "content": "別要驚別要驚亂世下佈滿樽頸",
+    "id": 496,
+    "content": "別要驚別要驚亂世下佈滿樽頸 這都市已吃夠血腥",
     "song": "黑擇明",
     "album": "What's Going On...?",
     "tags": [
       "healing",
       "power"
     ],
-    "link": "https://music.163.com/#/search/m/?s=黑择明"
+    "link": "https://music.163.com/#/search/m/?s=%E9%BB%91%E6%93%87%E6%98%8E"
   },
   {
-    "id": 119,
-    "content": "這都市已吃夠血腥",
-    "song": "黑擇明",
-    "album": "What's Going On...?",
-    "tags": [
-      "dark",
-      "life",
-      "sad",
-      "social"
-    ],
-    "link": "https://music.163.com/#/search/m/?s=黑择明"
-  },
-  {
-    "id": 120,
-    "content": "死亡遲早都找你切勿憑自己",
+    "id": 497,
+    "content": "死亡遲早都找你 切勿憑自己",
     "song": "黑擇明",
     "album": "What's Going On...?",
     "tags": [
       "healing",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=黑择明"
+    "link": "https://music.163.com/#/search/m/?s=%E9%BB%91%E6%93%87%E6%98%8E"
   },
   {
-    "id": 121,
-    "content": "我相信做好自己我相信我就是奇蹟",
-    "song": "相信自己無限極",
-    "album": "相信自己无限极",
-    "tags": [
-      "brightness",
-      "healing",
-      "power"
-    ],
-    "link": "https://music.163.com/#/search/m/?s=相信自己无限极"
-  },
-  {
-    "id": 122,
-    "content": "我知道我心裏會有更大的天地",
-    "song": "相信自己無限極",
-    "album": "相信自己无限极",
-    "tags": [
-      "brightness",
-      "healing",
-      "power"
-    ],
-    "link": "https://music.163.com/#/search/m/?s=相信自己无限极"
-  },
-  {
-    "id": 123,
-    "content": "要相信自己無限極",
-    "song": "相信自己無限極",
-    "album": "相信自己无限极",
-    "tags": [
-      "brightness",
-      "healing",
-      "power"
-    ],
-    "link": "https://music.163.com/#/search/m/?s=相信自己无限极"
-  },
-  {
-    "id": 124,
-    "content": "你也需要一個相信你的人",
+    "id": 498,
+    "content": "你也需要 一個相信你的人",
     "song": "相信你的人",
     "album": "相信你的人",
     "tags": [
       "healing",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=相信你的人"
+    "link": "https://music.163.com/#/search/m/?s=%E7%9B%B8%E4%BF%A1%E4%BD%A0%E7%9A%84%E4%BA%BA"
   },
   {
-    "id": 125,
-    "content": "暖暖看你不同於人們的眼神",
+    "id": 499,
+    "content": "暖暖看你 不同於人們的眼神",
     "song": "相信你的人",
     "album": "相信你的人",
     "tags": [
       "healing",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=相信你的人"
+    "link": "https://music.163.com/#/search/m/?s=%E7%9B%B8%E4%BF%A1%E4%BD%A0%E7%9A%84%E4%BA%BA"
   },
   {
-    "id": 126,
-    "content": "當你懷抱傷痕仍舊朝夢想狂奔",
+    "id": 500,
+    "content": "當你懷抱傷痕 仍舊朝夢想狂奔",
     "song": "相信你的人",
     "album": "相信你的人",
     "tags": [
       "healing",
       "power"
     ],
-    "link": "https://music.163.com/#/search/m/?s=相信你的人"
+    "link": "https://music.163.com/#/search/m/?s=%E7%9B%B8%E4%BF%A1%E4%BD%A0%E7%9A%84%E4%BA%BA"
   },
   {
-    "id": 127,
-    "content": "他會心疼不忍同時又為你興奮",
+    "id": 501,
+    "content": "他會心疼不忍 同時又為你興奮",
     "song": "相信你的人",
     "album": "相信你的人",
     "tags": [
       "healing",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=相信你的人"
+    "link": "https://music.163.com/#/search/m/?s=%E7%9B%B8%E4%BF%A1%E4%BD%A0%E7%9A%84%E4%BA%BA"
   },
   {
-    "id": 128,
-    "content": "嘔心搞些搞作但青春都給揮霍",
+    "id": 502,
+    "content": "嘔心搞些搞作 但青春都給揮霍",
     "song": "大人",
     "album": "The Key",
     "tags": [
       "philosophy",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=大人"
+    "link": "https://music.163.com/#/search/m/?s=%E5%A4%A7%E4%BA%BA"
   },
   {
     "id": 129,
@@ -1452,29 +1303,7 @@
       "healing",
       "power"
     ],
-    "link": "https://music.163.com/#/search/m/?s=大人"
-  },
-  {
-    "id": 130,
-    "content": "來到一家電影院我讓他買票",
-    "song": "瘋狂的朋友",
-    "album": "Rice & Shine",
-    "tags": [
-      "classic",
-      "crazy",
-      "memory"
-    ],
-    "link": "https://music.163.com/#/search/m/?s=疯狂的朋友"
-  },
-  {
-    "id": 131,
-    "content": "花了總共六百元誰跟你開玩笑",
-    "song": "瘋狂的朋友",
-    "album": "Rice & Shine",
-    "tags": [
-      "crazy"
-    ],
-    "link": "https://music.163.com/#/search/m/?s=疯狂的朋友"
+    "link": "https://music.163.com/#/search/m/?s=%E5%A4%A7%E4%BA%BA"
   },
   {
     "id": 132,
@@ -1485,7 +1314,7 @@
       "classic",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=我的快乐时代"
+    "link": "https://music.163.com/#/search/m/?s=%E6%88%91%E7%9A%84%E5%BF%AB%E6%A8%82%E6%99%82%E4%BB%A3"
   },
   {
     "id": 133,
@@ -1497,7 +1326,7 @@
       "memory",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=你的揹包"
+    "link": "https://music.163.com/#/search/m/?s=%E4%BD%A0%E7%9A%84%E6%8F%B9%E5%8C%85"
   },
   {
     "id": 134,
@@ -1508,7 +1337,7 @@
       "philosophy",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=红玫瑰"
+    "link": "https://music.163.com/#/search/m/?s=%E7%B4%85%E7%8E%AB%E7%91%B0"
   },
   {
     "id": 135,
@@ -1520,7 +1349,7 @@
       "memory",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=于心有愧"
+    "link": "https://music.163.com/#/search/m/?s=%E6%96%BC%E5%BF%83%E6%9C%89%E6%84%A7"
   },
   {
     "id": 136,
@@ -1531,7 +1360,7 @@
       "philosophy",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=不如承诺来得简单"
+    "link": "https://music.163.com/#/search/m/?s=%E4%B8%8D%E5%A6%82%E6%89%BF%E8%AB%BE%E4%BE%86%E5%BE%97%E7%B0%A1%E5%96%AE"
   },
   {
     "id": 137,
@@ -1542,18 +1371,18 @@
       "healing",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=阴天快乐"
+    "link": "https://music.163.com/#/search/m/?s=%E9%99%B0%E5%A4%A9%E5%BF%AB%E6%A8%82"
   },
   {
-    "id": 138,
-    "content": "只差一個眼波將彼此錯過 悔不當初輕輕放過",
+    "id": 503,
+    "content": "悔不當初輕輕放過 現在懲罰我分手分錯了麼",
     "song": "十面埋伏",
     "album": "Live For Today",
     "tags": [
       "regret",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=十面埋伏"
+    "link": "https://music.163.com/#/search/m/?s=%E5%8D%81%E9%9D%A2%E5%9F%8B%E4%BC%8F"
   },
   {
     "id": 139,
@@ -1564,18 +1393,18 @@
       "philosophy",
       "power"
     ],
-    "link": "https://music.163.com/#/search/m/?s=谢谢侬"
+    "link": "https://music.163.com/#/search/m/?s=%E8%AC%9D%E8%AC%9D%E5%84%82"
   },
   {
     "id": 140,
-    "content": "應該怎麼愛 可惜書裏從沒記載。終於摸出來 但歲月卻不回來",
+    "content": "應該怎麼愛 可惜書裏從沒記載 終於摸出來 但歲月卻不回來",
     "song": "葡萄熟透時",
     "album": "U87",
     "tags": [
       "love",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=葡萄熟透时"
+    "link": "https://music.163.com/#/search/m/?s=%E8%91%A1%E8%90%84%E7%86%9F%E9%80%8F%E6%99%82"
   },
   {
     "id": 141,
@@ -1586,7 +1415,7 @@
       "love",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=全世界失眠"
+    "link": "https://music.163.com/#/search/m/?s=%E5%85%A8%E4%B8%96%E7%95%8C%E5%A4%B1%E7%9C%A0"
   },
   {
     "id": 142,
@@ -1597,7 +1426,7 @@
       "classic",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=当这地球没有花"
+    "link": "https://music.163.com/#/search/m/?s=%E7%95%B6%E9%80%99%E5%9C%B0%E7%90%83%E6%B2%92%E6%9C%89%E8%8A%B1"
   },
   {
     "id": 143,
@@ -1608,7 +1437,7 @@
       "philosophy",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=孤独患者"
+    "link": "https://music.163.com/#/search/m/?s=%E5%AD%A4%E7%8D%A8%E6%82%A3%E8%80%85"
   },
   {
     "id": 144,
@@ -1619,7 +1448,7 @@
       "love",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=打回原形"
+    "link": "https://music.163.com/#/search/m/?s=%E6%89%93%E5%9B%9E%E5%8E%9F%E5%BD%A2"
   },
   {
     "id": 145,
@@ -1630,18 +1459,29 @@
       "love",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=对面"
+    "link": "https://music.163.com/#/search/m/?s=%E5%B0%8D%E9%9D%A2"
   },
   {
-    "id": 146,
-    "content": "用我尚有換我沒有 其實已用盡所擁有 曾付出幾多心跳 來換取一堆堆的發票",
+    "id": 504,
+    "content": "用我尚有換我沒有 其實已用盡所擁有",
     "song": "陀飛輪",
     "album": "Time Flies",
     "tags": [
       "life",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=陀飞轮"
+    "link": "https://music.163.com/#/search/m/?s=%E9%99%80%E9%A3%9B%E8%BC%AA"
+  },
+  {
+    "id": 505,
+    "content": "曾付出幾多心跳 來換取一堆堆的發票",
+    "song": "陀飛輪",
+    "album": "Time Flies",
+    "tags": [
+      "life",
+      "philosophy"
+    ],
+    "link": "https://music.163.com/#/search/m/?s=%E9%99%80%E9%A3%9B%E8%BC%AA"
   },
   {
     "id": 147,
@@ -1652,7 +1492,7 @@
       "healing",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=打回原形"
+    "link": "https://music.163.com/#/search/m/?s=%E6%89%93%E5%9B%9E%E5%8E%9F%E5%BD%A2"
   },
   {
     "id": 148,
@@ -1663,7 +1503,7 @@
       "philosophy",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=爱情转移"
+    "link": "https://music.163.com/#/search/m/?s=%E6%84%9B%E6%83%85%E8%BD%89%E7%A7%BB"
   },
   {
     "id": 149,
@@ -1675,7 +1515,7 @@
       "memory",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=浮夸"
+    "link": "https://music.163.com/#/search/m/?s=%E6%B5%AE%E8%AA%87"
   },
   {
     "id": 150,
@@ -1686,18 +1526,18 @@
       "life",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=任我行"
+    "link": "https://music.163.com/#/search/m/?s=%E4%BB%BB%E6%88%91%E8%A1%8C"
   },
   {
-    "id": 151,
-    "content": "每當我回頭內疚是劊子手 摧殘我回憶中的所有",
+    "id": 506,
+    "content": "每當我回頭 內疚是劊子手 摧殘我回憶中的所有",
     "song": "內疚",
     "album": "？",
     "tags": [
       "regret",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=内疚"
+    "link": "https://music.163.com/#/search/m/?s=%E5%85%A7%E7%96%9A"
   },
   {
     "id": 152,
@@ -1708,11 +1548,11 @@
       "love",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=世界"
+    "link": "https://music.163.com/#/search/m/?s=%E4%B8%96%E7%95%8C"
   },
   {
-    "id": 153,
-    "content": "誰人叫我出生入死也來幽會 沿途寸寸慢慢成灰心肺就只受你支配",
+    "id": 507,
+    "content": "誰人叫我出生入死 也來幽會 沿途寸寸慢慢成灰 心肺就只受你支配",
     "song": "尼古丁",
     "album": "Solidays",
     "tags": [
@@ -1720,29 +1560,29 @@
       "love",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=尼古丁"
+    "link": "https://music.163.com/#/search/m/?s=%E5%B0%BC%E5%8F%A4%E4%B8%81"
   },
   {
-    "id": 154,
-    "content": "一呼一吸既快樂又愚昧 無止境從熱吻中火拼",
+    "id": 508,
+    "content": "一呼一吸既快樂又愚昧 無止境 從熱吻中火拼",
     "song": "尼古丁",
     "album": "Solidays",
     "tags": [
       "crazy",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=尼古丁"
+    "link": "https://music.163.com/#/search/m/?s=%E5%B0%BC%E5%8F%A4%E4%B8%81"
   },
   {
-    "id": 155,
-    "content": "原本應該一早戒了還是不捨得我的尼古丁",
+    "id": 509,
+    "content": "原本應該一早戒了 還是不捨得我的尼古丁",
     "song": "尼古丁",
     "album": "Solidays",
     "tags": [
       "love",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=尼古丁"
+    "link": "https://music.163.com/#/search/m/?s=%E5%B0%BC%E5%8F%A4%E4%B8%81"
   },
   {
     "id": 156,
@@ -1753,7 +1593,7 @@
       "life",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=多少"
+    "link": "https://music.163.com/#/search/m/?s=%E5%A4%9A%E5%B0%91"
   },
   {
     "id": 157,
@@ -1764,18 +1604,18 @@
       "love",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=多少"
+    "link": "https://music.163.com/#/search/m/?s=%E5%A4%9A%E5%B0%91"
   },
   {
-    "id": 158,
-    "content": "真的可以了我可以了放棄相愛資格 耽誤的青春是美好的天真",
+    "id": 510,
+    "content": "真的可以了我可以了 放棄相愛資格 耽誤的青春是美好的天真",
     "song": "可以了",
     "album": "Rice & Shine",
     "tags": [
       "healing",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=可以了"
+    "link": "https://music.163.com/#/search/m/?s=%E5%8F%AF%E4%BB%A5%E4%BA%86"
   },
   {
     "id": 159,
@@ -1786,7 +1626,7 @@
       "regret",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=可以了"
+    "link": "https://music.163.com/#/search/m/?s=%E5%8F%AF%E4%BB%A5%E4%BA%86"
   },
   {
     "id": 160,
@@ -1797,7 +1637,7 @@
       "healing",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=无条件"
+    "link": "https://music.163.com/#/search/m/?s=%E7%84%A1%E6%A2%9D%E4%BB%B6"
   },
   {
     "id": 161,
@@ -1808,40 +1648,40 @@
       "classic",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=无条件"
+    "link": "https://music.163.com/#/search/m/?s=%E7%84%A1%E6%A2%9D%E4%BB%B6"
   },
   {
-    "id": 162,
-    "content": "當潮流愛新鮮當旁人愛標籤 幸得伴着你我是窩心的自然",
+    "id": 511,
+    "content": "當潮流愛新鮮 當旁人愛標籤 幸得伴着你我 是窩心的自然",
     "song": "無條件",
     "album": "准备中",
     "tags": [
       "healing",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=无条件"
+    "link": "https://music.163.com/#/search/m/?s=%E7%84%A1%E6%A2%9D%E4%BB%B6"
   },
   {
-    "id": 163,
-    "content": "美好的沉澱了沒有火花不要燒",
+    "id": 512,
+    "content": "美好的沉澱了 沒有火花不要燒",
     "song": "失戀太少",
     "album": "Shall We Dance? Shall We Talk!",
     "tags": [
       "healing",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=失恋太少"
+    "link": "https://music.163.com/#/search/m/?s=%E5%A4%B1%E6%88%80%E5%A4%AA%E5%B0%91"
   },
   {
-    "id": 164,
-    "content": "愛過的成熟了犯錯只因失戀太少",
+    "id": 513,
+    "content": "愛過的成熟了 犯錯只因失戀太少",
     "song": "失戀太少",
     "album": "Shall We Dance? Shall We Talk!",
     "tags": [
       "classic",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=失恋太少"
+    "link": "https://music.163.com/#/search/m/?s=%E5%A4%B1%E6%88%80%E5%A4%AA%E5%B0%91"
   },
   {
     "id": 165,
@@ -1852,7 +1692,7 @@
       "healing",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=活着多好"
+    "link": "https://music.163.com/#/search/m/?s=%E6%B4%BB%E7%9D%80%E5%A4%9A%E5%A5%BD"
   },
   {
     "id": 166,
@@ -1863,30 +1703,29 @@
       "healing",
       "life"
     ],
-    "link": "https://music.163.com/#/search/m/?s=活着多好"
+    "link": "https://music.163.com/#/search/m/?s=%E6%B4%BB%E7%9D%80%E5%A4%9A%E5%A5%BD"
   },
   {
-    "id": 167,
-    "content": "你看看大夥兒合照就你一個人沒有笑",
+    "id": 514,
+    "content": "你看看大夥兒合照 就你一個人沒有笑",
     "song": "你給我聽好",
     "album": "Rice & Shine",
     "tags": [
       "life",
-      "sad",
-      "social"
+      "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=你给我听好"
+    "link": "https://music.163.com/#/search/m/?s=%E4%BD%A0%E7%B5%A6%E6%88%91%E8%81%BD%E5%A5%BD"
   },
   {
-    "id": 168,
-    "content": "其實你知道煩惱會解決煩惱",
+    "id": 515,
+    "content": "其實你知道煩惱 會解決煩惱",
     "song": "你給我聽好",
     "album": "Rice & Shine",
     "tags": [
       "healing",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=你给我听好"
+    "link": "https://music.163.com/#/search/m/?s=%E4%BD%A0%E7%B5%A6%E6%88%91%E8%81%BD%E5%A5%BD"
   },
   {
     "id": 169,
@@ -1897,7 +1736,7 @@
       "life",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=你给我听好"
+    "link": "https://music.163.com/#/search/m/?s=%E4%BD%A0%E7%B5%A6%E6%88%91%E8%81%BD%E5%A5%BD"
   },
   {
     "id": 170,
@@ -1909,7 +1748,7 @@
       "love",
       "memory"
     ],
-    "link": "https://music.163.com/#/search/m/?s=因为爱情"
+    "link": "https://music.163.com/#/search/m/?s=%E5%9B%A0%E7%82%BA%E6%84%9B%E6%83%85"
   },
   {
     "id": 171,
@@ -1921,7 +1760,7 @@
       "healing",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=因为爱情"
+    "link": "https://music.163.com/#/search/m/?s=%E5%9B%A0%E7%82%BA%E6%84%9B%E6%83%85"
   },
   {
     "id": 172,
@@ -1933,22 +1772,22 @@
       "memory",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=绵绵"
+    "link": "https://music.163.com/#/search/m/?s=%E7%B6%BF%E7%B6%BF"
   },
   {
-    "id": 173,
-    "content": "從來沒細心數清楚一個夏雨天一次愉快的睡眠斷多少發線",
+    "id": 516,
+    "content": "從來沒細心數清楚 一個夏雨天 一次愉快的睡眠 斷多少發線",
     "song": "綿綿",
     "album": "打得火热",
     "tags": [
       "love",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=绵绵"
+    "link": "https://music.163.com/#/search/m/?s=%E7%B6%BF%E7%B6%BF"
   },
   {
-    "id": 174,
-    "content": "仍然沒有遇到那位跟我絕配的戀人",
+    "id": 517,
+    "content": "仍然沒有 遇到那位跟我絕配的戀人",
     "song": "1874",
     "album": "The Line-Up",
     "tags": [
@@ -1977,19 +1816,18 @@
       "life",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=2001太空漫游"
+    "link": "https://music.163.com/#/search/m/?s=2001%E5%A4%AA%E7%A9%BA%E6%BC%AB%E9%81%8A"
   },
   {
-    "id": 177,
-    "content": "忽然001 還未倒數9 8 7 平日的壓力已在瞬間消失像太空漫遊",
+    "id": 518,
+    "content": "忽然001 還未倒數9 8 7 平日的壓力已在瞬間消失",
     "song": "2001太空漫遊",
     "album": "Shall We Dance? Shall We Talk!",
     "tags": [
       "brightness",
-      "crazy",
       "healing"
     ],
-    "link": "https://music.163.com/#/search/m/?s=2001太空漫游"
+    "link": "https://music.163.com/#/search/m/?s=2001%E5%A4%AA%E7%A9%BA%E6%BC%AB%E9%81%8A"
   },
   {
     "id": 178,
@@ -2001,40 +1839,50 @@
       "crazy",
       "healing"
     ],
-    "link": "https://music.163.com/#/search/m/?s=随意门"
+    "link": "https://music.163.com/#/search/m/?s=%E9%9A%A8%E6%84%8F%E9%96%80"
   },
   {
-    "id": 179,
-    "content": "宇宙再大猶如咫尺卻未夠膽亂行亂闖",
+    "id": 519,
+    "content": "宇宙再大猶如咫尺 卻未夠膽亂行亂闖",
     "song": "隨意門",
     "album": "The Line-Up",
     "tags": [
-      "life",
-      "philosophy"
+      "brightness"
     ],
-    "link": "https://music.163.com/#/search/m/?s=随意门"
+    "link": "https://music.163.com/#/search/m/?s=%E9%9A%A8%E6%84%8F%E9%96%80"
   },
   {
-    "id": 180,
-    "content": "多經典的歌后一剎眼已走 纏綿着青葱的山丘轉眼變蟻丘",
-    "song": "夕陽無限好",
-    "album": "U87",
-    "tags": [
-      "philosophy",
-      "sad"
-    ],
-    "link": "https://music.163.com/#/search/m/?s=夕阳无限好"
-  },
-  {
-    "id": 181,
-    "content": "夕陽無限好天色已黃昏 本想去憑愛去換最燦爛一生",
+    "id": 520,
+    "content": "多經典的歌后 一剎眼已走 纏綿着青葱的山丘 轉眼變蟻丘",
     "song": "夕陽無限好",
     "album": "U87",
     "tags": [
       "classic",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=夕阳无限好"
+    "link": "https://music.163.com/#/search/m/?s=%E5%A4%95%E9%99%BD%E7%84%A1%E9%99%90%E5%A5%BD"
+  },
+  {
+    "id": 521,
+    "content": "夕陽無限好 天色已黃昏",
+    "song": "夕陽無限好",
+    "album": "U87",
+    "tags": [
+      "classic",
+      "philosophy"
+    ],
+    "link": "https://music.163.com/#/search/m/?s=%E5%A4%95%E9%99%BD%E7%84%A1%E9%99%90%E5%A5%BD"
+  },
+  {
+    "id": 522,
+    "content": "本想去憑愛 去換最燦爛一生 想不到長吻 帶來更永恆傷感",
+    "song": "夕陽無限好",
+    "album": "U87",
+    "tags": [
+      "classic",
+      "sad"
+    ],
+    "link": "https://music.163.com/#/search/m/?s=%E5%A4%95%E9%99%BD%E7%84%A1%E9%99%90%E5%A5%BD"
   },
   {
     "id": 182,
@@ -2045,7 +1893,7 @@
       "crazy",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=防不胜防"
+    "link": "https://music.163.com/#/search/m/?s=%E9%98%B2%E4%B8%8D%E5%8B%9D%E9%98%B2"
   },
   {
     "id": 183,
@@ -2056,7 +1904,7 @@
       "crazy",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=防不胜防"
+    "link": "https://music.163.com/#/search/m/?s=%E9%98%B2%E4%B8%8D%E5%8B%9D%E9%98%B2"
   },
   {
     "id": 184,
@@ -2067,7 +1915,7 @@
       "classic",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=沙龙"
+    "link": "https://music.163.com/#/search/m/?s=%E6%B2%99%E9%BE%8D"
   },
   {
     "id": 185,
@@ -2078,29 +1926,39 @@
       "life",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=沙龙"
+    "link": "https://music.163.com/#/search/m/?s=%E6%B2%99%E9%BE%8D"
   },
   {
-    "id": 186,
-    "content": "這個世界最壞罪名叫太易動情 但我喜歡這罪名",
-    "song": "無人之境",
-    "album": "Time Flies",
+    "id": 523,
+    "content": "其實人生並非虛耗 何來塵埃飛舞",
+    "song": "沙龍",
+    "album": "H3M",
     "tags": [
-      "crazy",
-      "love"
+      "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=无人之境"
+    "link": "https://music.163.com/#/search/m/?s=%E6%B2%99%E9%BE%8D"
   },
   {
-    "id": 187,
-    "content": "驚天動地只可惜天地亦無情",
+    "id": 524,
+    "content": "這個世界最壞罪名 叫太易動情 但我喜歡這罪名",
     "song": "無人之境",
     "album": "Time Flies",
     "tags": [
       "love",
-      "sad"
+      "crazy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=无人之境"
+    "link": "https://music.163.com/#/search/m/?s=%E7%84%A1%E4%BA%BA%E4%B9%8B%E5%A2%83"
+  },
+  {
+    "id": 525,
+    "content": "但我想跟你亂纏",
+    "song": "無人之境",
+    "album": "Time Flies",
+    "tags": [
+      "love",
+      "crazy"
+    ],
+    "link": "https://music.163.com/#/search/m/?s=%E7%84%A1%E4%BA%BA%E4%B9%8B%E5%A2%83"
   },
   {
     "id": 188,
@@ -2112,7 +1970,7 @@
       "memory",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=谁来剪月光"
+    "link": "https://music.163.com/#/search/m/?s=%E8%AA%B0%E4%BE%86%E5%89%AA%E6%9C%88%E5%85%89"
   },
   {
     "id": 189,
@@ -2123,7 +1981,7 @@
       "healing",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=谁来剪月光"
+    "link": "https://music.163.com/#/search/m/?s=%E8%AA%B0%E4%BE%86%E5%89%AA%E6%9C%88%E5%85%89"
   },
   {
     "id": 190,
@@ -2134,7 +1992,7 @@
       "love",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=是但求其爱"
+    "link": "https://music.163.com/#/search/m/?s=%E6%98%AF%E4%BD%86%E6%B1%82%E5%85%B6%E6%84%9B"
   },
   {
     "id": 191,
@@ -2146,7 +2004,7 @@
       "regret",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=是但求其爱"
+    "link": "https://music.163.com/#/search/m/?s=%E6%98%AF%E4%BD%86%E6%B1%82%E5%85%B6%E6%84%9B"
   },
   {
     "id": 192,
@@ -2157,7 +2015,7 @@
       "healing",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=尘大师"
+    "link": "https://music.163.com/#/search/m/?s=%E5%A1%B5%E5%A4%A7%E5%B8%AB"
   },
   {
     "id": 193,
@@ -2168,7 +2026,7 @@
       "brightness",
       "healing"
     ],
-    "link": "https://music.163.com/#/search/m/?s=尘大师"
+    "link": "https://music.163.com/#/search/m/?s=%E5%A1%B5%E5%A4%A7%E5%B8%AB"
   },
   {
     "id": 194,
@@ -2179,7 +2037,7 @@
       "lonely",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=圣诞结"
+    "link": "https://music.163.com/#/search/m/?s=%E8%81%96%E8%AA%95%E7%B5%90"
   },
   {
     "id": 195,
@@ -2190,7 +2048,7 @@
       "classic",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=圣诞结"
+    "link": "https://music.163.com/#/search/m/?s=%E8%81%96%E8%AA%95%E7%B5%90"
   },
   {
     "id": 196,
@@ -2201,7 +2059,7 @@
       "lonely",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=Lonely Christmas"
+    "link": "https://music.163.com/#/search/m/?s=Lonely%20Christmas"
   },
   {
     "id": 197,
@@ -2212,29 +2070,27 @@
       "regret",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=Lonely Christmas"
+    "link": "https://music.163.com/#/search/m/?s=Lonely%20Christmas"
   },
   {
-    "id": 198,
-    "content": "一刻心也跳着命能懸着尚能延着",
+    "id": 526,
+    "content": "一刻心也跳着 命能懸着 尚能延着",
     "song": "完",
     "album": "3mm",
     "tags": [
-      "life",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=完"
+    "link": "https://music.163.com/#/search/m/?s=%E5%AE%8C"
   },
   {
-    "id": 199,
-    "content": "光陰雖倒計着但呢喃下照樣漫長",
+    "id": 527,
+    "content": "光陰雖倒計着 但呢喃下 照樣漫長",
     "song": "完",
     "album": "3mm",
     "tags": [
-      "philosophy",
-      "sad"
+      "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=完"
+    "link": "https://music.163.com/#/search/m/?s=%E5%AE%8C"
   },
   {
     "id": 200,
@@ -2245,7 +2101,7 @@
       "classic",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=歌颂"
+    "link": "https://music.163.com/#/search/m/?s=%E6%AD%8C%E9%A0%8C"
   },
   {
     "id": 201,
@@ -2256,7 +2112,7 @@
       "classic",
       "healing"
     ],
-    "link": "https://music.163.com/#/search/m/?s=歌颂"
+    "link": "https://music.163.com/#/search/m/?s=%E6%AD%8C%E9%A0%8C"
   },
   {
     "id": 202,
@@ -2267,7 +2123,7 @@
       "life",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=后台"
+    "link": "https://music.163.com/#/search/m/?s=%E5%BE%8C%E5%8F%B0"
   },
   {
     "id": 203,
@@ -2278,7 +2134,7 @@
       "life",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=黄金时代"
+    "link": "https://music.163.com/#/search/m/?s=%E9%BB%83%E9%87%91%E6%99%82%E4%BB%A3"
   },
   {
     "id": 204,
@@ -2289,7 +2145,7 @@
       "classic",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=黄金时代"
+    "link": "https://music.163.com/#/search/m/?s=%E9%BB%83%E9%87%91%E6%99%82%E4%BB%A3"
   },
   {
     "id": 205,
@@ -2301,7 +2157,7 @@
       "philosophy",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=与我常在"
+    "link": "https://music.163.com/#/search/m/?s=%E8%88%87%E6%88%91%E5%B8%B8%E5%9C%A8"
   },
   {
     "id": 206,
@@ -2312,7 +2168,7 @@
       "philosophy",
       "power"
     ],
-    "link": "https://music.163.com/#/search/m/?s=与我常在"
+    "link": "https://music.163.com/#/search/m/?s=%E8%88%87%E6%88%91%E5%B8%B8%E5%9C%A8"
   },
   {
     "id": 207,
@@ -2324,7 +2180,7 @@
       "healing",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=幸福摩天轮"
+    "link": "https://music.163.com/#/search/m/?s=%E5%B9%B8%E7%A6%8F%E6%91%A9%E5%A4%A9%E8%BC%AA"
   },
   {
     "id": 208,
@@ -2335,7 +2191,7 @@
       "classic",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=幸福摩天轮"
+    "link": "https://music.163.com/#/search/m/?s=%E5%B9%B8%E7%A6%8F%E6%91%A9%E5%A4%A9%E8%BC%AA"
   },
   {
     "id": 209,
@@ -2346,7 +2202,7 @@
       "classic",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=贝多芬与我"
+    "link": "https://music.163.com/#/search/m/?s=%E8%B2%9D%E5%A4%9A%E8%8A%AC%E8%88%87%E6%88%91"
   },
   {
     "id": 210,
@@ -2357,30 +2213,27 @@
       "love",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=热带雨林"
+    "link": "https://music.163.com/#/search/m/?s=%E7%86%B1%E5%B8%B6%E9%9B%A8%E6%9E%97"
   },
   {
-    "id": 211,
-    "content": "喂喂我這麼稱呼你 喂喂我這麼喜歡你",
+    "id": 528,
+    "content": "喂喂 我這麼稱呼你 喂喂 我這麼喜歡你",
     "song": "冤氣",
     "album": "Mixed Up",
     "tags": [
-      "brightness",
-      "healing",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=冤气"
+    "link": "https://music.163.com/#/search/m/?s=%E5%86%A4%E6%B0%A3"
   },
   {
-    "id": 212,
-    "content": "頹廢混雜着煙味 我滿臉鬍渣在自得其樂的世界",
+    "id": 529,
+    "content": "頹廢混雜着煙味 我滿臉鬍渣 在自得其樂的世界",
     "song": "煙味",
     "album": "七",
     "tags": [
-      "lonely",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=烟味"
+    "link": "https://music.163.com/#/search/m/?s=%E7%85%99%E5%91%B3"
   },
   {
     "id": 213,
@@ -2392,7 +2245,7 @@
       "philosophy",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=烟味"
+    "link": "https://music.163.com/#/search/m/?s=%E7%85%99%E5%91%B3"
   },
   {
     "id": 214,
@@ -2403,7 +2256,7 @@
       "crazy",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=裙下之臣"
+    "link": "https://music.163.com/#/search/m/?s=%E8%A3%99%E4%B8%8B%E4%B9%8B%E8%87%A3"
   },
   {
     "id": 215,
@@ -2414,7 +2267,7 @@
       "crazy",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=裙下之臣"
+    "link": "https://music.163.com/#/search/m/?s=%E8%A3%99%E4%B8%8B%E4%B9%8B%E8%87%A3"
   },
   {
     "id": 216,
@@ -2425,18 +2278,18 @@
       "classic",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=白玫瑰"
+    "link": "https://music.163.com/#/search/m/?s=%E7%99%BD%E7%8E%AB%E7%91%B0"
   },
   {
-    "id": 217,
-    "content": "白如白牙熱情被吞噬",
+    "id": 530,
+    "content": "白如白牙熱情被吞噬 香檳早揮發的徹底",
     "song": "白玫瑰",
     "album": "What's Going On...?",
     "tags": [
-      "dark",
+      "love",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=白玫瑰"
+    "link": "https://music.163.com/#/search/m/?s=%E7%99%BD%E7%8E%AB%E7%91%B0"
   },
   {
     "id": 218,
@@ -2448,52 +2301,7 @@
       "memory",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=心烧"
-  },
-  {
-    "id": 219,
-    "content": "記住潛龍勿用 這樣玄妙你懂不懂",
-    "song": "潛龍勿用",
-    "album": "The Easy Ride",
-    "tags": [
-      "crazy",
-      "dark",
-      "sad"
-    ],
-    "link": "https://music.163.com/#/search/m/?s=潜龙勿用"
-  },
-  {
-    "id": 220,
-    "content": "偏要給你給你一顆心躍動",
-    "song": "潛龍勿用",
-    "album": "The Easy Ride",
-    "tags": [
-      "crazy",
-      "love"
-    ],
-    "link": "https://music.163.com/#/search/m/?s=潜龙勿用"
-  },
-  {
-    "id": 221,
-    "content": "我只是卑微的小丑 翻幾個跟斗 就等你拍一拍手",
-    "song": "喬克叔叔",
-    "album": "Rice & Shine",
-    "tags": [
-      "lonely",
-      "sad"
-    ],
-    "link": "https://music.163.com/#/search/m/?s=乔克叔叔"
-  },
-  {
-    "id": 222,
-    "content": "我不是孤獨的小丑 你笑了之後 不需要記得我",
-    "song": "喬克叔叔",
-    "album": "Rice & Shine",
-    "tags": [
-      "philosophy",
-      "sad"
-    ],
-    "link": "https://music.163.com/#/search/m/?s=乔克叔叔"
+    "link": "https://music.163.com/#/search/m/?s=%E5%BF%83%E7%87%92"
   },
   {
     "id": 223,
@@ -2504,40 +2312,40 @@
       "love",
       "power"
     ],
-    "link": "https://music.163.com/#/search/m/?s=给你"
+    "link": "https://music.163.com/#/search/m/?s=%E7%B5%A6%E4%BD%A0"
   },
   {
-    "id": 224,
-    "content": "可是我相信愛",
+    "id": 531,
+    "content": "可是我 相信愛 我信異想才有日會天開",
     "song": "給你",
     "album": "上五楼的快活",
     "tags": [
-      "love",
-      "power"
-    ],
-    "link": "https://music.163.com/#/search/m/?s=给你"
-  },
-  {
-    "id": 225,
-    "content": "固執的一對漸發現各自也不對",
-    "song": "牀頭牀尾",
-    "album": "The Key",
-    "tags": [
-      "life",
+      "healing",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=床头床尾"
+    "link": "https://music.163.com/#/search/m/?s=%E7%B5%A6%E4%BD%A0"
   },
   {
-    "id": 226,
-    "content": "一覺甦醒了驀然回看不想再追",
+    "id": 532,
+    "content": "固執的一對 漸發現各自也不對",
     "song": "牀頭牀尾",
     "album": "The Key",
     "tags": [
-      "healing",
-      "life"
+      "love",
+      "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=床头床尾"
+    "link": "https://music.163.com/#/search/m/?s=%E7%89%80%E9%A0%AD%E7%89%80%E5%B0%BE"
+  },
+  {
+    "id": 533,
+    "content": "一覺甦醒了 驀然回看 不想再追",
+    "song": "牀頭牀尾",
+    "album": "The Key",
+    "tags": [
+      "love",
+      "sad"
+    ],
+    "link": "https://music.163.com/#/search/m/?s=%E7%89%80%E9%A0%AD%E7%89%80%E5%B0%BE"
   },
   {
     "id": 227,
@@ -2549,7 +2357,7 @@
       "regret",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=娱乐天空"
+    "link": "https://music.163.com/#/search/m/?s=%E5%A8%9B%E6%A8%82%E5%A4%A9%E7%A9%BA"
   },
   {
     "id": 228,
@@ -2560,7 +2368,7 @@
       "life",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=娱乐天空"
+    "link": "https://music.163.com/#/search/m/?s=%E5%A8%9B%E6%A8%82%E5%A4%A9%E7%A9%BA"
   },
   {
     "id": 229,
@@ -2572,7 +2380,7 @@
       "memory",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=四季"
+    "link": "https://music.163.com/#/search/m/?s=%E5%9B%9B%E5%AD%A3"
   },
   {
     "id": 230,
@@ -2583,7 +2391,7 @@
       "pain",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=四季"
+    "link": "https://music.163.com/#/search/m/?s=%E5%9B%9B%E5%AD%A3"
   },
   {
     "id": 231,
@@ -2594,7 +2402,7 @@
       "healing",
       "power"
     ],
-    "link": "https://music.163.com/#/search/m/?s=披风"
+    "link": "https://music.163.com/#/search/m/?s=%E6%8A%AB%E9%A2%A8"
   },
   {
     "id": 232,
@@ -2605,7 +2413,7 @@
       "brightness",
       "healing"
     ],
-    "link": "https://music.163.com/#/search/m/?s=披风"
+    "link": "https://music.163.com/#/search/m/?s=%E6%8A%AB%E9%A2%A8"
   },
   {
     "id": 233,
@@ -2616,7 +2424,7 @@
       "life",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=海胆"
+    "link": "https://music.163.com/#/search/m/?s=%E6%B5%B7%E8%86%BD"
   },
   {
     "id": 234,
@@ -2628,7 +2436,7 @@
       "lonely",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=海胆"
+    "link": "https://music.163.com/#/search/m/?s=%E6%B5%B7%E8%86%BD"
   },
   {
     "id": 235,
@@ -2639,7 +2447,7 @@
       "regret",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=渐渐"
+    "link": "https://music.163.com/#/search/m/?s=%E6%BC%B8%E6%BC%B8"
   },
   {
     "id": 236,
@@ -2651,7 +2459,7 @@
       "memory",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=渐渐"
+    "link": "https://music.163.com/#/search/m/?s=%E6%BC%B8%E6%BC%B8"
   },
   {
     "id": 237,
@@ -2662,7 +2470,7 @@
       "dark",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=龙舌兰"
+    "link": "https://music.163.com/#/search/m/?s=%E9%BE%8D%E8%88%8C%E8%98%AD"
   },
   {
     "id": 238,
@@ -2674,30 +2482,83 @@
       "dark",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=龙舌兰"
+    "link": "https://music.163.com/#/search/m/?s=%E9%BE%8D%E8%88%8C%E8%98%AD"
   },
   {
-    "id": 239,
-    "content": "情人遊天地日月換行李 如果失憶我渴望再多一次認識你",
+    "id": 534,
+    "content": "你知不知 你是禁忌",
+    "song": "龍舌蘭",
+    "album": "L.O.V.E.",
+    "tags": [
+      "love",
+      "sad"
+    ],
+    "link": "https://music.163.com/#/search/m/?s=%E9%BE%8D%E8%88%8C%E8%98%AD"
+  },
+  {
+    "id": 535,
+    "content": "情人遊天地 日月換行李 如果失憶我渴望再多一次認識你",
     "song": "我們萬歲",
     "album": "L.O.V.E.",
     "tags": [
-      "brightness",
-      "healing",
-      "love"
+      "love",
+      "healing"
     ],
-    "link": "https://music.163.com/#/search/m/?s=我们万岁"
+    "link": "https://music.163.com/#/search/m/?s=%E6%88%91%E5%80%91%E8%90%AC%E6%AD%B2"
   },
   {
-    "id": 240,
-    "content": "證明可不捨不棄吻停不知幾多歲的你",
+    "id": 536,
+    "content": "證明可不捨不棄 吻停不知幾多歲的你",
     "song": "我們萬歲",
     "album": "L.O.V.E.",
     "tags": [
-      "classic",
+      "love",
+      "healing"
+    ],
+    "link": "https://music.163.com/#/search/m/?s=%E6%88%91%E5%80%91%E8%90%AC%E6%AD%B2"
+  },
+  {
+    "id": 537,
+    "content": "證明可不捨不棄 吻停你到下世紀",
+    "song": "我們萬歲",
+    "album": "L.O.V.E.",
+    "tags": [
+      "love",
+      "healing"
+    ],
+    "link": "https://music.163.com/#/search/m/?s=%E6%88%91%E5%80%91%E8%90%AC%E6%AD%B2"
+  },
+  {
+    "id": 538,
+    "content": "能重頭偷望你 能重頭追逐你 能重頭親近你",
+    "song": "我們萬歲",
+    "album": "L.O.V.E.",
+    "tags": [
+      "love",
+      "healing"
+    ],
+    "link": "https://music.163.com/#/search/m/?s=%E6%88%91%E5%80%91%E8%90%AC%E6%AD%B2"
+  },
+  {
+    "id": 539,
+    "content": "永恒的不舍不棄 降臨你我合葬的墓碑",
+    "song": "我們萬歲",
+    "album": "L.O.V.E.",
+    "tags": [
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=我们万岁"
+    "link": "https://music.163.com/#/search/m/?s=%E6%88%91%E5%80%91%E8%90%AC%E6%AD%B2"
+  },
+  {
+    "id": 540,
+    "content": "能重頭呵護你 能重頭感動你 能重享受愛你",
+    "song": "我們萬歲",
+    "album": "L.O.V.E.",
+    "tags": [
+     "love",
+      "healing"
+    ],
+    "link": "https://music.163.com/#/search/m/?s=%E6%88%91%E5%80%91%E8%90%AC%E6%AD%B2"
   },
   {
     "id": 241,
@@ -2708,29 +2569,27 @@
       "brightness",
       "healing"
     ],
-    "link": "https://music.163.com/#/search/m/?s=致明日的舞"
+    "link": "https://music.163.com/#/search/m/?s=%E8%87%B4%E6%98%8E%E6%97%A5%E7%9A%84%E8%88%9E"
   },
   {
-    "id": 242,
-    "content": "再與你轉個圈發覺你會更耐看",
+    "id": 541,
+    "content": "再與你轉個圈 發覺你會更耐看",
     "song": "致明日的舞",
     "album": "致明日的舞",
     "tags": [
-      "healing",
-      "love"
+      "healing"
     ],
-    "link": "https://music.163.com/#/search/m/?s=致明日的舞"
+    "link": "https://music.163.com/#/search/m/?s=%E8%87%B4%E6%98%8E%E6%97%A5%E7%9A%84%E8%88%9E"
   },
   {
-    "id": 243,
-    "content": "若如若時晨未到似水點散下落花變朝露",
+    "id": 542,
+    "content": "若如若時晨未到 似水點散下落花變朝露",
     "song": "盲婚啞嫁",
     "album": "盲婚哑嫁",
     "tags": [
-      "life",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=盲婚哑嫁"
+    "link": "https://music.163.com/#/search/m/?s=%E7%9B%B2%E5%A9%9A%E5%95%9E%E5%AB%81"
   },
   {
     "id": 244,
@@ -2741,7 +2600,7 @@
       "healing",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=盲婚哑嫁"
+    "link": "https://music.163.com/#/search/m/?s=%E7%9B%B2%E5%A9%9A%E5%95%9E%E5%AB%81"
   },
   {
     "id": 245,
@@ -2752,7 +2611,7 @@
       "life",
       "social"
     ],
-    "link": "https://music.163.com/#/search/m/?s=社交恐惧癌"
+    "link": "https://music.163.com/#/search/m/?s=%E7%A4%BE%E4%BA%A4%E6%81%90%E6%87%BC%E7%99%8C"
   },
   {
     "id": 246,
@@ -2764,7 +2623,7 @@
       "life",
       "social"
     ],
-    "link": "https://music.163.com/#/search/m/?s=社交恐惧癌"
+    "link": "https://music.163.com/#/search/m/?s=%E7%A4%BE%E4%BA%A4%E6%81%90%E6%87%BC%E7%99%8C"
   },
   {
     "id": 247,
@@ -2775,7 +2634,7 @@
       "crazy",
       "power"
     ],
-    "link": "https://music.163.com/#/search/m/?s=破坏王"
+    "link": "https://music.163.com/#/search/m/?s=%E7%A0%B4%E5%A3%9E%E7%8E%8B"
   },
   {
     "id": 248,
@@ -2786,7 +2645,7 @@
       "crazy",
       "freedom"
     ],
-    "link": "https://music.163.com/#/search/m/?s=破坏王"
+    "link": "https://music.163.com/#/search/m/?s=%E7%A0%B4%E5%A3%9E%E7%8E%8B"
   },
   {
     "id": 249,
@@ -2799,7 +2658,7 @@
       "healing",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=愚人快乐"
+    "link": "https://music.163.com/#/search/m/?s=%E6%84%9A%E4%BA%BA%E5%BF%AB%E6%A8%82"
   },
   {
     "id": 250,
@@ -2811,18 +2670,7 @@
       "life",
       "memory"
     ],
-    "link": "https://music.163.com/#/search/m/?s=愚人快乐"
-  },
-  {
-    "id": 251,
-    "content": "你冠軍你亞軍頭上鍍金 我季軍這季軍榮幸萬分",
-    "song": "季軍",
-    "album": "The Easy Ride",
-    "tags": [
-      "life",
-      "philosophy"
-    ],
-    "link": "https://music.163.com/#/search/m/?s=季军"
+    "link": "https://music.163.com/#/search/m/?s=%E6%84%9A%E4%BA%BA%E5%BF%AB%E6%A8%82"
   },
   {
     "id": 252,
@@ -2834,19 +2682,18 @@
       "love",
       "social"
     ],
-    "link": "https://music.163.com/#/search/m/?s=信任"
+    "link": "https://music.163.com/#/search/m/?s=%E4%BF%A1%E4%BB%BB"
   },
   {
-    "id": 253,
-    "content": "I do 我願意承擔厭倦一個人晚餐",
+    "id": 543,
+    "content": "厭倦一個人晚餐 就算粗茶淡飯 原來有你的陪伴 故事變得燦爛",
     "song": "I Do",
     "album": "C'mon In~",
     "tags": [
-      "brightness",
-      "healing",
-      "love"
+      "love",
+      "healing"
     ],
-    "link": "https://music.163.com/#/search/m/?s=I Do"
+    "link": "https://music.163.com/#/search/m/?s=I%20Do"
   },
   {
     "id": 254,
@@ -2857,7 +2704,7 @@
       "classic",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=I Do"
+    "link": "https://music.163.com/#/search/m/?s=I%20Do"
   },
   {
     "id": 255,
@@ -2870,7 +2717,7 @@
       "sad",
       "social"
     ],
-    "link": "https://music.163.com/#/search/m/?s=谎言"
+    "link": "https://music.163.com/#/search/m/?s=%E8%AC%8A%E8%A8%80"
   },
   {
     "id": 256,
@@ -2882,40 +2729,27 @@
       "philosophy",
       "social"
     ],
-    "link": "https://music.163.com/#/search/m/?s=谎言"
+    "link": "https://music.163.com/#/search/m/?s=%E8%AC%8A%E8%A8%80"
   },
   {
-    "id": 257,
-    "content": "有一種預感愛就要離岸",
+    "id": 544,
+    "content": "有一種預感 愛就要離岸",
     "song": "預感",
     "album": "酝酿",
     "tags": [
-      "love",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=预感"
+    "link": "https://music.163.com/#/search/m/?s=%E9%A0%90%E6%84%9F"
   },
   {
-    "id": 258,
-    "content": "我坐立難安望眼欲穿",
+    "id": 545,
+    "content": "我坐立難安 望眼欲穿",
     "song": "預感",
     "album": "酝酿",
     "tags": [
-      "crazy",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=预感"
-  },
-  {
-    "id": 259,
-    "content": "似木頭似石頭的話得到注意嗎？其實怕被忘記至放大來演吧",
-    "song": "浮誇",
-    "album": "U87",
-    "tags": [
-      "crazy",
-      "philosophy"
-    ],
-    "link": "https://music.163.com/#/search/m/?s=浮夸"
+    "link": "https://music.163.com/#/search/m/?s=%E9%A0%90%E6%84%9F"
   },
   {
     "id": 260,
@@ -2927,7 +2761,7 @@
       "life",
       "social"
     ],
-    "link": "https://music.163.com/#/search/m/?s=浮夸"
+    "link": "https://music.163.com/#/search/m/?s=%E6%B5%AE%E8%AA%87"
   },
   {
     "id": 261,
@@ -2938,7 +2772,7 @@
       "love",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=K歌之王"
+    "link": "https://music.163.com/#/search/m/?s=K%E6%AD%8C%E4%B9%8B%E7%8E%8B"
   },
   {
     "id": 262,
@@ -2949,18 +2783,7 @@
       "classic",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=K歌之王"
-  },
-  {
-    "id": 263,
-    "content": "如果那兩個字沒有顫抖 我不會發現我難受",
-    "song": "十年",
-    "album": "黑·白·灰",
-    "tags": [
-      "classic",
-      "sad"
-    ],
-    "link": "https://music.163.com/#/search/m/?s=十年"
+    "link": "https://music.163.com/#/search/m/?s=K%E6%AD%8C%E4%B9%8B%E7%8E%8B"
   },
   {
     "id": 264,
@@ -2971,7 +2794,7 @@
       "philosophy",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=十年"
+    "link": "https://music.163.com/#/search/m/?s=%E5%8D%81%E5%B9%B4"
   },
   {
     "id": 265,
@@ -2983,7 +2806,7 @@
       "memory",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=十年"
+    "link": "https://music.163.com/#/search/m/?s=%E5%8D%81%E5%B9%B4"
   },
   {
     "id": 266,
@@ -2994,7 +2817,7 @@
       "classic",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=富士山下"
+    "link": "https://music.163.com/#/search/m/?s=%E5%AF%8C%E5%A3%AB%E5%B1%B1%E4%B8%8B"
   },
   {
     "id": 267,
@@ -3005,7 +2828,7 @@
       "philosophy",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=富士山下"
+    "link": "https://music.163.com/#/search/m/?s=%E5%AF%8C%E5%A3%AB%E5%B1%B1%E4%B8%8B"
   },
   {
     "id": 268,
@@ -3017,7 +2840,7 @@
       "love",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=最佳损友"
+    "link": "https://music.163.com/#/search/m/?s=%E6%9C%80%E4%BD%B3%E6%90%8D%E5%8F%8B"
   },
   {
     "id": 269,
@@ -3028,29 +2851,29 @@
       "classic",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=单车"
+    "link": "https://music.163.com/#/search/m/?s=%E5%96%AE%E8%BB%8A"
   },
   {
-    "id": 270,
-    "content": "任世間再冷酷 想起這單車還有幸福可借",
+    "id": 546,
+    "content": "任世間再冷酷 想起這單車 還有幸福可借",
     "song": "單車",
     "album": "Shall We Dance? Shall We Talk!",
     "tags": [
-      "classic",
-      "healing"
+      "healing",
+      "classic"
     ],
-    "link": "https://music.163.com/#/search/m/?s=单车"
+    "link": "https://music.163.com/#/search/m/?s=%E5%96%AE%E8%BB%8A"
   },
   {
-    "id": 271,
-    "content": "我真佩服我還能幽默 掉眼淚時用笑掩過",
+    "id": 547,
+    "content": "我真佩服我 還能幽默 掉眼淚時用笑掩過",
     "song": "孤獨患者",
     "album": "？",
     "tags": [
-      "lonely",
-      "sad"
+      "sad",
+      "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=孤独患者"
+    "link": "https://music.163.com/#/search/m/?s=%E5%AD%A4%E7%8D%A8%E6%82%A3%E8%80%85"
   },
   {
     "id": 272,
@@ -3061,19 +2884,18 @@
       "classic",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=孤独患者"
+    "link": "https://music.163.com/#/search/m/?s=%E5%AD%A4%E7%8D%A8%E6%82%A3%E8%80%85"
   },
   {
-    "id": 273,
-    "content": "我們的回憶沒有皺摺 你卻用離開燙下句點",
+    "id": 548,
+    "content": "我們的回憶 沒有皺摺 你卻用離開燙下句點",
     "song": "淘汰",
     "album": "认了吧",
     "tags": [
-      "classic",
-      "memory",
-      "sad"
+      "sad",
+      "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=淘汰"
+    "link": "https://music.163.com/#/search/m/?s=%E6%B7%98%E6%B1%B0"
   },
   {
     "id": 274,
@@ -3084,7 +2906,7 @@
       "love",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=阴天快乐"
+    "link": "https://music.163.com/#/search/m/?s=%E9%99%B0%E5%A4%A9%E5%BF%AB%E6%A8%82"
   },
   {
     "id": 275,
@@ -3096,7 +2918,7 @@
       "love",
       "memory"
     ],
-    "link": "https://music.163.com/#/search/m/?s=阴天快乐"
+    "link": "https://music.163.com/#/search/m/?s=%E9%99%B0%E5%A4%A9%E5%BF%AB%E6%A8%82"
   },
   {
     "id": 276,
@@ -3107,18 +2929,18 @@
       "classic",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=红玫瑰"
+    "link": "https://music.163.com/#/search/m/?s=%E7%B4%85%E7%8E%AB%E7%91%B0"
   },
   {
-    "id": 277,
-    "content": "你我永遠不肯定愛不愛誰 約不約定誰",
+    "id": 549,
+    "content": "你我永遠不肯定 愛不愛誰 約不約定誰",
     "song": "黃金時代",
     "album": "我的快乐时代",
     "tags": [
-      "love",
+      "classic",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=黄金时代"
+    "link": "https://music.163.com/#/search/m/?s=%E9%BB%83%E9%87%91%E6%99%82%E4%BB%A3"
   },
   {
     "id": 278,
@@ -3129,7 +2951,7 @@
       "life",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=与我常在"
+    "link": "https://music.163.com/#/search/m/?s=%E8%88%87%E6%88%91%E5%B8%B8%E5%9C%A8"
   },
   {
     "id": 279,
@@ -3140,18 +2962,18 @@
       "classic",
       "healing"
     ],
-    "link": "https://music.163.com/#/search/m/?s=幸福摩天轮"
+    "link": "https://music.163.com/#/search/m/?s=%E5%B9%B8%E7%A6%8F%E6%91%A9%E5%A4%A9%E8%BC%AA"
   },
   {
-    "id": 280,
-    "content": "若有些事有些歌能作證 倒想再聽人在生每場革命那歌詠",
+    "id": 550,
+    "content": "若有些事有些歌能作證 倒想再聽人在生 每場革命 那歌詠",
     "song": "貝多芬與我",
     "album": "天佑爱人",
     "tags": [
       "classic",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=贝多芬与我"
+    "link": "https://music.163.com/#/search/m/?s=%E8%B2%9D%E5%A4%9A%E8%8A%AC%E8%88%87%E6%88%91"
   },
   {
     "id": 281,
@@ -3162,18 +2984,27 @@
       "love",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=热带雨林"
+    "link": "https://music.163.com/#/search/m/?s=%E7%86%B1%E5%B8%B6%E9%9B%A8%E6%9E%97"
   },
   {
-    "id": 282,
-    "content": "每次我餵你也有愛煞你滋味 我每次叫你名字彷彿都緊張得喘氣",
+    "id": 551,
+    "content": "每次我餵你也有愛煞你滋味",
     "song": "冤氣",
-    "album": "Mixed Up",
+    "album": "Great 5000 Secs",
     "tags": [
-      "crazy",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=冤气"
+    "link": "https://music.163.com/#/search/m/?s=%E5%86%A4%E6%B0%A3"
+  },
+  {
+    "id": 552,
+    "content": "我每次叫你名字彷彿都緊張得喘氣",
+    "song": "冤氣",
+    "album": "Great 5000 Secs",
+    "tags": [
+      "love"
+    ],
+    "link": "https://music.163.com/#/search/m/?s=%E5%86%A4%E6%B0%A3"
   },
   {
     "id": 283,
@@ -3184,30 +3015,7 @@
       "healing",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=心烧"
-  },
-  {
-    "id": 284,
-    "content": "給你精細的血管 給你精美的五官",
-    "song": "潛龍勿用",
-    "album": "The Easy Ride",
-    "tags": [
-      "crazy",
-      "love"
-    ],
-    "link": "https://music.163.com/#/search/m/?s=潜龙勿用"
-  },
-  {
-    "id": 285,
-    "content": "人羣散了後 夜色多朦朧 月光也會跟着我",
-    "song": "喬克叔叔",
-    "album": "Rice & Shine",
-    "tags": [
-      "classic",
-      "lonely",
-      "sad"
-    ],
-    "link": "https://music.163.com/#/search/m/?s=乔克叔叔"
+    "link": "https://music.163.com/#/search/m/?s=%E5%BF%83%E7%87%92"
   },
   {
     "id": 286,
@@ -3218,7 +3026,7 @@
       "lonely",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=给你"
+    "link": "https://music.163.com/#/search/m/?s=%E7%B5%A6%E4%BD%A0"
   },
   {
     "id": 287,
@@ -3229,7 +3037,7 @@
       "life",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=床头床尾"
+    "link": "https://music.163.com/#/search/m/?s=%E7%89%80%E9%A0%AD%E7%89%80%E5%B0%BE"
   },
   {
     "id": 288,
@@ -3241,7 +3049,7 @@
       "regret",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=愚人快乐"
+    "link": "https://music.163.com/#/search/m/?s=%E6%84%9A%E4%BA%BA%E5%BF%AB%E6%A8%82"
   },
   {
     "id": 289,
@@ -3252,7 +3060,7 @@
       "life",
       "power"
     ],
-    "link": "https://music.163.com/#/search/m/?s=海胆"
+    "link": "https://music.163.com/#/search/m/?s=%E6%B5%B7%E8%86%BD"
   },
   {
     "id": 290,
@@ -3263,7 +3071,7 @@
       "pain",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=渐渐"
+    "link": "https://music.163.com/#/search/m/?s=%E6%BC%B8%E6%BC%B8"
   },
   {
     "id": 291,
@@ -3274,7 +3082,7 @@
       "dark",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=龙舌兰"
+    "link": "https://music.163.com/#/search/m/?s=%E9%BE%8D%E8%88%8C%E8%98%AD"
   },
   {
     "id": 292,
@@ -3283,9 +3091,10 @@
     "album": "L.O.V.E.",
     "tags": [
       "classic",
-      "love"
+      "love",
+      "healing"
     ],
-    "link": "https://music.163.com/#/search/m/?s=我们万岁"
+    "link": "https://music.163.com/#/search/m/?s=%E6%88%91%E5%80%91%E8%90%AC%E6%AD%B2"
   },
   {
     "id": 293,
@@ -3296,7 +3105,7 @@
       "healing",
       "power"
     ],
-    "link": "https://music.163.com/#/search/m/?s=致明日的舞"
+    "link": "https://music.163.com/#/search/m/?s=%E8%87%B4%E6%98%8E%E6%97%A5%E7%9A%84%E8%88%9E"
   },
   {
     "id": 294,
@@ -3307,7 +3116,7 @@
       "healing",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=盲婚哑嫁"
+    "link": "https://music.163.com/#/search/m/?s=%E7%9B%B2%E5%A9%9A%E5%95%9E%E5%AB%81"
   },
   {
     "id": 295,
@@ -3318,7 +3127,7 @@
       "life",
       "social"
     ],
-    "link": "https://music.163.com/#/search/m/?s=社交恐惧癌"
+    "link": "https://music.163.com/#/search/m/?s=%E7%A4%BE%E4%BA%A4%E6%81%90%E6%87%BC%E7%99%8C"
   },
   {
     "id": 296,
@@ -3329,18 +3138,7 @@
       "crazy",
       "power"
     ],
-    "link": "https://music.163.com/#/search/m/?s=破坏王"
-  },
-  {
-    "id": 297,
-    "content": "回望他的失意眼神 贏第四也不開心",
-    "song": "季軍",
-    "album": "The Easy Ride",
-    "tags": [
-      "life",
-      "philosophy"
-    ],
-    "link": "https://music.163.com/#/search/m/?s=季军"
+    "link": "https://music.163.com/#/search/m/?s=%E7%A0%B4%E5%A3%9E%E7%8E%8B"
   },
   {
     "id": 298,
@@ -3352,7 +3150,7 @@
       "philosophy",
       "social"
     ],
-    "link": "https://music.163.com/#/search/m/?s=信任"
+    "link": "https://music.163.com/#/search/m/?s=%E4%BF%A1%E4%BB%BB"
   },
   {
     "id": 299,
@@ -3363,7 +3161,7 @@
       "life",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=I Do"
+    "link": "https://music.163.com/#/search/m/?s=I%20Do"
   },
   {
     "id": 300,
@@ -3376,7 +3174,7 @@
       "sad",
       "social"
     ],
-    "link": "https://music.163.com/#/search/m/?s=谎言"
+    "link": "https://music.163.com/#/search/m/?s=%E8%AC%8A%E8%A8%80"
   },
   {
     "id": 301,
@@ -3387,19 +3185,7 @@
       "love",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=预感"
-  },
-  {
-    "id": 302,
-    "content": "誰還記得海誓山盟 只記得你給我一道皺紋",
-    "song": "你的揹包",
-    "album": "Special Thanks To...",
-    "tags": [
-      "classic",
-      "memory",
-      "sad"
-    ],
-    "link": "https://music.163.com/#/search/m/?s=你的揹包"
+    "link": "https://music.163.com/#/search/m/?s=%E9%A0%90%E6%84%9F"
   },
   {
     "id": 303,
@@ -3410,7 +3196,7 @@
       "regret",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=你的揹包"
+    "link": "https://music.163.com/#/search/m/?s=%E4%BD%A0%E7%9A%84%E6%8F%B9%E5%8C%85"
   },
   {
     "id": 304,
@@ -3421,18 +3207,17 @@
       "philosophy",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=十年"
+    "link": "https://music.163.com/#/search/m/?s=%E5%8D%81%E5%B9%B4"
   },
   {
-    "id": 305,
-    "content": "被窩中轉身心交瘁互建情緒敵對堡壘",
+    "id": 553,
+    "content": "被窩中轉身心交瘁 互建情緒敵對堡壘",
     "song": "牀頭牀尾",
     "album": "The Key",
     "tags": [
-      "life",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=床头床尾"
+    "link": "https://music.163.com/#/search/m/?s=%E7%89%80%E9%A0%AD%E7%89%80%E5%B0%BE"
   },
   {
     "id": 306,
@@ -3443,7 +3228,7 @@
       "healing",
       "power"
     ],
-    "link": "https://music.163.com/#/search/m/?s=致明日的舞"
+    "link": "https://music.163.com/#/search/m/?s=%E8%87%B4%E6%98%8E%E6%97%A5%E7%9A%84%E8%88%9E"
   },
   {
     "id": 307,
@@ -3454,7 +3239,7 @@
       "life",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=盲婚哑嫁"
+    "link": "https://music.163.com/#/search/m/?s=%E7%9B%B2%E5%A9%9A%E5%95%9E%E5%AB%81"
   },
   {
     "id": 308,
@@ -3466,18 +3251,7 @@
       "life",
       "social"
     ],
-    "link": "https://music.163.com/#/search/m/?s=社交恐惧癌"
-  },
-  {
-    "id": 309,
-    "content": "冠亞季也要再找新旅途 未來好不好",
-    "song": "季軍",
-    "album": "The Easy Ride",
-    "tags": [
-      "life",
-      "philosophy"
-    ],
-    "link": "https://music.163.com/#/search/m/?s=季军"
+    "link": "https://music.163.com/#/search/m/?s=%E7%A4%BE%E4%BA%A4%E6%81%90%E6%87%BC%E7%99%8C"
   },
   {
     "id": 310,
@@ -3488,7 +3262,7 @@
       "love",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=I Do"
+    "link": "https://music.163.com/#/search/m/?s=I%20Do"
   },
   {
     "id": 311,
@@ -3501,7 +3275,7 @@
       "sad",
       "social"
     ],
-    "link": "https://music.163.com/#/search/m/?s=谎言"
+    "link": "https://music.163.com/#/search/m/?s=%E8%AC%8A%E8%A8%80"
   },
   {
     "id": 312,
@@ -3512,7 +3286,7 @@
       "healing",
       "life"
     ],
-    "link": "https://music.163.com/#/search/m/?s=陪你度过漫长岁月"
+    "link": "https://music.163.com/#/search/m/?s=%E9%99%AA%E4%BD%A0%E5%BA%A6%E9%81%8E%E6%BC%AB%E9%95%B7%E6%AD%B2%E6%9C%88"
   },
   {
     "id": 313,
@@ -3523,7 +3297,7 @@
       "healing",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=陪你度过漫长岁月"
+    "link": "https://music.163.com/#/search/m/?s=%E9%99%AA%E4%BD%A0%E5%BA%A6%E9%81%8E%E6%BC%AB%E9%95%B7%E6%AD%B2%E6%9C%88"
   },
   {
     "id": 314,
@@ -3534,7 +3308,7 @@
       "healing",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=陪你度过漫长岁月"
+    "link": "https://music.163.com/#/search/m/?s=%E9%99%AA%E4%BD%A0%E5%BA%A6%E9%81%8E%E6%BC%AB%E9%95%B7%E6%AD%B2%E6%9C%88"
   },
   {
     "id": 315,
@@ -3545,7 +3319,7 @@
       "healing",
       "power"
     ],
-    "link": "https://music.163.com/#/search/m/?s=稳稳的幸福"
+    "link": "https://music.163.com/#/search/m/?s=%E7%A9%A9%E7%A9%A9%E7%9A%84%E5%B9%B8%E7%A6%8F"
   },
   {
     "id": 316,
@@ -3556,7 +3330,7 @@
       "healing",
       "life"
     ],
-    "link": "https://music.163.com/#/search/m/?s=稳稳的幸福"
+    "link": "https://music.163.com/#/search/m/?s=%E7%A9%A9%E7%A9%A9%E7%9A%84%E5%B9%B8%E7%A6%8F"
   },
   {
     "id": 317,
@@ -3568,7 +3342,7 @@
       "memory",
       "story"
     ],
-    "link": "https://music.163.com/#/search/m/?s=你的揹包"
+    "link": "https://music.163.com/#/search/m/?s=%E4%BD%A0%E7%9A%84%E6%8F%B9%E5%8C%85"
   },
   {
     "id": 318,
@@ -3579,7 +3353,7 @@
       "classic",
       "memory"
     ],
-    "link": "https://music.163.com/#/search/m/?s=你的揹包"
+    "link": "https://music.163.com/#/search/m/?s=%E4%BD%A0%E7%9A%84%E6%8F%B9%E5%8C%85"
   },
   {
     "id": 319,
@@ -3590,7 +3364,7 @@
       "regret",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=你的揹包"
+    "link": "https://music.163.com/#/search/m/?s=%E4%BD%A0%E7%9A%84%E6%8F%B9%E5%8C%85"
   },
   {
     "id": 320,
@@ -3601,7 +3375,7 @@
       "life",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=你的揹包"
+    "link": "https://music.163.com/#/search/m/?s=%E4%BD%A0%E7%9A%84%E6%8F%B9%E5%8C%85"
   },
   {
     "id": 321,
@@ -3612,7 +3386,7 @@
       "pain",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=你的揹包"
+    "link": "https://music.163.com/#/search/m/?s=%E4%BD%A0%E7%9A%84%E6%8F%B9%E5%8C%85"
   },
   {
     "id": 322,
@@ -3623,7 +3397,7 @@
       "classic",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=十年"
+    "link": "https://music.163.com/#/search/m/?s=%E5%8D%81%E5%B9%B4"
   },
   {
     "id": 323,
@@ -3634,7 +3408,7 @@
       "philosophy",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=十年"
+    "link": "https://music.163.com/#/search/m/?s=%E5%8D%81%E5%B9%B4"
   },
   {
     "id": 324,
@@ -3646,7 +3420,7 @@
       "memory",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=淘汰"
+    "link": "https://music.163.com/#/search/m/?s=%E6%B7%98%E6%B1%B0"
   },
   {
     "id": 325,
@@ -3657,7 +3431,7 @@
       "pain",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=淘汰"
+    "link": "https://music.163.com/#/search/m/?s=%E6%B7%98%E6%B1%B0"
   },
   {
     "id": 326,
@@ -3668,7 +3442,7 @@
       "love",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=阴天快乐"
+    "link": "https://music.163.com/#/search/m/?s=%E9%99%B0%E5%A4%A9%E5%BF%AB%E6%A8%82"
   },
   {
     "id": 327,
@@ -3680,7 +3454,7 @@
       "memory",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=最佳损友"
+    "link": "https://music.163.com/#/search/m/?s=%E6%9C%80%E4%BD%B3%E6%90%8D%E5%8F%8B"
   },
   {
     "id": 328,
@@ -3691,7 +3465,7 @@
       "lonely",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=孤独患者"
+    "link": "https://music.163.com/#/search/m/?s=%E5%AD%A4%E7%8D%A8%E6%82%A3%E8%80%85"
   },
   {
     "id": 329,
@@ -3702,18 +3476,7 @@
       "classic",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=孤独患者"
-  },
-  {
-    "id": 330,
-    "content": "從背後抱你的時候 期待的卻是他的面容",
-    "song": "紅玫瑰",
-    "album": "认了吧",
-    "tags": [
-      "dark",
-      "sad"
-    ],
-    "link": "https://music.163.com/#/search/m/?s=红玫瑰"
+    "link": "https://music.163.com/#/search/m/?s=%E5%AD%A4%E7%8D%A8%E6%82%A3%E8%80%85"
   },
   {
     "id": 331,
@@ -3724,7 +3487,7 @@
       "classic",
       "crazy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=浮夸"
+    "link": "https://music.163.com/#/search/m/?s=%E6%B5%AE%E8%AA%87"
   },
   {
     "id": 332,
@@ -3735,7 +3498,7 @@
       "crazy",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=浮夸"
+    "link": "https://music.163.com/#/search/m/?s=%E6%B5%AE%E8%AA%87"
   },
   {
     "id": 333,
@@ -3746,7 +3509,7 @@
       "crazy",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=浮夸"
+    "link": "https://music.163.com/#/search/m/?s=%E6%B5%AE%E8%AA%87"
   },
   {
     "id": 334,
@@ -3757,7 +3520,7 @@
       "crazy",
       "power"
     ],
-    "link": "https://music.163.com/#/search/m/?s=浮夸"
+    "link": "https://music.163.com/#/search/m/?s=%E6%B5%AE%E8%AA%87"
   },
   {
     "id": 335,
@@ -3768,7 +3531,7 @@
       "classic",
       "crazy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=浮夸"
+    "link": "https://music.163.com/#/search/m/?s=%E6%B5%AE%E8%AA%87"
   },
   {
     "id": 336,
@@ -3779,7 +3542,7 @@
       "love",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=K歌之王"
+    "link": "https://music.163.com/#/search/m/?s=K%E6%AD%8C%E4%B9%8B%E7%8E%8B"
   },
   {
     "id": 337,
@@ -3790,7 +3553,7 @@
       "classic",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=K歌之王"
+    "link": "https://music.163.com/#/search/m/?s=K%E6%AD%8C%E4%B9%8B%E7%8E%8B"
   },
   {
     "id": 338,
@@ -3801,7 +3564,7 @@
       "classic",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=K歌之王"
+    "link": "https://music.163.com/#/search/m/?s=K%E6%AD%8C%E4%B9%8B%E7%8E%8B"
   },
   {
     "id": 339,
@@ -3812,7 +3575,7 @@
       "life",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=十年"
+    "link": "https://music.163.com/#/search/m/?s=%E5%8D%81%E5%B9%B4"
   },
   {
     "id": 340,
@@ -3824,7 +3587,7 @@
       "memory",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=富士山下"
+    "link": "https://music.163.com/#/search/m/?s=%E5%AF%8C%E5%A3%AB%E5%B1%B1%E4%B8%8B"
   },
   {
     "id": 341,
@@ -3835,7 +3598,7 @@
       "healing",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=富士山下"
+    "link": "https://music.163.com/#/search/m/?s=%E5%AF%8C%E5%A3%AB%E5%B1%B1%E4%B8%8B"
   },
   {
     "id": 342,
@@ -3846,7 +3609,7 @@
       "healing",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=富士山下"
+    "link": "https://music.163.com/#/search/m/?s=%E5%AF%8C%E5%A3%AB%E5%B1%B1%E4%B8%8B"
   },
   {
     "id": 343,
@@ -3858,7 +3621,7 @@
       "love",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=最佳损友"
+    "link": "https://music.163.com/#/search/m/?s=%E6%9C%80%E4%BD%B3%E6%90%8D%E5%8F%8B"
   },
   {
     "id": 344,
@@ -3869,7 +3632,7 @@
       "classic",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=单车"
+    "link": "https://music.163.com/#/search/m/?s=%E5%96%AE%E8%BB%8A"
   },
   {
     "id": 345,
@@ -3880,7 +3643,7 @@
       "classic",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=单车"
+    "link": "https://music.163.com/#/search/m/?s=%E5%96%AE%E8%BB%8A"
   },
   {
     "id": 346,
@@ -3891,7 +3654,7 @@
       "classic",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=淘汰"
+    "link": "https://music.163.com/#/search/m/?s=%E6%B7%98%E6%B1%B0"
   },
   {
     "id": 347,
@@ -3903,7 +3666,7 @@
       "love",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=阴天快乐"
+    "link": "https://music.163.com/#/search/m/?s=%E9%99%B0%E5%A4%A9%E5%BF%AB%E6%A8%82"
   },
   {
     "id": 348,
@@ -3914,7 +3677,7 @@
       "classic",
       "healing"
     ],
-    "link": "https://music.163.com/#/search/m/?s=阴天快乐"
+    "link": "https://music.163.com/#/search/m/?s=%E9%99%B0%E5%A4%A9%E5%BF%AB%E6%A8%82"
   },
   {
     "id": 349,
@@ -3925,19 +3688,7 @@
       "healing",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=阴天快乐"
-  },
-  {
-    "id": 350,
-    "content": "我懷念的不是你 而是你給的致命的曾經",
-    "song": "人來人往",
-    "album": "The Line-Up",
-    "tags": [
-      "classic",
-      "memory",
-      "sad"
-    ],
-    "link": "https://music.163.com/#/search/m/?s=人来人往"
+    "link": "https://music.163.com/#/search/m/?s=%E9%99%B0%E5%A4%A9%E5%BF%AB%E6%A8%82"
   },
   {
     "id": 351,
@@ -3948,7 +3699,7 @@
       "love",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=人来人往"
+    "link": "https://music.163.com/#/search/m/?s=%E4%BA%BA%E4%BE%86%E4%BA%BA%E5%BE%80"
   },
   {
     "id": 352,
@@ -3960,7 +3711,7 @@
       "memory",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=时代曲"
+    "link": "https://music.163.com/#/search/m/?s=%E6%99%82%E4%BB%A3%E6%9B%B2"
   },
   {
     "id": 353,
@@ -3971,7 +3722,7 @@
       "philosophy",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=时代曲"
+    "link": "https://music.163.com/#/search/m/?s=%E6%99%82%E4%BB%A3%E6%9B%B2"
   },
   {
     "id": 354,
@@ -3983,7 +3734,7 @@
       "memory",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=伤信"
+    "link": "https://music.163.com/#/search/m/?s=%E5%82%B7%E4%BF%A1"
   },
   {
     "id": 355,
@@ -3994,7 +3745,7 @@
       "pain",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=伤信"
+    "link": "https://music.163.com/#/search/m/?s=%E5%82%B7%E4%BF%A1"
   },
   {
     "id": 356,
@@ -4005,7 +3756,7 @@
       "classic",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=天下无双"
+    "link": "https://music.163.com/#/search/m/?s=%E5%A4%A9%E4%B8%8B%E7%84%A1%E9%9B%99"
   },
   {
     "id": 357,
@@ -4017,7 +3768,7 @@
       "healing",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=天下无双"
+    "link": "https://music.163.com/#/search/m/?s=%E5%A4%A9%E4%B8%8B%E7%84%A1%E9%9B%99"
   },
   {
     "id": 358,
@@ -4029,7 +3780,7 @@
       "regret",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=时光倒流二十年"
+    "link": "https://music.163.com/#/search/m/?s=%E6%99%82%E5%85%89%E5%80%92%E6%B5%81%E4%BA%8C%E5%8D%81%E5%B9%B4"
   },
   {
     "id": 359,
@@ -4040,7 +3791,7 @@
       "classic",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=时光倒流二十年"
+    "link": "https://music.163.com/#/search/m/?s=%E6%99%82%E5%85%89%E5%80%92%E6%B5%81%E4%BA%8C%E5%8D%81%E5%B9%B4"
   },
   {
     "id": 360,
@@ -4051,7 +3802,7 @@
       "love",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=黑夜不再来"
+    "link": "https://music.163.com/#/search/m/?s=%E9%BB%91%E5%A4%9C%E4%B8%8D%E5%86%8D%E4%BE%86"
   },
   {
     "id": 361,
@@ -4062,7 +3813,7 @@
       "love",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=黑夜不再来"
+    "link": "https://music.163.com/#/search/m/?s=%E9%BB%91%E5%A4%9C%E4%B8%8D%E5%86%8D%E4%BE%86"
   },
   {
     "id": 362,
@@ -4073,7 +3824,7 @@
       "crazy",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=低等动物"
+    "link": "https://music.163.com/#/search/m/?s=%E4%BD%8E%E7%AD%89%E5%8B%95%E7%89%A9"
   },
   {
     "id": 363,
@@ -4084,7 +3835,7 @@
       "crazy",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=低等动物"
+    "link": "https://music.163.com/#/search/m/?s=%E4%BD%8E%E7%AD%89%E5%8B%95%E7%89%A9"
   },
   {
     "id": 364,
@@ -4095,7 +3846,7 @@
       "crazy",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=打得火热"
+    "link": "https://music.163.com/#/search/m/?s=%E6%89%93%E5%BE%97%E7%81%AB%E7%86%B1"
   },
   {
     "id": 365,
@@ -4106,7 +3857,7 @@
       "crazy",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=打得火热"
+    "link": "https://music.163.com/#/search/m/?s=%E6%89%93%E5%BE%97%E7%81%AB%E7%86%B1"
   },
   {
     "id": 366,
@@ -4119,7 +3870,7 @@
       "sad",
       "social"
     ],
-    "link": "https://music.163.com/#/search/m/?s=六月飞霜"
+    "link": "https://music.163.com/#/search/m/?s=%E5%85%AD%E6%9C%88%E9%A3%9B%E9%9C%9C"
   },
   {
     "id": 367,
@@ -4131,7 +3882,7 @@
       "life",
       "social"
     ],
-    "link": "https://music.163.com/#/search/m/?s=六月飞霜"
+    "link": "https://music.163.com/#/search/m/?s=%E5%85%AD%E6%9C%88%E9%A3%9B%E9%9C%9C"
   },
   {
     "id": 368,
@@ -4143,7 +3894,7 @@
       "philosophy",
       "social"
     ],
-    "link": "https://music.163.com/#/search/m/?s=主旋律"
+    "link": "https://music.163.com/#/search/m/?s=%E4%B8%BB%E6%97%8B%E5%BE%8B"
   },
   {
     "id": 369,
@@ -4154,7 +3905,7 @@
       "life",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=主旋律"
+    "link": "https://music.163.com/#/search/m/?s=%E4%B8%BB%E6%97%8B%E5%BE%8B"
   },
   {
     "id": 370,
@@ -4165,7 +3916,7 @@
       "crazy",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=斯德哥尔摩情人"
+    "link": "https://music.163.com/#/search/m/?s=%E6%96%AF%E5%BE%B7%E5%93%A5%E7%88%BE%E6%91%A9%E6%83%85%E4%BA%BA"
   },
   {
     "id": 371,
@@ -4176,7 +3927,7 @@
       "love",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=斯德哥尔摩情人"
+    "link": "https://music.163.com/#/search/m/?s=%E6%96%AF%E5%BE%B7%E5%93%A5%E7%88%BE%E6%91%A9%E6%83%85%E4%BA%BA"
   },
   {
     "id": 372,
@@ -4187,7 +3938,7 @@
       "philosophy",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=失忆蝴蝶"
+    "link": "https://music.163.com/#/search/m/?s=%E5%A4%B1%E6%86%B6%E8%9D%B4%E8%9D%B6"
   },
   {
     "id": 373,
@@ -4198,7 +3949,7 @@
       "healing",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=失忆蝴蝶"
+    "link": "https://music.163.com/#/search/m/?s=%E5%A4%B1%E6%86%B6%E8%9D%B4%E8%9D%B6"
   },
   {
     "id": 374,
@@ -4209,7 +3960,7 @@
       "crazy",
       "power"
     ],
-    "link": "https://music.163.com/#/search/m/?s=重口味"
+    "link": "https://music.163.com/#/search/m/?s=%E9%87%8D%E5%8F%A3%E5%91%B3"
   },
   {
     "id": 375,
@@ -4220,7 +3971,7 @@
       "crazy",
       "life"
     ],
-    "link": "https://music.163.com/#/search/m/?s=重口味"
+    "link": "https://music.163.com/#/search/m/?s=%E9%87%8D%E5%8F%A3%E5%91%B3"
   },
   {
     "id": 376,
@@ -4231,7 +3982,7 @@
       "life",
       "social"
     ],
-    "link": "https://music.163.com/#/search/m/?s=碌卡"
+    "link": "https://music.163.com/#/search/m/?s=%E7%A2%8C%E5%8D%A1"
   },
   {
     "id": 377,
@@ -4243,7 +3994,7 @@
       "philosophy",
       "social"
     ],
-    "link": "https://music.163.com/#/search/m/?s=碌卡"
+    "link": "https://music.163.com/#/search/m/?s=%E7%A2%8C%E5%8D%A1"
   },
   {
     "id": 378,
@@ -4256,7 +4007,7 @@
       "sad",
       "social"
     ],
-    "link": "https://music.163.com/#/search/m/?s=非礼"
+    "link": "https://music.163.com/#/search/m/?s=%E9%9D%9E%E7%A6%AE"
   },
   {
     "id": 379,
@@ -4268,7 +4019,7 @@
       "life",
       "social"
     ],
-    "link": "https://music.163.com/#/search/m/?s=非礼"
+    "link": "https://music.163.com/#/search/m/?s=%E9%9D%9E%E7%A6%AE"
   },
   {
     "id": 380,
@@ -4280,7 +4031,7 @@
       "memory",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=空城记"
+    "link": "https://music.163.com/#/search/m/?s=%E7%A9%BA%E5%9F%8E%E8%A8%98"
   },
   {
     "id": 381,
@@ -4291,7 +4042,7 @@
       "classic",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=空城记"
+    "link": "https://music.163.com/#/search/m/?s=%E7%A9%BA%E5%9F%8E%E8%A8%98"
   },
   {
     "id": 382,
@@ -4302,7 +4053,7 @@
       "life",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=人啊人"
+    "link": "https://music.163.com/#/search/m/?s=%E4%BA%BA%E5%95%8A%E4%BA%BA"
   },
   {
     "id": 383,
@@ -4314,7 +4065,7 @@
       "philosophy",
       "social"
     ],
-    "link": "https://music.163.com/#/search/m/?s=人啊人"
+    "link": "https://music.163.com/#/search/m/?s=%E4%BA%BA%E5%95%8A%E4%BA%BA"
   },
   {
     "id": 384,
@@ -4325,7 +4076,7 @@
       "life",
       "social"
     ],
-    "link": "https://music.163.com/#/search/m/?s=焦焦焦"
+    "link": "https://music.163.com/#/search/m/?s=%E7%84%A6%E7%84%A6%E7%84%A6"
   },
   {
     "id": 385,
@@ -4337,7 +4088,7 @@
       "life",
       "social"
     ],
-    "link": "https://music.163.com/#/search/m/?s=焦焦焦"
+    "link": "https://music.163.com/#/search/m/?s=%E7%84%A6%E7%84%A6%E7%84%A6"
   },
   {
     "id": 386,
@@ -4348,7 +4099,7 @@
       "life",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=不知所谓"
+    "link": "https://music.163.com/#/search/m/?s=%E4%B8%8D%E7%9F%A5%E6%89%80%E8%AC%82"
   },
   {
     "id": 387,
@@ -4360,7 +4111,7 @@
       "regret",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=不知所谓"
+    "link": "https://music.163.com/#/search/m/?s=%E4%B8%8D%E7%9F%A5%E6%89%80%E8%AC%82"
   },
   {
     "id": 388,
@@ -4371,7 +4122,7 @@
       "love",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=少见不怪"
+    "link": "https://music.163.com/#/search/m/?s=%E5%B0%91%E8%A6%8B%E4%B8%8D%E6%80%AA"
   },
   {
     "id": 389,
@@ -4382,29 +4133,7 @@
       "regret",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=少见不怪"
-  },
-  {
-    "id": 390,
-    "content": "香港的一粒星初次出鏡想要紅 北京的一粒沙吹進一個温暖衚衕",
-    "song": "萬佛朝宗",
-    "album": "Life Continues...",
-    "tags": [
-      "life",
-      "philosophy"
-    ],
-    "link": "https://music.163.com/#/search/m/?s=万佛朝宗"
-  },
-  {
-    "id": 391,
-    "content": "眾生都有因因此也有果嗎",
-    "song": "萬佛朝宗",
-    "album": "Life Continues...",
-    "tags": [
-      "philosophy",
-      "religion"
-    ],
-    "link": "https://music.163.com/#/search/m/?s=万佛朝宗"
+    "link": "https://music.163.com/#/search/m/?s=%E5%B0%91%E8%A6%8B%E4%B8%8D%E6%80%AA"
   },
   {
     "id": 392,
@@ -4415,7 +4144,7 @@
       "crazy",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=裙下之臣"
+    "link": "https://music.163.com/#/search/m/?s=%E8%A3%99%E4%B8%8B%E4%B9%8B%E8%87%A3"
   },
   {
     "id": 393,
@@ -4426,7 +4155,7 @@
       "crazy",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=裙下之臣"
+    "link": "https://music.163.com/#/search/m/?s=%E8%A3%99%E4%B8%8B%E4%B9%8B%E8%87%A3"
   },
   {
     "id": 394,
@@ -4438,7 +4167,7 @@
       "regret",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=陀飞轮"
+    "link": "https://music.163.com/#/search/m/?s=%E9%99%80%E9%A3%9B%E8%BC%AA"
   },
   {
     "id": 395,
@@ -4449,7 +4178,7 @@
       "life",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=陀飞轮"
+    "link": "https://music.163.com/#/search/m/?s=%E9%99%80%E9%A3%9B%E8%BC%AA"
   },
   {
     "id": 396,
@@ -4461,7 +4190,7 @@
       "pain",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=一丝不挂"
+    "link": "https://music.163.com/#/search/m/?s=%E4%B8%80%E7%B5%B2%E4%B8%8D%E6%8E%9B"
   },
   {
     "id": 397,
@@ -4472,7 +4201,7 @@
       "love",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=一丝不挂"
+    "link": "https://music.163.com/#/search/m/?s=%E4%B8%80%E7%B5%B2%E4%B8%8D%E6%8E%9B"
   },
   {
     "id": 398,
@@ -4483,7 +4212,7 @@
       "life",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=苦瓜"
+    "link": "https://music.163.com/#/search/m/?s=%E8%8B%A6%E7%93%9C"
   },
   {
     "id": 399,
@@ -4494,7 +4223,7 @@
       "healing",
       "life"
     ],
-    "link": "https://music.163.com/#/search/m/?s=苦瓜"
+    "link": "https://music.163.com/#/search/m/?s=%E8%8B%A6%E7%93%9C"
   },
   {
     "id": 400,
@@ -4505,7 +4234,7 @@
       "life",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=告别娑婆"
+    "link": "https://music.163.com/#/search/m/?s=%E5%91%8A%E5%88%A5%E5%A8%91%E5%A9%86"
   },
   {
     "id": 401,
@@ -4517,7 +4246,7 @@
       "philosophy",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=告别娑婆"
+    "link": "https://music.163.com/#/search/m/?s=%E5%91%8A%E5%88%A5%E5%A8%91%E5%A9%86"
   },
   {
     "id": 402,
@@ -4528,7 +4257,7 @@
       "love",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=远在咫尺"
+    "link": "https://music.163.com/#/search/m/?s=%E9%81%A0%E5%9C%A8%E5%92%AB%E5%B0%BA"
   },
   {
     "id": 403,
@@ -4540,30 +4269,27 @@
       "pain",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=远在咫尺"
+    "link": "https://music.163.com/#/search/m/?s=%E9%81%A0%E5%9C%A8%E5%92%AB%E5%B0%BA"
   },
   {
-    "id": 404,
-    "content": "沉默的夜太黑閉上眼睛畫面浮現怎麼睡",
+    "id": 554,
+    "content": "沉默的夜太黑 閉上眼睛畫面浮現怎麼睡",
     "song": "吟遊詩人",
     "album": "H3M",
     "tags": [
-      "lonely",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=吟游诗人"
+    "link": "https://music.163.com/#/search/m/?s=%E5%90%9F%E9%81%8A%E8%A9%A9%E4%BA%BA"
   },
   {
-    "id": 405,
-    "content": "月光不敵雨水數着綿羊都可以流眼淚",
+    "id": 555,
+    "content": "月光不敵雨水 數着綿羊都可以流眼淚",
     "song": "吟遊詩人",
     "album": "H3M",
     "tags": [
-      "lonely",
-      "pain",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=吟游诗人"
+    "link": "https://music.163.com/#/search/m/?s=%E5%90%9F%E9%81%8A%E8%A9%A9%E4%BA%BA"
   },
   {
     "id": 406,
@@ -4574,29 +4300,28 @@
       "philosophy",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=失忆蝴蝶"
+    "link": "https://music.163.com/#/search/m/?s=%E5%A4%B1%E6%86%B6%E8%9D%B4%E8%9D%B6"
   },
   {
-    "id": 407,
-    "content": "言盡最好於此 留下什麼意思",
+    "id": 556,
+    "content": "言盡最好於此 留下什麼意思 讓大家只差半步成詩",
     "song": "失憶蝴蝶",
     "album": "The Key",
     "tags": [
-      "healing",
+      "sad",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=失忆蝴蝶"
+    "link": "https://music.163.com/#/search/m/?s=%E5%A4%B1%E6%86%B6%E8%9D%B4%E8%9D%B6"
   },
   {
-    "id": 408,
-    "content": "並未在一起亦無從離棄 不用淪為伴侶別尋是惹非",
+    "id": 557,
+    "content": "並未在一起亦無從離棄 不用淪為伴侶 別尋是惹非",
     "song": "失憶蝴蝶",
     "album": "The Key",
     "tags": [
-      "love",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=失忆蝴蝶"
+    "link": "https://music.163.com/#/search/m/?s=%E5%A4%B1%E6%86%B6%E8%9D%B4%E8%9D%B6"
   },
   {
     "id": 409,
@@ -4607,7 +4332,7 @@
       "healing",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=失忆蝴蝶"
+    "link": "https://music.163.com/#/search/m/?s=%E5%A4%B1%E6%86%B6%E8%9D%B4%E8%9D%B6"
   },
   {
     "id": 410,
@@ -4618,7 +4343,7 @@
       "crazy",
       "power"
     ],
-    "link": "https://music.163.com/#/search/m/?s=重口味"
+    "link": "https://music.163.com/#/search/m/?s=%E9%87%8D%E5%8F%A3%E5%91%B3"
   },
   {
     "id": 411,
@@ -4629,7 +4354,7 @@
       "life",
       "power"
     ],
-    "link": "https://music.163.com/#/search/m/?s=重口味"
+    "link": "https://music.163.com/#/search/m/?s=%E9%87%8D%E5%8F%A3%E5%91%B3"
   },
   {
     "id": 412,
@@ -4640,7 +4365,7 @@
       "crazy",
       "healing"
     ],
-    "link": "https://music.163.com/#/search/m/?s=重口味"
+    "link": "https://music.163.com/#/search/m/?s=%E9%87%8D%E5%8F%A3%E5%91%B3"
   },
   {
     "id": 413,
@@ -4651,7 +4376,7 @@
       "crazy",
       "healing"
     ],
-    "link": "https://music.163.com/#/search/m/?s=重口味"
+    "link": "https://music.163.com/#/search/m/?s=%E9%87%8D%E5%8F%A3%E5%91%B3"
   },
   {
     "id": 414,
@@ -4662,7 +4387,7 @@
       "life",
       "social"
     ],
-    "link": "https://music.163.com/#/search/m/?s=碌卡"
+    "link": "https://music.163.com/#/search/m/?s=%E7%A2%8C%E5%8D%A1"
   },
   {
     "id": 415,
@@ -4674,7 +4399,7 @@
       "life",
       "social"
     ],
-    "link": "https://music.163.com/#/search/m/?s=碌卡"
+    "link": "https://music.163.com/#/search/m/?s=%E7%A2%8C%E5%8D%A1"
   },
   {
     "id": 416,
@@ -4687,7 +4412,7 @@
       "sad",
       "social"
     ],
-    "link": "https://music.163.com/#/search/m/?s=非礼"
+    "link": "https://music.163.com/#/search/m/?s=%E9%9D%9E%E7%A6%AE"
   },
   {
     "id": 417,
@@ -4698,7 +4423,7 @@
       "love",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=空城记"
+    "link": "https://music.163.com/#/search/m/?s=%E7%A9%BA%E5%9F%8E%E8%A8%98"
   },
   {
     "id": 418,
@@ -4709,7 +4434,7 @@
       "lonely",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=空城记"
+    "link": "https://music.163.com/#/search/m/?s=%E7%A9%BA%E5%9F%8E%E8%A8%98"
   },
   {
     "id": 419,
@@ -4720,7 +4445,7 @@
       "humanity",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=人啊人"
+    "link": "https://music.163.com/#/search/m/?s=%E4%BA%BA%E5%95%8A%E4%BA%BA"
   },
   {
     "id": 420,
@@ -4731,7 +4456,7 @@
       "life",
       "social"
     ],
-    "link": "https://music.163.com/#/search/m/?s=焦焦焦"
+    "link": "https://music.163.com/#/search/m/?s=%E7%84%A6%E7%84%A6%E7%84%A6"
   },
   {
     "id": 421,
@@ -4742,7 +4467,7 @@
       "life",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=不知所谓"
+    "link": "https://music.163.com/#/search/m/?s=%E4%B8%8D%E7%9F%A5%E6%89%80%E8%AC%82"
   },
   {
     "id": 422,
@@ -4754,7 +4479,7 @@
       "regret",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=不知所谓"
+    "link": "https://music.163.com/#/search/m/?s=%E4%B8%8D%E7%9F%A5%E6%89%80%E8%AC%82"
   },
   {
     "id": 423,
@@ -4765,7 +4490,7 @@
       "love",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=少见不怪"
+    "link": "https://music.163.com/#/search/m/?s=%E5%B0%91%E8%A6%8B%E4%B8%8D%E6%80%AA"
   },
   {
     "id": 424,
@@ -4777,53 +4502,18 @@
       "memory",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=少见不怪"
+    "link": "https://music.163.com/#/search/m/?s=%E5%B0%91%E8%A6%8B%E4%B8%8D%E6%80%AA"
   },
   {
-    "id": 425,
-    "content": "那選美大賽找到淑女未 那一塊石柱風化盡透未",
-    "song": "萬佛朝宗",
-    "album": "Life Continues...",
-    "tags": [
-      "life",
-      "philosophy",
-      "social"
-    ],
-    "link": "https://music.163.com/#/search/m/?s=万佛朝宗"
-  },
-  {
-    "id": 426,
-    "content": "誰能相信這選角可以隨自己",
-    "song": "萬佛朝宗",
-    "album": "Life Continues...",
-    "tags": [
-      "life",
-      "philosophy"
-    ],
-    "link": "https://music.163.com/#/search/m/?s=万佛朝宗"
-  },
-  {
-    "id": 427,
-    "content": "誰能相信根本你不瞭解自己",
-    "song": "萬佛朝宗",
-    "album": "Life Continues...",
-    "tags": [
-      "philosophy",
-      "self"
-    ],
-    "link": "https://music.163.com/#/search/m/?s=万佛朝宗"
-  },
-  {
-    "id": 428,
-    "content": "秒速捉得緊了而皮膚竟偷偷鬆了",
+    "id": 558,
+    "content": "秒速捉得緊了 而皮膚竟偷偷鬆了",
     "song": "陀飛輪",
     "album": "Time Flies",
     "tags": [
       "life",
-      "regret",
-      "sad"
+      "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=陀飞轮"
+    "link": "https://music.163.com/#/search/m/?s=%E9%99%80%E9%A3%9B%E8%BC%AA"
   },
   {
     "id": 429,
@@ -4834,7 +4524,7 @@
       "life",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=陀飞轮"
+    "link": "https://music.163.com/#/search/m/?s=%E9%99%80%E9%A3%9B%E8%BC%AA"
   },
   {
     "id": 430,
@@ -4845,19 +4535,18 @@
       "philosophy",
       "soul"
     ],
-    "link": "https://music.163.com/#/search/m/?s=陀飞轮"
+    "link": "https://music.163.com/#/search/m/?s=%E9%99%80%E9%A3%9B%E8%BC%AA"
   },
   {
-    "id": 431,
-    "content": "銀或金都不緊要誰造機芯一樣了",
+    "id": 559,
+    "content": "銀或金都不緊要 誰造機芯一樣了",
     "song": "陀飛輪",
     "album": "Time Flies",
     "tags": [
       "life",
-      "money",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=陀飞轮"
+    "link": "https://music.163.com/#/search/m/?s=%E9%99%80%E9%A3%9B%E8%BC%AA"
   },
   {
     "id": 432,
@@ -4868,7 +4557,7 @@
       "love",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=一丝不挂"
+    "link": "https://music.163.com/#/search/m/?s=%E4%B8%80%E7%B5%B2%E4%B8%8D%E6%8E%9B"
   },
   {
     "id": 433,
@@ -4879,7 +4568,7 @@
       "life",
       "social"
     ],
-    "link": "https://music.163.com/#/search/m/?s=苦瓜"
+    "link": "https://music.163.com/#/search/m/?s=%E8%8B%A6%E7%93%9C"
   },
   {
     "id": 434,
@@ -4890,40 +4579,37 @@
       "life",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=苦瓜"
+    "link": "https://music.163.com/#/search/m/?s=%E8%8B%A6%E7%93%9C"
   },
   {
-    "id": 435,
-    "content": "茫茫人生走到了盡頭重生再邂逅",
+    "id": 560,
+    "content": "茫茫人生走到了盡頭 重生再邂逅",
     "song": "告別娑婆",
     "album": "The Key",
     "tags": [
-      "life",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=告别娑婆"
+    "link": "https://music.163.com/#/search/m/?s=%E5%91%8A%E5%88%A5%E5%A8%91%E5%A9%86"
   },
   {
-    "id": 436,
-    "content": "靈魂囚身體裏盼自由因果裏聽候",
+    "id": 561,
+    "content": "靈魂囚身體裏盼自由 因果裏聽候",
     "song": "告別娑婆",
     "album": "The Key",
     "tags": [
-      "philosophy",
-      "soul"
+      "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=告别娑婆"
+    "link": "https://music.163.com/#/search/m/?s=%E5%91%8A%E5%88%A5%E5%A8%91%E5%A9%86"
   },
   {
-    "id": 437,
-    "content": "得不到多麼好當得到不知怎算好",
+    "id": 562,
+    "content": "得不到多麼好當得到 不知怎算好",
     "song": "遠在咫尺",
     "album": "The Key",
     "tags": [
-      "love",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=远在咫尺"
+    "link": "https://music.163.com/#/search/m/?s=%E9%81%A0%E5%9C%A8%E5%92%AB%E5%B0%BA"
   },
   {
     "id": 438,
@@ -4934,7 +4620,7 @@
       "philosophy",
       "self"
     ],
-    "link": "https://music.163.com/#/search/m/?s=吟游诗人"
+    "link": "https://music.163.com/#/search/m/?s=%E5%90%9F%E9%81%8A%E8%A9%A9%E4%BA%BA"
   },
   {
     "id": 439,
@@ -4946,7 +4632,7 @@
       "freedom",
       "life"
     ],
-    "link": "https://music.163.com/#/search/m/?s=吟游诗人"
+    "link": "https://music.163.com/#/search/m/?s=%E5%90%9F%E9%81%8A%E8%A9%A9%E4%BA%BA"
   },
   {
     "id": 440,
@@ -4957,7 +4643,7 @@
       "life",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=夕阳无限好"
+    "link": "https://music.163.com/#/search/m/?s=%E5%A4%95%E9%99%BD%E7%84%A1%E9%99%90%E5%A5%BD"
   },
   {
     "id": 441,
@@ -4968,7 +4654,7 @@
       "love",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=Shall We Talk"
+    "link": "https://music.163.com/#/search/m/?s=Shall%20We%20Talk"
   },
   {
     "id": 442,
@@ -4980,7 +4666,7 @@
       "regret",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=Shall We Talk"
+    "link": "https://music.163.com/#/search/m/?s=Shall%20We%20Talk"
   },
   {
     "id": 443,
@@ -4991,7 +4677,7 @@
       "life",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=落花流水"
+    "link": "https://music.163.com/#/search/m/?s=%E8%90%BD%E8%8A%B1%E6%B5%81%E6%B0%B4"
   },
   {
     "id": 444,
@@ -5002,7 +4688,7 @@
       "philosophy",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=不如不见"
+    "link": "https://music.163.com/#/search/m/?s=%E4%B8%8D%E5%A6%82%E4%B8%8D%E8%A6%8B"
   },
   {
     "id": 445,
@@ -5013,7 +4699,7 @@
       "love",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=倒带人生"
+    "link": "https://music.163.com/#/search/m/?s=%E5%80%92%E5%B8%B6%E4%BA%BA%E7%94%9F"
   },
   {
     "id": 446,
@@ -5024,7 +4710,7 @@
       "healing",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=一切还好"
+    "link": "https://music.163.com/#/search/m/?s=%E4%B8%80%E5%88%87%E9%82%84%E5%A5%BD"
   },
   {
     "id": 447,
@@ -5036,7 +4722,7 @@
       "memory",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=人来人往"
+    "link": "https://music.163.com/#/search/m/?s=%E4%BA%BA%E4%BE%86%E4%BA%BA%E5%BE%80"
   },
   {
     "id": 448,
@@ -5047,7 +4733,7 @@
       "philosophy",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=想哭"
+    "link": "https://music.163.com/#/search/m/?s=%E6%83%B3%E5%93%AD"
   },
   {
     "id": 449,
@@ -5058,7 +4744,7 @@
       "regret",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=一切还好"
+    "link": "https://music.163.com/#/search/m/?s=%E4%B8%80%E5%88%87%E9%82%84%E5%A5%BD"
   },
   {
     "id": 450,
@@ -5069,40 +4755,28 @@
       "crazy",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=阿牛"
+    "link": "https://music.163.com/#/search/m/?s=%E9%98%BF%E7%89%9B"
   },
   {
     "id": 451,
     "content": "誰在催我成長 讓我失去迷途的膽量",
-    "song": "路...一直都在",
+    "song": "然後怎樣",
     "album": "不想放手",
     "tags": [
       "life",
       "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=路...一直都在"
+    "link": "https://music.163.com/#/search/m/?s=%E7%84%B6%E5%BE%8C%E6%80%8E%E6%A8%A3"
   },
   {
-    "id": 452,
-    "content": "我怕誰失望我為誰而忙 我最初只貪玩為何變負擔",
-    "song": "路...一直都在",
+    "id": 563,
+    "content": "為何我的問題 總得等待別人的答案",
+    "song": "然後怎樣",
     "album": "不想放手",
     "tags": [
-      "life",
-      "pressure"
+      "philosophy"
     ],
-    "link": "https://music.163.com/#/search/m/?s=路...一直都在"
-  },
-  {
-    "id": 453,
-    "content": "為何我的問題總得不到解答",
-    "song": "路...一直都在",
-    "album": "不想放手",
-    "tags": [
-      "confused",
-      "life"
-    ],
-    "link": "https://music.163.com/#/search/m/?s=路...一直都在"
+    "link": "https://music.163.com/#/search/m/?s=%E7%84%B6%E5%BE%8C%E6%80%8E%E6%A8%A3"
   },
   {
     "id": 454,
@@ -5113,18 +4787,29 @@
       "classic",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=人来人往"
+    "link": "https://music.163.com/#/search/m/?s=%E4%BA%BA%E4%BE%86%E4%BA%BA%E5%BE%80"
   },
   {
-    "id": 455,
-    "content": "若問世界誰無雙",
+    "id": 564,
+    "content": "若問世界誰無雙 會令昨天明天也閃亮",
     "song": "天下無雙",
     "album": "我的快乐时代",
     "tags": [
       "classic",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=天下无双"
+    "link": "https://music.163.com/#/search/m/?s=%E5%A4%A9%E4%B8%8B%E7%84%A1%E9%9B%99"
+  },
+  {
+    "id": 565,
+    "content": "定是答你從無雙 多麼感激竟然有一雙我倆",
+    "song": "天下無雙",
+    "album": "我的快乐时代",
+    "tags": [
+      "classic",
+      "love"
+    ],
+    "link": "https://music.163.com/#/search/m/?s=%E5%A4%A9%E4%B8%8B%E7%84%A1%E9%9B%99"
   },
   {
     "id": 456,
@@ -5135,7 +4820,7 @@
       "love",
       "promise"
     ],
-    "link": "https://music.163.com/#/search/m/?s=每一个明天"
+    "link": "https://music.163.com/#/search/m/?s=%E6%AF%8F%E4%B8%80%E5%80%8B%E6%98%8E%E5%A4%A9"
   },
   {
     "id": 457,
@@ -5147,30 +4832,18 @@
       "healing",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=每一个明天"
+    "link": "https://music.163.com/#/search/m/?s=%E6%AF%8F%E4%B8%80%E5%80%8B%E6%98%8E%E5%A4%A9"
   },
   {
-    "id": 458,
-    "content": "多得你 我才知我真名叫幸運",
+    "id": 566,
+    "content": "天荒地老流連在摩天輪 在高處凝望世界流動",
     "song": "幸福摩天輪",
     "album": "天佑爱人",
     "tags": [
       "classic",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=幸福摩天轮"
-  },
-  {
-    "id": 459,
-    "content": "沿途與你攀山越嶺 也許不只看風景",
-    "song": "幸福摩天輪",
-    "album": "天佑爱人",
-    "tags": [
-      "journey",
-      "life",
-      "love"
-    ],
-    "link": "https://music.163.com/#/search/m/?s=幸福摩天轮"
+    "link": "https://music.163.com/#/search/m/?s=%E5%B9%B8%E7%A6%8F%E6%91%A9%E5%A4%A9%E8%BC%AA"
   },
   {
     "id": 460,
@@ -5181,7 +4854,7 @@
       "crazy",
       "love"
     ],
-    "link": "https://music.163.com/#/search/m/?s=黄金时代"
+    "link": "https://music.163.com/#/search/m/?s=%E9%BB%83%E9%87%91%E6%99%82%E4%BB%A3"
   },
   {
     "id": 461,
@@ -5193,7 +4866,7 @@
       "repeat",
       "sad"
     ],
-    "link": "https://music.163.com/#/search/m/?s=一切还好"
+    "link": "https://music.163.com/#/search/m/?s=%E4%B8%80%E5%88%87%E9%82%84%E5%A5%BD"
   },
   {
     "id": 462,
@@ -5204,6 +4877,6 @@
       "classic",
       "memory"
     ],
-    "link": "https://music.163.com/#/search/m/?s=你的揹包"
+    "link": "https://music.163.com/#/search/m/?s=%E4%BD%A0%E7%9A%84%E6%8F%B9%E5%8C%85"
   }
 ]
