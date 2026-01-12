@@ -358,47 +358,57 @@ function drawFooter(color, y) {
 }
 
 function wrapText(context, text, x, y, maxWidth, lineHeight) {
-    const chars = text.split('');
-    let line = '';
+    const segments = text.split(' ');
     let currentY = y;
-    let lineCount = 0;
+    let totalLines = 0;
 
-    for(let n = 0; n < chars.length; n++) {
-        const testLine = line + chars[n];
-        const metrics = context.measureText(testLine);
-        if (metrics.width > maxWidth && n > 0) {
-            context.fillText(line, x, currentY);
-            line = chars[n];
-            currentY += lineHeight;
-            lineCount++;
-        } else {
-            line = testLine;
+    for (const segment of segments) {
+        const chars = segment.split('');
+        let line = '';
+        
+        for(let n = 0; n < chars.length; n++) {
+            const testLine = line + chars[n];
+            const metrics = context.measureText(testLine);
+            if (metrics.width > maxWidth && n > 0) {
+                context.fillText(line, x, currentY);
+                line = chars[n];
+                currentY += lineHeight;
+                totalLines++;
+            } else {
+                line = testLine;
+            }
         }
+        context.fillText(line, x, currentY);
+        currentY += lineHeight;
+        totalLines++;
     }
-    context.fillText(line, x, currentY);
-    return lineCount + 1;
+    return totalLines;
 }
 
 function wrapTextCinema(context, text, x, y, maxWidth, lineHeight) {
-    const chars = text.split('');
-    let lines = [];
-    let line = '';
-    
-    for(let n = 0; n < chars.length; n++) {
-        const testLine = line + chars[n];
-        const metrics = context.measureText(testLine);
-        if (metrics.width > maxWidth && n > 0) {
-            lines.push(line);
-            line = chars[n];
-        } else {
-            line = testLine;
+    const segments = text.split(' ');
+    let allLines = [];
+
+    segments.forEach(segment => {
+        const chars = segment.split('');
+        let line = '';
+        
+        for(let n = 0; n < chars.length; n++) {
+            const testLine = line + chars[n];
+            const metrics = context.measureText(testLine);
+            if (metrics.width > maxWidth && n > 0) {
+                allLines.push(line);
+                line = chars[n];
+            } else {
+                line = testLine;
+            }
         }
-    }
-    lines.push(line);
+        allLines.push(line);
+    });
 
-    let currentY = y - (lines.length - 1) * lineHeight;
+    let currentY = y - (allLines.length - 1) * lineHeight;
 
-    lines.forEach(l => {
+    allLines.forEach(l => {
         context.strokeText(l, x, currentY);
         context.fillText(l, x, currentY);
         currentY += lineHeight;
